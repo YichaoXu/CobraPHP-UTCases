@@ -11,4 +11,4 @@ class class1{
 $b = $_GET["p1"];
 $t = $_GET["p2"];
 $obj = new $t($b);
-$t->printX();
+$obj->printX();

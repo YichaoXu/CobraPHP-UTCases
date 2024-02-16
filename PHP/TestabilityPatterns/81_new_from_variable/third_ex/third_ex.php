@@ -12,4 +12,4 @@ $b = $_GET["p1"];
 $bb = $_GET["p2"];
 $t = "class".$bb;
 $obj = new $t($b);
-$t->printX();
+$obj->printX();
