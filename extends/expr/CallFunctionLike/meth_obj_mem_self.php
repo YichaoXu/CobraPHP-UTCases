@@ -8,7 +8,7 @@ class Test
         $this->caller($data);
     }
 
-    function caller($data): void
+    public function caller($data): void
     {
         echo "caller\n" . $data;
         $this->callee($data);

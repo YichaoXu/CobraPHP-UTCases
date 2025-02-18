@@ -1,6 +1,7 @@
 <?php
 
-function fetchConstMagicFunc() {
+function fetchConstMagicFunc()
+{
     $vul_data = $_GET["user-input"];
     if (__FUNCTION__ === 'fetchConstMagicFunc') {
         echo "Case01 $vul_data (TRUE POSITIVE)\n";

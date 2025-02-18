@@ -1,6 +1,8 @@
 <?php
 
-class CtrlFlowCatch extends Exception {}
+class CtrlFlowCatch extends Exception
+{
+}
 
 try {
     $vul_data = $_GET["user-input"];

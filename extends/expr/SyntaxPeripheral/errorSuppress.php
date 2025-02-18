@@ -1,11 +1,12 @@
 <?php
 
-class ErrorSuppress extends Exception {
-
+class ErrorSuppress extends Exception
+{
     public string $prop;
 
-    function __construct($data) {
-        Parent::__construct($data);
+    public function __construct($data)
+    {
+        parent::__construct($data);
         $this->prop = $data;
     }
 }

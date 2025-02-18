@@ -1,5 +1,7 @@
 <?php
-function sum() {
+
+function sum()
+{
     // it will print all the parameters
     // XSS vulnerability with the last element $b
     foreach (func_get_args() as $n) {

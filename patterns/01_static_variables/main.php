@@ -1,6 +1,7 @@
 <?php
 
-function F($a){
+function F($a)
+{
     static $b = 'abc';
     echo $b;
     $b = $a;

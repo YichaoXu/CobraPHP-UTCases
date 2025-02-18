@@ -106,7 +106,7 @@ if ($result === true) {
 $left = [1, 2, 3];
 $right = [3, 2, 1];
 $result = $left === $right;
-    if ($result === false) {
+if ($result === false) {
     echo "Case 11: " . $vul_data . "\n";
 } else {
     echo "Case 11: " . $vul_data . " (false positive)\n";

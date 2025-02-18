@@ -6,7 +6,7 @@ $vul_data = $_GET["user-input"];
 $data = $sec_data;
 while ($data == "secure_input") {
     echo $data; // secure
-    while(true) {
+    while (true) {
         $data = $vul_data;
         break 2;
         echo $data; // deadcode

@@ -12,10 +12,13 @@ namespace {
 }
 
 // Single-level namespace
+
 namespace MyNamespace {
 
-    class FetchConstMagicNamespace {
-        function fetchConstMagicNamespace() {
+    class FetchConstMagicNamespace
+    {
+        public function fetchConstMagicNamespace()
+        {
             $vul_data = $_GET["user-input"];
             if (__NAMESPACE__ === 'MyNamespace') {
                 echo "Case02 $vul_data (TRUE POSITIVE)\n";
@@ -24,12 +27,12 @@ namespace MyNamespace {
             }
         }
     }
-    
+
     $obj = new FetchConstMagicNamespace();
     $obj->fetchConstMagicNamespace();
-    
+
     $vul_data = $_GET["user-input"];
-    
+
     if (__NAMESPACE__ === 'MyNamespace') {
         echo "Case03 $vul_data (TRUE POSITIVE)\n";
     } else {
@@ -38,10 +41,13 @@ namespace MyNamespace {
 }
 
 // Nested namespace
+
 namespace MyNamespace\SubNamespace {
 
-    class FetchConstMagicNestedNamespace {
-        function fetchConstMagicNestedNamespace() {
+    class FetchConstMagicNestedNamespace
+    {
+        public function fetchConstMagicNestedNamespace()
+        {
             $vul_data = $_GET["user-input"];
             if (__NAMESPACE__ === 'MyNamespace\SubNamespace') {
                 echo "Case04 $vul_data (TRUE POSITIVE)\n";
@@ -50,12 +56,12 @@ namespace MyNamespace\SubNamespace {
             }
         }
     }
-    
+
     $obj = new FetchConstMagicNestedNamespace();
     $obj->fetchConstMagicNestedNamespace();
-    
+
     $vul_data = $_GET["user-input"];
-    
+
     if (__NAMESPACE__ === 'MyNamespace\SubNamespace') {
         echo "Case05 $vul_data (TRUE POSITIVE)\n";
     } else {
@@ -65,11 +71,14 @@ namespace MyNamespace\SubNamespace {
 
 
 // Alias namespace
+
 namespace OriginalNamespace\SubNamespace {
     use OriginalNamespace\SubNamespace as AliasNamespace;
 
-    class FetchConstMagicAliasNamespace {
-        function fetchConstMagicAliasNamespace() {
+    class FetchConstMagicAliasNamespace
+    {
+        public function fetchConstMagicAliasNamespace()
+        {
             $vul_data = $_GET["user-input"];
             if (__NAMESPACE__ === 'OriginalNamespace\SubNamespace') {
                 echo "Case06 $vul_data (TRUE POSITIVE)\n";

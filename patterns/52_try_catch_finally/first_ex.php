@@ -1,4 +1,5 @@
 <?php
+
 function foo($b)
 {
     $bar = $b;

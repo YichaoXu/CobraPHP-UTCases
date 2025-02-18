@@ -1,13 +1,16 @@
 <?php
-class BaseClass {
 
+class BaseClass
+{
     public $var = 'safe';
 
-    function __construct($b) {
+    public function __construct($b)
+    {
         print "In BaseClass constructor\n";
         $this->var = $b;
     }
-    function __destruct() {
+    public function __destruct()
+    {
         print "Destroying " . __CLASS__ . "\n";
         echo $this->var;
     }

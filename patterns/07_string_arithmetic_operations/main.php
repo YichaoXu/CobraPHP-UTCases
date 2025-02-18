@@ -1,4 +1,5 @@
 <?php
+
 $a = $_GET["p1"];
 //$a = "abc";
 $a++;
@@ -19,8 +20,9 @@ $a = $_GET["p1"];
 --$a;
 echo $a."\n";
 
-class static_class{
-	public static $a;
+class static_class
+{
+    public static $a;
 }
 
 $a = $_GET["p1"];
@@ -43,8 +45,9 @@ static_class::$a = "abc";
 static_class::$a++;
 echo static_class::$a."\n";
 
-class myclass{
-	public $a;
+class myclass
+{
+    public $a;
 }
 
 $a = $_GET["p1"];

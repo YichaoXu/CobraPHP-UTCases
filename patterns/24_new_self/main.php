@@ -1,20 +1,23 @@
 <?php
 
-class myclass{
+class myclass
+{
+    public function __construct()
+    {
+        $this->b = $_GET['p1'];
+        //$this->b = "abc";
+    }
 
-function __construct(){
-    $this->b = $_GET['p1'];
-    //$this->b = "abc";
-}
+    public function F()
+    {
+        $obj2 = new self();
+        $obj2->T();
+    }
 
-function F(){
-   $obj2 = new self;
-   $obj2->T();
-}
-
-function T(){
-    echo $this->b;
-}
+    public function T()
+    {
+        echo $this->b;
+    }
 }
 
 

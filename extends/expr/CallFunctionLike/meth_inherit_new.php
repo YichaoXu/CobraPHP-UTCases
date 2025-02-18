@@ -2,7 +2,7 @@
 
 class ParentClass
 {
-    function __construct($data)
+    public function __construct($data)
     {
         echo "Parent Construct.\n" . $data;
     }
@@ -10,7 +10,7 @@ class ParentClass
 
 class TestClass extends ParentClass
 {
-    function __construct($data)
+    public function __construct($data)
     {
         parent::__construct($data);
         ParentClass::__construct($data);

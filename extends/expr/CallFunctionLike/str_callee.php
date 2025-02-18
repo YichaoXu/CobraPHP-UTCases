@@ -1,4 +1,5 @@
 <?php
+
 function someFunc1($data): void
 {
     echo "CALL someFunc1\n" . $data;
@@ -20,4 +21,3 @@ $sec_data = "security-data";
 
 "var_dump"($vul_data);
 "var_dump"($sec_data);
-

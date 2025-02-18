@@ -1,8 +1,12 @@
 <?php
 
-class ParentInstanceOfClass {}
+class ParentInstanceOfClass
+{
+}
 
-class InstanceOfClass extends ParentInstanceOfClass { }
+class InstanceOfClass extends ParentInstanceOfClass
+{
+}
 
 $vul_data = $_GET["user-input"];
 $obj = new InstanceOfClass();

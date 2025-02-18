@@ -1,6 +1,7 @@
 <?php
+
 // closure
-$func = function($a) {
+$func = function ($a) {
     echo $a;
 };
 

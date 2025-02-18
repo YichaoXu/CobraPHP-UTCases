@@ -2,12 +2,12 @@
 
 class Test
 {
-    function callee1($data): void
+    public function callee1($data): void
     {
         echo "callee\n" . $data;
     }
 
-    function callee2($data): void
+    public function callee2($data): void
     {
         echo "callee\n" . $data;
     }

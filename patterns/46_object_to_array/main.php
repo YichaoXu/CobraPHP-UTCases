@@ -1,10 +1,13 @@
 <?php
+
 $b = $_GET["p1"];
-class A{
+class A
+{
     public $a = 'safe';
     public $b = 'safe';
 
-    function __construct($b){
+    public function __construct($b)
+    {
         $this->b = $b;
     }
 }

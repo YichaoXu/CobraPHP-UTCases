@@ -2,12 +2,12 @@
 
 class Param
 {
-    function __construct($prop = "")
+    public function __construct($prop = "")
     {
         $this->prop = $prop;
     }
 
-    function method($data): void
+    public function method($data): void
     {
         echo "outer meth\n" . $data . $this->prop;
     }
@@ -34,4 +34,3 @@ some_func(new Param(), $sec_data); // line 2
 
 some_func2(new Param(), $vul_data); // line 2
 some_func2(new Param(), $sec_data); // line 2
-

@@ -4,7 +4,7 @@ class Property
 {
     public string $prop;
 
-    function target($data): void
+    public function target($data): void
     {
         echo "property->target\n" . $data . $this -> prop;
     }

@@ -15,4 +15,3 @@ $sec_data = "security-data";
 
 callee($vul_data);
 callee($sec_data);
-

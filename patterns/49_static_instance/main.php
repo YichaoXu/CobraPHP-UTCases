@@ -1,4 +1,5 @@
 <?php
+
 class Myclass
 {
     private static $instance ;
@@ -6,8 +7,8 @@ class Myclass
 
     public static function oneInstance()
     {
-        if(!self::$instance instanceof self) {
-            self::$instance = new self ;
+        if (!self::$instance instanceof self) {
+            self::$instance = new self() ;
         }
         return self::$instance ;
     }

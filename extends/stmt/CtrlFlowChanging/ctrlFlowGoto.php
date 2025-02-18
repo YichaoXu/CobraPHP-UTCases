@@ -7,4 +7,3 @@ echo $vul_data; // deadcode
 
 label:
 echo $vul_data; // vulnerable
-

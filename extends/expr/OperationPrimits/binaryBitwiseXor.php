@@ -91,4 +91,3 @@ if ($result === 15) { // 00001111
 } else {
     echo "Case 9: " . $vul_data . " (false positive)\n";
 }
-

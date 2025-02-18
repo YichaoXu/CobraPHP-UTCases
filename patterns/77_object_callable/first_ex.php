@@ -1,11 +1,13 @@
 <?php
+
 class Foo
 {
-    static $b = 'safe';
-    function __construct($b){
+    public static $b = 'safe';
+    public function __construct($b)
+    {
         self::$b = $b;
     }
-    function baz()
+    public function baz()
     {
         // $b has the input, XSS Vulnerability
         echo self::$b;

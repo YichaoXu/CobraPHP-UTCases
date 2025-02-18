@@ -3,14 +3,16 @@
 $vul_data = $_GET["user-input"];
 
 // Define some classes with constants
-class MyClass {
-    const GREETING = "Hello, World!";
-    const PI = 3.14159;
+class MyClass
+{
+    public const GREETING = "Hello, World!";
+    public const PI = 3.14159;
 }
 
-class AnotherClass {
-    const MAX_USERS = 100;
-    const FLAG = true;
+class AnotherClass
+{
+    public const MAX_USERS = 100;
+    public const FLAG = true;
 }
 
 // Fetch and print the GREETING constant from MyClass

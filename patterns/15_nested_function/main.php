@@ -1,7 +1,9 @@
 <?php
 
-function F(){
-    function D($b){
+function F()
+{
+    function D($b)
+    {
         echo $b;
     }
 }

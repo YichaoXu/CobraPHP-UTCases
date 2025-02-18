@@ -56,4 +56,3 @@ if ($$arrayName[$key] === 42) {
 } else {
     echo "Case 6 (String Array Name - Dynamic key2): " . $vul_data . " (false positive)\n";
 }
-

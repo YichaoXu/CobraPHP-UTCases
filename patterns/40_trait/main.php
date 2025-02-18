@@ -1,13 +1,17 @@
 <?php
+
 $b = $_GET["p1"];
 
-trait SayWorld {
-    public function sayHello($b) {
+trait SayWorld
+{
+    public function sayHello($b)
+    {
         echo $b;
     }
 }
 
-class MyHelloWorld{
+class MyHelloWorld
+{
     use SayWorld;
 }
 

@@ -1,4 +1,5 @@
 <?php
+
 function no_param1($data): void
 {
     echo "no_param1 $data\n";

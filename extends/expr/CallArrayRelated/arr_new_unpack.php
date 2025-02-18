@@ -2,7 +2,7 @@
 
 class Container
 {
-    function echo_info($param)
+    public function echo_info($param)
     {
         echo "CONTAINER_INFO $param";
     }

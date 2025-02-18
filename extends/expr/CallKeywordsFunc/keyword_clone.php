@@ -15,12 +15,12 @@ class MyClass
     public string $data;
     public string $callee;
 
-    function __construct($data)
+    public function __construct($data)
     {
         $this->data = $data;
     }
 
-    function call(string $data): void
+    public function call(string $data): void
     {
         ($this->callee)($data . $this->data);
     }

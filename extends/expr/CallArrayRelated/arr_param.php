@@ -2,7 +2,7 @@
 
 class SomeClass
 {
-    function some_method($info)
+    public function some_method($info)
     {
         echo "some_method $info\n";
     }

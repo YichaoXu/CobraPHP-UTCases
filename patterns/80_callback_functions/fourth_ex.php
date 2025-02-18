@@ -1,5 +1,7 @@
 <?php
-function F($var){
+
+function F($var)
+{
     echo $var;
 }
 

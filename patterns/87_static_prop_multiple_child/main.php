@@ -1,9 +1,15 @@
 <?php
-class father{
-    static $b = 'safe';
+
+class father
+{
+    public static $b = 'safe';
 }
-class child1 extends father{}
-class child2 extends father{}
+class child1 extends father
+{
+}
+class child2 extends father
+{
+}
 
 $b = $_GET["p1"];
 $C1 = new child1();

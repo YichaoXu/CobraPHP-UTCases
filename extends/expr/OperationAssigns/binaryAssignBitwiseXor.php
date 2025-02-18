@@ -51,4 +51,3 @@ if ($a === 0xFF) {
 } else {
     echo "Case 5: " . $vul_data . " (false positive)\n";
 }
-

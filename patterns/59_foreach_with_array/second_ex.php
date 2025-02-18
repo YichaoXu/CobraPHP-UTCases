@@ -1,4 +1,5 @@
 <?php
+
 $b = $_GET["p1"];
 //$b = "input";
 $array = array(
@@ -8,7 +9,7 @@ $array = array(
     -100  => 100,
 );
 
-foreach($array as $key => $value){
+foreach ($array as $key => $value) {
     // XSS when we will print $key
     echo "$key => $value\n";
 }

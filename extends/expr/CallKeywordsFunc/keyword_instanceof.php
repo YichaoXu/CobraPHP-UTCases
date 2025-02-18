@@ -18,5 +18,3 @@ if ($obj instanceof AnotherClass) {
 if ($obj instanceof MyClass) {
     echo "The object is MyClass<br>";
 }
-
-?>

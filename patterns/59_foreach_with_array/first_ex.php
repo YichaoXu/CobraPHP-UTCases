@@ -1,4 +1,5 @@
 <?php
+
 $b = $_GET["p1"];
 $array = array(
     "foo" => "bar",
@@ -7,6 +8,6 @@ $array = array(
     -100  => 100,
 );
 
-foreach(array_keys($array) as $key){
+foreach (array_keys($array) as $key) {
     echo "$key => $array[$key]\n";
 }

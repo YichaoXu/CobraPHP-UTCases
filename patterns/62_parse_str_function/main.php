@@ -1,4 +1,5 @@
 <?php
+
 $b = $_GET["p1"];
 //"first=value&arr[]=foo+bar&arr[]=baz"
 $str = $b;

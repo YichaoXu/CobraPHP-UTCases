@@ -1,4 +1,5 @@
 <?php
+
 function test_case_0()
 {
     echo "Statement is false\n";
@@ -105,5 +106,3 @@ $b = (object)["b" => "b"];
 $bool = (int)($a === $b);
 $action = 'test_case_' . $bool; // 0
 $action();
-
-?>

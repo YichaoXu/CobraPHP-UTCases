@@ -34,7 +34,8 @@ if ($encapsulated3 === "Hello, Bob!") {
 }
 
 // Encapsulated string with property access
-class Greeter {
+class Greeter
+{
     public $name = "Charlie";
 }
 $greeter = new Greeter();

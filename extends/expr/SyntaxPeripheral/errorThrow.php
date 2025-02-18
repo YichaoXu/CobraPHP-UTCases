@@ -1,11 +1,12 @@
 <?php
 
-class ErrorThrow extends Exception {
-
+class ErrorThrow extends Exception
+{
     public string $prop;
 
-    function __construct($data) {
-        Parent::__construct($data);
+    public function __construct($data)
+    {
+        parent::__construct($data);
         $this->prop = $data;
     }
 }

@@ -1,6 +1,8 @@
 <?php
+
 // $a = 1, $b = $b the input
-function add($a, $b) {
+function add($a, $b)
+{
     echo $a;
     // XSS vulnerability
     echo $b;

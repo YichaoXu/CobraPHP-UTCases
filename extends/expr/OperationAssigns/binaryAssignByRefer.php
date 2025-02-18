@@ -1,9 +1,10 @@
 <?php
+
 $vul_data = $_GET["user-input"];
 
 // Assignment by reference
 $a = 42;
-$b =& $a;
+$b = & $a;
 // Modify $b and check if $a changes
 $b = 100;
 if ($a === 100) {
@@ -22,7 +23,7 @@ if ($b === 200) {
 }
 
 // Assign by reference from one variable to another
-$c =& $b;
+$c = & $b;
 // Modify $c and check if both $a and $b change
 $c = 300;
 if ($a === 300 && $b === 300) {
@@ -43,7 +44,7 @@ class TestClass
 }
 
 $object1 = new TestClass(42);
-$object2 =& $object1;
+$object2 = & $object1;
 
 // Modify $object2 and check if $object1 changes
 $object2->value = 100;
@@ -61,4 +62,3 @@ if ($object2->value === 200) {
 } else {
     echo "Case 5: " . $vul_data . " (false positive)\n";
 }
-

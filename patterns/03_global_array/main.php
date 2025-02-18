@@ -1,6 +1,7 @@
 <?php
 
-function F(){
+function F()
+{
     echo $GLOBALS["a"];
 }
 

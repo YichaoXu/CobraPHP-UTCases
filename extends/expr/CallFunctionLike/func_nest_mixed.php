@@ -2,14 +2,20 @@
 
 function f1($cond, $data): void
 {
-    if ($cond) f2($cond, $data);
-    else echo "in f1\n" . $data;
+    if ($cond) {
+        f2($cond, $data);
+    } else {
+        echo "in f1\n" . $data;
+    }
 }
 
 function f2($cond, $data): void
 {
-    if (!$cond) f1($cond, $data);
-    else echo "in f2\n";
+    if (!$cond) {
+        f1($cond, $data);
+    } else {
+        echo "in f2\n";
+    }
 }
 
 $vul_data = $_GET["user-input"];

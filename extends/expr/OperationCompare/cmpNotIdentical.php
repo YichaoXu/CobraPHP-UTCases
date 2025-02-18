@@ -82,11 +82,12 @@ if ($result === true) {
     echo "Case 8: " . $vul_data . " (false positive)\n";
 }
 
-class TestClass {
-
+class TestClass
+{
     public $value;
 
-    public function __construct($value) {
+    public function __construct($value)
+    {
         $this->value = $value;
     }
 
@@ -111,4 +112,3 @@ if ($result === false) {
 } else {
     echo "Case 10: " . $vul_data . " (false positive)\n";
 }
-

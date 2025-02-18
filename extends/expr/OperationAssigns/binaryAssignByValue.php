@@ -1,4 +1,5 @@
 <?php
+
 $vul_data = $_GET["user-input"];
 
 // Value assignment

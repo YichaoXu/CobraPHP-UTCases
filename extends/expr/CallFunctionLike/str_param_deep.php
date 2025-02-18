@@ -1,4 +1,5 @@
 <?php
+
 function one_param1($param, $data): void
 {
     echo "one_param \t";

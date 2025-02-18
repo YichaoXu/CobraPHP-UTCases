@@ -1,4 +1,5 @@
 <?php
+
 class CallableClass
 {
     public function __invoke($x)
@@ -6,7 +7,7 @@ class CallableClass
         echo $x;
     }
 }
-$obj = new CallableClass;
+$obj = new CallableClass();
 $_fp = fopen("php://stdin", "r");
 $b = $_GET["p1"];
 //$b = fgets($_fp);

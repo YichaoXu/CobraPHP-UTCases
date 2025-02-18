@@ -128,5 +128,3 @@ $action();
 $bool = (int)(2.2 > 2); // 1
 $action = 'test_case_' . $bool;
 $action();
-
-?>

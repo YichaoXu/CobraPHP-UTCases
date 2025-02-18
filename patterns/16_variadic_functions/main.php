@@ -1,7 +1,8 @@
 <?php
 
-// $numbers: list of parameters 
-function sum(...$numbers) {
+// $numbers: list of parameters
+function sum(...$numbers)
+{
     foreach ($numbers as $n) {
         // XSS when it will print the last element $b
         echo $n;

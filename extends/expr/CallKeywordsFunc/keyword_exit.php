@@ -5,4 +5,3 @@ $sec_data = "security-data";
 
 exit($vul_data);    // builtin: exit[core]
 exit($sec_data);    // builtin: exit[core]
-

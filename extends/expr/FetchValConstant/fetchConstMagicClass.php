@@ -1,8 +1,10 @@
 <?php
 
-class FetchConstMagicClass{
-    function fetchConstMagicClass($data) {
-        
+class FetchConstMagicClass
+{
+    public function fetchConstMagicClass($data)
+    {
+
         if (__CLASS__ === 'FetchConstMagicClass') {
             echo "Case01 $data (TRUE POSITIVE)\n";
         } else {

@@ -2,11 +2,13 @@
 
 trait DeclareTrait
 {
-    public function callee1($data): void{
+    public function callee1($data): void
+    {
         echo "data, $data\n";
     }
 
-    public function callee2($data): void{
+    public function callee2($data): void
+    {
         echo "data, $data\n";
     }
 }

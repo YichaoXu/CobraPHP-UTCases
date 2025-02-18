@@ -3,18 +3,21 @@
 $vul_data = $_GET["user-input"];
 
 // Define a simple class with nested properties
-class NestedClass {
+class NestedClass
+{
     public $nestedProp = "nestedValue";
 }
 
-class TestClass {
+class TestClass
+{
     public $prop1 = "value1";            // Regular string property
     public $prop2 = 42;                  // Integer property
     public $prop3 = null;                // Null property
     public $prop4 = true;                // Boolean true property
     public $nested;                      // Object with a nested property
 
-    public function __construct() {
+    public function __construct()
+    {
         $this->nested = new NestedClass();
     }
 }

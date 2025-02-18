@@ -3,24 +3,28 @@
 $vul_data = $_GET["user-input"];
 
 // Define a base class with static properties
-class BaseStaticClass {
+class BaseStaticClass
+{
     public static $baseStaticProp = "baseStaticValue";  // Static property in base class
 }
 
 // Define a derived class that inherits from BaseStaticClass
-class DerivedStaticClass extends BaseStaticClass {
+class DerivedStaticClass extends BaseStaticClass
+{
     public static $derivedStaticProp = "derivedStaticValue";  // Static property in derived class
 }
 
 // Define a class with a nested class and static properties
-class OuterClass {
+class OuterClass
+{
     public static $outerStaticProp = "outerStaticValue";  // Static property in outer class
 
     // Define a nested static class
     public static $NestedClass;
 
-    public static function init() {
-        self::$NestedClass = new class {
+    public static function init()
+    {
+        self::$NestedClass = new class () {
             public static $nestedStaticProp = "nestedStaticValue";  // Static property in nested class
         };
     }
@@ -87,4 +91,3 @@ if (OuterClass::$NestedClass::$nestedStaticProp === "nestedStaticValue") {
 } else {
     echo "Case 5 (Nested - nestedStaticProp): " . $vul_data . " (false positive)\n";
 }
-

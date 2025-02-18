@@ -71,4 +71,3 @@ if ($a === 4.0) {
 } else {
     echo "Case 7: " . $vul_data . " (false positive)\n";
 }
-

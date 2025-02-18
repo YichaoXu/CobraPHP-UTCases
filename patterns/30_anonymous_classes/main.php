@@ -1,6 +1,7 @@
 <?php
+
 $b = $_GET["p1"];
-$util = (new class {
+$util = (new class () {
     public function log($msg)
     {
         echo $msg;

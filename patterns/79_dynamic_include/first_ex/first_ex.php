@@ -1,4 +1,5 @@
 <?php
-    $a = $_GET["p1"];
-    $file = "a.php";
-    include($file);
+
+$a = $_GET["p1"];
+$file = "a.php";
+include($file);

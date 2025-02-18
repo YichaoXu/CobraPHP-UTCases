@@ -1,3 +1,3 @@
 <?php
-    echo $_FILES["p1"];
-    
+
+echo $_FILES["p1"];

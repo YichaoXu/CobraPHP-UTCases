@@ -1,16 +1,19 @@
 <?php
 
-class parent_class{
-
-    function F($b){
-       echo $b;
+class parent_class
+{
+    public function F($b)
+    {
+        echo $b;
     }
 }
 
-class child_class extends parent_class{
-    function F($b){
+class child_class extends parent_class
+{
+    public function F($b)
+    {
         echo "safe";
-     }
+    }
 }
 
 

@@ -1,4 +1,5 @@
 <?php
+
 $b = $_GET["p1"];
 $message = "safe";
 // Inherit $message

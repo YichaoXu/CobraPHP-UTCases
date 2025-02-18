@@ -1,5 +1,7 @@
 <?php
-function gen_one_to_three($b) {
+
+function gen_one_to_three($b)
+{
     for ($i = 1; $i <= 3; $i++) {
         yield $b;
     }

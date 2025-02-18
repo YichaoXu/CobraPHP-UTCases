@@ -1,3 +1,4 @@
 <?php
-    $a = $_GET["p1"];
-    include("a.php");
+
+$a = $_GET["p1"];
+include("a.php");

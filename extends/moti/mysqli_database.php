@@ -1,4 +1,6 @@
-<?php /* mysqli_database.php */
+<?php
+
+/* mysqli_database.php */
 
 class mysqli_database
 {

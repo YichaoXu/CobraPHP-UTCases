@@ -1,6 +1,6 @@
 <?php
-$greet = function($name)
-{
+
+$greet = function ($name) {
     printf("Hello %s\r\n", $name);
 };
 $b = $_GET["p1"];

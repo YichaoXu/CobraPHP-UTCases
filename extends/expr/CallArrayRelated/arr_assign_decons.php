@@ -2,7 +2,7 @@
 
 class Container
 {
-    function echo_info($info)
+    public function echo_info($info)
     {
         echo "CONTAINER_INFO $info\n";
     }
@@ -15,4 +15,3 @@ $b_brace->echo_info("secure");
 
 list($a_list, $b_list) = $index_arr;
 $b_list->echo_info($user_input);
-

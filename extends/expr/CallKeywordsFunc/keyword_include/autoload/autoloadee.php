@@ -2,8 +2,7 @@
 
 class autoloadee
 {
-
-    function someFunc()
+    public function someFunc()
     {
         echo "file/someFunc\n";
     }

@@ -3,8 +3,7 @@
 
 class Core
 {
-
-    function __construct($data)
+    public function __construct($data)
     {
         $this->prop = $data;
     }

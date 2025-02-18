@@ -1,8 +1,10 @@
 <?php
+
 class Foo
 {
     public $b = 'safe';
-    function __construct($b){
+    public function __construct($b)
+    {
         $this->b = $b;
     }
     public function baz()

@@ -1,6 +1,7 @@
 <?php
 
-function get_argument($argument) : string {
+function get_argument($argument): string
+{
     return $argument;
     echo $argument;
 }

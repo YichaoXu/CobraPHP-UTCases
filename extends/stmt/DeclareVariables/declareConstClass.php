@@ -2,7 +2,7 @@
 
 class DeclareConstClassTest
 {
-    const CONST_CLASS = 'test';
+    public const CONST_CLASS = 'test';
 }
 
 function call_test($data): void

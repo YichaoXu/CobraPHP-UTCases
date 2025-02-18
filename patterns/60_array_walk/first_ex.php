@@ -1,11 +1,13 @@
 <?php
+
 $b = $_GET["p1"];
 // Normal function
-function F($b){
+function F($b)
+{
     echo $b;
 }
 // Closure
-$example = function ($b){
+$example = function ($b) {
     echo $b;
 };
 $arr = [$b,$b,$b];
@@ -14,4 +16,4 @@ $arr = [$b,$b,$b];
 array_walk($arr, $example);
 // it will call the function F and print the value of $b
 // XSS Vulnerability
-array_walk($arr, 'F'); 
+array_walk($arr, 'F');

@@ -2,10 +2,11 @@
 
 function callee($data, $cond): void
 {
-    if ($cond)
+    if ($cond) {
         echo "data";
-    else
+    } else {
         echo $data;
+    }
 }
 
 $vul_data = $_GET["user-input"];

@@ -2,17 +2,17 @@
 
 class ParentClass
 {
-    function __construct()
+    public function __construct()
     {
         echo "Parent Construct.\n";
     }
 
-    function overrideMethod($data)
+    public function overrideMethod($data)
     {
         echo "overrideMethod\n";
     }
 
-    function inheritMethod($data)
+    public function inheritMethod($data)
     {
         echo "inheritMethod\n" . $data;
     }
@@ -20,12 +20,12 @@ class ParentClass
 
 class TestClass extends ParentClass
 {
-    function __construct()
+    public function __construct()
     {
         echo "TClass Construct.\n";
     }
 
-    function overrideMethod($data)
+    public function overrideMethod($data)
     {
         parent::overrideMethod("secure");
         echo "overrideMethod\n" . $data;

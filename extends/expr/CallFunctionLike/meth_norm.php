@@ -2,12 +2,12 @@
 
 class TestClass
 {
-    function __construct()
+    public function __construct()
     {
         echo "TClass Construct.\n";
     }
 
-    function testMethod($data)
+    public function testMethod($data)
     {
         echo "testMethod\n" . $data;
     }

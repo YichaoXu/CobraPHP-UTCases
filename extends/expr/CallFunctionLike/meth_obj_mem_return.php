@@ -2,7 +2,7 @@
 
 class Createe
 {
-    function action($data)
+    public function action($data)
     {
         echo "ACTION\n" . $data;
     }
@@ -10,19 +10,18 @@ class Createe
 
 class Creator
 {
-
-    function linked($data): void
+    public function linked($data): void
     {
         $this->createe()->action($data);
     }
 
-    function action($data): void
+    public function action($data): void
     {
         $createe = $this->createe();
         $createe->action($data);
     }
 
-    function createe(): Createe
+    public function createe(): Createe
     {
         return new Createe();
     }

@@ -2,10 +2,12 @@
 
 function callee($data1, $data2, $cond): void
 {
-    if ($cond)
+    if ($cond) {
         echo $data1;
-    if (!$cond)
+    }
+    if (!$cond) {
         echo $data2;
+    }
 }
 
 $sec_data = "secure_input";

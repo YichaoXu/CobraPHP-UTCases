@@ -170,37 +170,37 @@
     {
         "name": "27_get_called_class",
         "vulnerability": [
-            {"source": "","sink": ""}
+            {"source": "main.php:17","sink": "main.php:13"}
         ]
     },
     {
         "name": "28_static_methods",
         "vulnerability": [
-            {"source": "","sink": ""}
+            {"source": "main.php:14","sink": "main.php:15"}
         ]
     },
     {
         "name": "29_static_properties",
         "vulnerability": [
-            {"source": "","sink": ""}
+            {"source": "main.php:14","sink": "main.php:11"}
         ]
     },
     {
         "name": "30_anonymous_classes",
         "vulnerability": [
-            {"source": "","sink": ""}
+            {"source": "main.php:2","sink": "main.php:6"}
         ]
     },
     {
         "name": "31_static_method_variable",
         "vulnerability": [
-            {"source": "","sink": ""}
+            {"source": "main.php:10","sink": "main.php:6"}
         ]
     },
     {
         "name": "32_set_overloading",
         "vulnerability": [
-            {"source": "","sink": ""}
+            {"source": "main.php:10","sink": "main.php:6"}
         ]
     },
     {

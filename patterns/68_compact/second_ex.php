@@ -1,4 +1,5 @@
 <?php
+
 $a = $_GET["p1"];
 $city  = "San Francisco";
 $state = "CA";

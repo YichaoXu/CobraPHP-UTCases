@@ -1,4 +1,5 @@
 <?php
+
 class Test
 {
     private $foo;
@@ -8,7 +9,8 @@ class Test
         $this->foo = $foo;
     }
 
-    public function getfoo(){
+    public function getfoo()
+    {
         return $this->foo;
     }
 }

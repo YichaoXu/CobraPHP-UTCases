@@ -1,7 +1,9 @@
 <?php
 
-class FetchConstMagicMeth{
-    function fetchConstMagicMeth() {
+class FetchConstMagicMeth
+{
+    public function fetchConstMagicMeth()
+    {
         $vul_data = $_GET["user-input"];
         if (__METHOD__ === 'fetchConstMagicMeth') {
             echo "Case01 $vul_data (TRUE POSITIVE)\n";

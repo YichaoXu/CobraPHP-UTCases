@@ -1,4 +1,5 @@
 <?php
+
 $a = $_GET["p1"];
 $foo = 'Bob';
 $bar = &$foo;

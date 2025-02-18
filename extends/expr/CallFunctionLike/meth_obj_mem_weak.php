@@ -2,18 +2,18 @@
 
 class Test
 {
-    function callee()
+    public function callee()
     {
         $this->caller1();
         $this->caller2();
     }
 
-    function caller1()
+    public function caller1()
     {
         $this->callee();
     }
 
-    function caller2()
+    public function caller2()
     {
         $this->callee();
     }

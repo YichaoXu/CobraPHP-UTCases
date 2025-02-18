@@ -1,4 +1,6 @@
-<?php /* exponent.php */
+<?php
+
+/* exponent.php */
 global $configure;
 require_once("configure.php"); // include `configure`
 require_once("mysql_database.php"); // include `database`

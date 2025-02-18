@@ -1,4 +1,5 @@
 <?php
+
 function basic_func($data)
 {
     echo "Some data " . $data;

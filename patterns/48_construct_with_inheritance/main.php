@@ -1,18 +1,20 @@
 <?php
 
-class parent_class{
-
-    function __construct($b){
+class parent_class
+{
+    public function __construct($b)
+    {
         echo $b;
     }
 
-    function F($b){
+    public function F($b)
+    {
         $a = $b;
     }
 }
 
-class child_class extends parent_class{
-
+class child_class extends parent_class
+{
 }
 
 $b = new child_class($_GET['p1']);

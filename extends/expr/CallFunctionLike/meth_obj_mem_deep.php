@@ -2,7 +2,7 @@
 
 class Test
 {
-    function caller($data): void
+    public function caller($data): void
     {
         $this->callee1($data);
     }

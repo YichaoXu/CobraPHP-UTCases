@@ -100,4 +100,3 @@ if ($result === false) {
 } else {
     echo "Case 11: " . $vul_data . " (false positive)\n";
 }
-

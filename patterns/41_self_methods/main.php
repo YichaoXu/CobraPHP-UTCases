@@ -1,12 +1,14 @@
 <?php
 
-class myclass{
-
-    function F($b){
-       self::T($b);
+class myclass
+{
+    public function F($b)
+    {
+        self::T($b);
     }
 
-    function T($b){
+    public function T($b)
+    {
         echo $b;
     }
 }

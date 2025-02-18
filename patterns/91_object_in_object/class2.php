@@ -1,11 +1,14 @@
 <?php
 
-class classB{
+class classB
+{
     private $data;
-    public function set($d){
+    public function set($d)
+    {
         $this->data = $d;
     }
-    public function get(){
+    public function get()
+    {
         return $this->data;
     }
 }

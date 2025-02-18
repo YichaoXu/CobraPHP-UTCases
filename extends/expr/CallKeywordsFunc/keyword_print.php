@@ -7,7 +7,7 @@ function some_func()
 
 class SomeClass
 {
-    function call()
+    public function call()
     {
         print "PRINT IN METHOD;\n";
     }

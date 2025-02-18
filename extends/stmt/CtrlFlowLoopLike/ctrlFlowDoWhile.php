@@ -9,4 +9,4 @@ $i = 1;
 
 do {
     echo "data: " . $array[$i];
-} while(--$i >= 0);
+} while (--$i >= 0);

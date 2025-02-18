@@ -1,2 +1,4 @@
-<?php /* configure.php */
+<?php
+
+/* configure.php */
 $configure = array("database" => "mysqli");

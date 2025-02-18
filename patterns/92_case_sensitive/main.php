@@ -1,11 +1,13 @@
 <?php
 
-Class myclass{
+class myclass
+{
     public $b = "safe";
-    funcTion F($x){
+    public function F($x)
+    {
         echo $x;
     }
- }
+}
 
 $obj1 = new Myclass();
 $x = $_GET["p1"];

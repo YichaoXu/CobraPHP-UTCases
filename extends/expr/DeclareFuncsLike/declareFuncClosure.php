@@ -54,7 +54,8 @@ if ($result4 === 3) {
 }
 
 // Case 5: Returning a declared function from a closure
-function multiply($x, $y) {
+function multiply($x, $y)
+{
     return $x * $y;
 }
 
@@ -70,7 +71,8 @@ if ($result5 === 30) {
 }
 
 // Case 6: Passing a closure as an argument to another function
-function applyFunction($func, $value) {
+function applyFunction($func, $value)
+{
     return $func($value);
 }
 
@@ -86,10 +88,12 @@ if ($result6 === 8) {
 }
 
 // Case 7: Closure accessing $this in an object context
-class TestClass {
+class TestClass
+{
     private $value = 100;
 
-    public function getValue() {
+    public function getValue()
+    {
         return function () {
             return $this->value;
         };

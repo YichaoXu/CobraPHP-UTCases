@@ -7,7 +7,7 @@ function some_func($data)
 
 class SomeClass
 {
-    function call($data)
+    public function call($data)
     {
         echo "ECHO IN METHOD; $data\n";
     }

@@ -1,5 +1,5 @@
 <?php
-	$b = $_GET['p1'];
-	echo urlencode($b);
+$b = $_GET['p1'];
+echo urlencode($b);
 ?>
 

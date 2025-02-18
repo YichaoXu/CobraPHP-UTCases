@@ -1,6 +1,8 @@
 <?php
-class myclass{
-   public $b = "safe";
+
+class myclass
+{
+    public $b = "safe";
 }
 $obj1 = new myclass();
 $obj1->b = "safe2";

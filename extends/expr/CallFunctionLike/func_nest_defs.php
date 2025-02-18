@@ -31,7 +31,6 @@ namespace C {
     use function A\callee2;
     use function A\inner_def;
 
-
     $vul_data = $_GET["user-input"];
     $sec_data = "security-data";
 

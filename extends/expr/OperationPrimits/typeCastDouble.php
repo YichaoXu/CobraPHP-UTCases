@@ -4,7 +4,7 @@ $vul_data = $_GET["user-input"];
 
 // Normal integer conversion
 $value = 42;
-$result = (double)$value;
+$result = (float)$value;
 if ($result === 42.0) {
     echo "Case 1: " . $vul_data . "\n";
 } else {
@@ -13,7 +13,7 @@ if ($result === 42.0) {
 
 // String representation of a float
 $value = "42.99";
-$result = (double)$value;
+$result = (float)$value;
 if ($result === 42.99) {
     echo "Case 2: " . $vul_data . "\n";
 } else {
@@ -22,7 +22,7 @@ if ($result === 42.99) {
 
 // Non-numeric string conversion
 $value = "hello";
-$result = (double)$value;
+$result = (float)$value;
 if ($result === 0.0) {
     echo "Case 3: " . $vul_data . "\n";
 } else {
@@ -31,7 +31,7 @@ if ($result === 0.0) {
 
 // String with leading and trailing spaces
 $value = "  100.25  ";
-$result = (double)$value;
+$result = (float)$value;
 if ($result === 100.25) {
     echo "Case 4: " . $vul_data . "\n";
 } else {
@@ -40,7 +40,7 @@ if ($result === 100.25) {
 
 // Empty string conversion
 $value = "";
-$result = (double)$value;
+$result = (float)$value;
 if ($result === 0.0) {
     echo "Case 5: " . $vul_data . "\n";
 } else {
@@ -49,7 +49,7 @@ if ($result === 0.0) {
 
 // Boolean true conversion
 $value = true;
-$result = (double)$value;
+$result = (float)$value;
 if ($result === 1.0) {
     echo "Case 6: " . $vul_data . "\n";
 } else {
@@ -58,7 +58,7 @@ if ($result === 1.0) {
 
 // Boolean false conversion
 $value = false;
-$result = (double)$value;
+$result = (float)$value;
 if ($result === 0.0) {
     echo "Case 7: " . $vul_data . "\n";
 } else {
@@ -67,7 +67,7 @@ if ($result === 0.0) {
 
 // NULL conversion
 $value = null;
-$result = (double)$value;
+$result = (float)$value;
 if ($result === 0.0) {
     echo "Case 8: " . $vul_data . "\n";
 } else {
@@ -76,8 +76,8 @@ if ($result === 0.0) {
 
 // Large integer conversion
 $value = PHP_INT_MAX;
-$result = (double)$value;
-if ($result === (double)PHP_INT_MAX) {
+$result = (float)$value;
+if ($result === (float)PHP_INT_MAX) {
     echo "Case 9: " . $vul_data . "\n";
 } else {
     echo "Case 9: " . $vul_data . " (false positive)\n";
@@ -85,8 +85,8 @@ if ($result === (double)PHP_INT_MAX) {
 
 // Small integer conversion
 $value = -PHP_INT_MAX - 1;
-$result = (double)$value;
-if ($result === (double)(-PHP_INT_MAX - 1)) {
+$result = (float)$value;
+if ($result === (float)(-PHP_INT_MAX - 1)) {
     echo "Case 10: " . $vul_data . "\n";
 } else {
     echo "Case 10: " . $vul_data . " (false positive)\n";
@@ -94,7 +94,7 @@ if ($result === (double)(-PHP_INT_MAX - 1)) {
 
 // Non-numeric start string
 $value = "abc123.45";
-$result = (double)$value;
+$result = (float)$value;
 if ($result === 0.0) {
     echo "Case 11: " . $vul_data . "\n";
 } else {
@@ -103,7 +103,7 @@ if ($result === 0.0) {
 
 // Numeric start string
 $value = "123.45abc";
-$result = (double)$value;
+$result = (float)$value;
 if ($result === 123.45) {
     echo "Case 12: " . $vul_data . "\n";
 } else {
@@ -112,7 +112,7 @@ if ($result === 123.45) {
 
 // Negative float string
 $value = "-56.78";
-$result = (double)$value;
+$result = (float)$value;
 if ($result === -56.78) {
     echo "Case 13: " . $vul_data . "\n";
 } else {
@@ -121,7 +121,7 @@ if ($result === -56.78) {
 
 // Scientific notation string
 $value = "1.2e3";
-$result = (double)$value;
+$result = (float)$value;
 if ($result === 1200.0) {
     echo "Case 14: " . $vul_data . "\n";
 } else {

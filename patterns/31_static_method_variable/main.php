@@ -1,10 +1,11 @@
 <?php
 
-class myclass{
-	
-	static function F($b){
-		echo $b;
-	}
+class myclass
+{
+    public static function F($b)
+    {
+        echo $b;
+    }
 }
 
 $a = $_GET["p1"];

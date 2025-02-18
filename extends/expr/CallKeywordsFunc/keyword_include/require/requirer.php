@@ -17,11 +17,3 @@ requirer_func($sec_data);
 
 requiree_func($vul_data);
 requiree_func($sec_data);
-
-
-
-
-
-
-
-

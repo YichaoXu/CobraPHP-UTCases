@@ -1,6 +1,8 @@
 <?php
-class myclass{
-	static $sprop;
+
+class myclass
+{
+    public static $sprop;
 };
 
 $y = "abc";

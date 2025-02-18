@@ -1,3 +1,3 @@
 <?php
-    echo $_ENV["p1"];
-    
+
+echo $_ENV["p1"];
