@@ -181,7 +181,7 @@
     {
         "name": "29_static_properties",
         "vulnerabilities": [
-            {"source": "main.php:14","sink": "main.php:11"}
+            {"source": "main.php:16","sink": "main.php:13"}
         ]
     },
     {
