@@ -506,55 +506,64 @@
             {"type": 79, "source": "second_ex/main.php:3","sink": "second_ex/a.php:3"}, 
             {"type": 79, "source": "third_ex/main.php:3","sink": "third_ex/b.php:3"}, 
             {"type": 79, "source": "fourth_ex/main.php:3","sink": "fourth_ex/file1.php:3"}, 
-            {"type": 79, "source": "fifth_ex/main.php:3","sink": "fifth_ex/file1.php:3"}
+            {"type": 79, "source": "fifth_ex/main.php:3","sink": "fifth_ex/a.php:3"}
         ]
     },
     {
         "name": "80_callback_functions",
         "vulnerabilities": [
-            {"type": 79, "source": "","sink": ""}
+            {"type": 79, "source": "first_ex.php:8","sink": "first_ex.php:5"}, 
+            {"type": 79, "source": "second_ex.php:8","sink": "second_ex.php:5"}, 
+            {"type": 79, "source": "third_ex.php:8","sink": "third_ex.php:5"}, 
+            {"type": 79, "source": "fourth_ex.php:8","sink": "fourth_ex.php:5"}, 
+            {"type": 79, "source": "fifth_ex.php:8","sink": "fifth_ex.php:5"}
         ]
     },
     {
         "name": "81_new_from_variable",
         "vulnerabilities": [
-            {"type": 79, "source": "","sink": ""}
+            {"type": 79, "source": "first_ex.php:15","sink": "first_ex.php:12"}, 
+            {"type": 79, "source": "second_ex.php:15","sink": "second_ex.php:12"}, 
+            {"type": 79, "source": "third_ex.php:15","sink": "third_ex.php:12"} 
         ]
     },
     {
         "name": "82_methods_variable",
         "vulnerabilities": [
-            {"type": 79, "source": "","sink": ""}
+            {"type": 79, "source": "first_ex.php:11","sink": "first_ex.php:7"}, 
+            {"type": 79, "source": "second_ex.php:11","sink": "second_ex.php:7"}
         ]
     },
     {
         "name": "83_array_variable_key",
         "vulnerabilities": [
-            {"type": 79, "source": "","sink": ""}
+            {"type": 79, "source": "first_ex.php:6","sink": "first_ex.php:8"}, 
+            {"type": 79, "source": "second_ex.php:4","sink": "second_ex.php:7"}, 
+            {"type": 79, "source": "second_ex.php:4","sink": "second_ex.php:7"}
         ]
     },
     {
         "name": "84_variable_variables",
         "vulnerabilities": [
-            {"type": 79, "source": "","sink": ""}
+            {"type": 79, "source": "first_ex.php:4","sink": "first_ex.php:6"}, 
+            {"type": 79, "source": "second_ex.php:3","sink": "second_ex.php:6"}, 
+            {"type": 79, "source": "second_ex.php:4","sink": "second_ex.php:6"}
         ]
     },
     {
         "name": "85_type_juggling",
         "vulnerabilities": [
-            {"type": 79, "source": "","sink": ""}
+            {"type": 79, "source": "main.php:4","sink": "main.php:15"}
         ]
     },
     {
         "name": "86_implement_interfaces",
-        "vulnerabilities": [
-            {"type": 79, "source": "","sink": ""}
-        ]
+        "vulnerabilities": []
     },
     {
         "name": "87_static_prop_multiple_child",
         "vulnerabilities": [
-            {"type": 79, "source": "","sink": ""}
+            {"type": 79, "source": "main.php:14","sink": "main.php:18"}
         ]
     },
     {
