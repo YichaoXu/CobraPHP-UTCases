@@ -1,589 +1,588 @@
 [
     {
         "name": "01_static_variables",
-        "vulnerability": [
-            {"source": "main.php:9","sink": "main.php:5"}
-        ]
-    },
-    {
-        "name": "02_global_variables",
-        "vulnerability": [
-            {"source": "main.php:8","sink": "main.php:11"}
-        ]
-    },
-    {
-        "name": "03_global_array",
-        "vulnerability": [
-            {"source": "main.php:7","sink": "main.php:4"}
-        ]
-    },
-    {
-        "name": "04_conditional_assignment",
-        "vulnerability": [
-            {"source": "main.php:3","sink": "main.php:5"}
-        ]
-    },
-    {
-        "name": "05_combined_operator",
-        "vulnerability": [
-            {"source": "main.php:2","sink": "main.php:3"}
-        ]
-    },
-    {
-        "name": "06_coalesce",
-        "vulnerability": [
-            {"source": "main.php:2","sink": "main.php:6"}
-        ]
-    },
-    {
-        "name": "07_string_arithmetic_operations",
-        "vulnerability": [
-            {"source": "main.php:2","sink": "main.php:5"},
-            {"source": "main.php:7","sink": "main.php:10"},
-            {"source": "main.php:12","sink": "main.php:15"},
-            {"source": "main.php:26","sink": "main.php:29"},
-            {"source": "main.php:31","sink": "main.php:34"},
-            {"source": "main.php:36","sink": "main.php:39"},
-            {"source": "main.php:41","sink": "main.php:44"},
-            {"source": "main.php:50","sink": "main.php:55"},
-            {"source": "main.php:57","sink": "main.php:62"},
-            {"source": "main.php:64","sink": "main.php:69"},
-            {"source": "main.php:71","sink": "main.php:76"}
-        ]
-    },
-    {
-        "name": "08_simple_reference",
-        "vulnerability": [
-            {"source": "main.php:2","sink": "main.php:7"}
-        ]
-    },
-    {
-        "name": "09_reference_argument",
-        "vulnerability": [
-            {"source": "main.php:2","sink": "main.php:10"}
-        ]
-    },
-    {
-        "name": "10_return_by_reference",
-        "vulnerability": [
-            {"source": "main.php:10","sink": "main.php:17"}
-        ]
-    },
-    {
-        "name": "11_foreach_with_reference",
-        "vulnerability": [
-            {"source": "main.php:4","sink": "main.php:11"}
-        ]
-    },
-    {
-        "name": "12_make_ref",
-        "vulnerability": [
-            {"source": "first_ex.php:4","sink": "first_ex.php:5"}
-        ]
-    },
-    {
-        "name": "13_assign_static_prop_ref",
-        "vulnerability": [
-            {"source": "main.php:8","sink": "main.php:9"}
-        ]
-    },
-    {
-        "name": "14_object_assigned_by_reference",
-        "vulnerability": [
-            {"source": "main.php:8","sink": "main.php:9"}
-        ]
-    },
-    {
-        "name": "15_nested_function",
-        "vulnerability": [
-            {"source": "main.php:8","sink": "main.php:5"}
-        ]
-    },
-    {
-        "name": "16_variadic_functions",
-        "vulnerability": [
-            {"source": "main.php:11","sink": "main.php:7"}
-        ]
-    },
-    {
-        "name": "17_get_arguments",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "main.php:10","sink": "main.php:6"}
         ]
     },
     {
-        "name": "18_send_unpack",
-        "vulnerability": [
-            {"source": "main.php:9","sink": "main.php:6"}
-        ]
-    },
-    {
-        "name": "19_closures",
-        "vulnerability": [
-            {"source": "first_ex.php:6","sink": "first_ex.php:4"},
-            {"source": "second_ex.php:2","sink": "second_ex.php:7"}
-        ]
-    },
-    {
-        "name": "20_use_with_closures",
-        "vulnerability": [
-            {"source": "first_ex.php:2","sink": "first_ex.php:9"},
-            {"source": "second_ex.php:2","sink": "second_ex.php:8"}
-        ]
-    },
-    {
-        "name": "21_simple_object",
-        "vulnerability": [
-            {"source": "main.php:16","sink": "main.php:19"}
-        ]
-    },
-    {
-        "name": "22_assign_object",
-        "vulnerability": [
-            {"source": "main.php:8","sink": "main.php:10"}
-        ]
-    },
-    {
-        "name": "23_object_argument",
-        "vulnerability": [
+        "name": "02_global_variables",
+        "vulnerabilities": [
             {"source": "main.php:10","sink": "main.php:13"}
         ]
     },
     {
+        "name": "03_global_array",
+        "vulnerabilities": [
+            {"source": "main.php:8","sink": "main.php:5"}
+        ]
+    },
+    {
+        "name": "04_conditional_assignment",
+        "vulnerabilities": [
+            {"source": "main.php:4","sink": "main.php:6"}
+        ]
+    },
+    {
+        "name": "05_combined_operator",
+        "vulnerabilities": [
+            {"source": "main.php:3","sink": "main.php:4"}
+        ]
+    },
+    {
+        "name": "06_coalesce",
+        "vulnerabilities": [
+            {"source": "main.php:3","sink": "main.php:7"}
+        ]
+    },
+    {
+        "name": "07_string_arithmetic_operations",
+        "vulnerabilities": [
+            {"source": "main.php:3","sink": "main.php:6"},
+            {"source": "main.php:8","sink": "main.php:11"},
+            {"source": "main.php:13","sink": "main.php:16"},
+            {"source": "main.php:27","sink": "main.php:30"},
+            {"source": "main.php:32","sink": "main.php:35"},
+            {"source": "main.php:37","sink": "main.php:40"},
+            {"source": "main.php:42","sink": "main.php:45"},
+            {"source": "main.php:53","sink": "main.php:58"},
+            {"source": "main.php:60","sink": "main.php:65"},
+            {"source": "main.php:67","sink": "main.php:72"},
+            {"source": "main.php:74","sink": "main.php:79"}
+        ]
+    },
+    {
+        "name": "08_simple_reference",
+        "vulnerabilities": [
+            {"source": "main.php:3","sink": "main.php:8"}
+        ]
+    },
+    {
+        "name": "09_reference_argument",
+        "vulnerabilities": [
+            {"source": "main.php:8","sink": "main.php:12"}
+        ]
+    },
+    {
+        "name": "10_return_by_reference",
+        "vulnerabilities": [
+            {"source": "main.php:13","sink": "main.php:20"}
+        ]
+    },
+    {
+        "name": "11_foreach_with_reference",
+        "vulnerabilities": [
+            {"source": "main.php:7","sink": "main.php:14"}
+        ]
+    },
+    {
+        "name": "12_make_ref",
+        "vulnerabilities": [
+            {"source": "first_ex.php:5","sink": "first_ex.php:6"}
+        ]
+    },
+    {
+        "name": "13_assign_static_prop_ref",
+        "vulnerabilities": [
+            {"source": "main.php:10","sink": "main.php:11"}
+        ]
+    },
+    {
+        "name": "14_object_assigned_by_reference",
+        "vulnerabilities": [
+            {"source": "main.php:10","sink": "main.php:11"}
+        ]
+    },
+    {
+        "name": "15_nested_function",
+        "vulnerabilities": [
+            {"source": "main.php:10","sink": "main.php:7"}
+        ]
+    },
+    {
+        "name": "16_variadic_functions",
+        "vulnerabilities": [
+            {"source": "main.php:12","sink": "main.php:8"}
+        ]
+    },
+    {
+        "name": "17_get_arguments",
+        "vulnerabilities": [
+            {"source": "main.php:12","sink": "main.php:8"}
+        ]
+    },
+    {
+        "name": "18_send_unpack",
+        "vulnerabilities": [
+            {"source": "main.php:11","sink": "main.php:8"}
+        ]
+    },
+    {
+        "name": "19_closures",
+        "vulnerabilities": [
+            {"source": "first_ex.php:6","sink": "first_ex.php:4"},
+            {"source": "second_ex.php:3","sink": "second_ex.php:8"}
+        ]
+    },
+    {
+        "name": "20_use_with_closures",
+        "vulnerabilities": [
+            {"source": "second_ex.php:3","sink": "second_ex.php:9"}
+        ]
+    },
+    {
+        "name": "21_simple_object",
+        "vulnerabilities": [
+            {"source": "main.php:18","sink": "main.php:21"}
+        ]
+    },
+    {
+        "name": "22_assign_object",
+        "vulnerabilities": [
+            {"source": "main.php:10","sink": "main.php:12"}
+        ]
+    },
+    {
+        "name": "23_object_argument",
+        "vulnerabilities": [
+            {"source": "main.php:12","sink": "main.php:15"}
+        ]
+    },
+    {
         "name": "24_new_self",
-        "vulnerability": [
-            {"source": "main.php:6","sink": "main.php:16"}
+        "vulnerabilities": [
+            {"source": "main.php:7","sink": "main.php:19"}
         ]
     },
     {
         "name": "25_clone",
-        "vulnerability": [
-            {"source": "main.php:14","sink": "main.php:11"}
+        "vulnerabilities": [
+            {"source": "main.php:16","sink": "main.php:13"}
         ]
     },
     {
         "name": "26_late_static_binding",
-        "vulnerability": [
-            {"source": "first_ex.php:17","sink": "first_ex.php:13"}
+        "vulnerabilities": [
+            {"source": "first_ex.php:23","sink": "first_ex.php:19"}
         ]
     },
     {
         "name": "27_get_called_class",
-        "vulnerability": [
-            {"source": "main.php:17","sink": "main.php:13"}
+        "vulnerabilities": [
+            {"source": "first_ex.php:23","sink": "first_ex.php:19"}
         ]
     },
     {
         "name": "28_static_methods",
-        "vulnerability": [
-            {"source": "main.php:14","sink": "main.php:15"}
+        "vulnerabilities": [
+            {"source": "main.php:16","sink": "main.php:17"}
         ]
     },
     {
         "name": "29_static_properties",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "main.php:14","sink": "main.php:11"}
         ]
     },
     {
         "name": "30_anonymous_classes",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "main.php:2","sink": "main.php:6"}
         ]
     },
     {
         "name": "31_static_method_variable",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "main.php:10","sink": "main.php:6"}
         ]
     },
     {
         "name": "32_set_overloading",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "main.php:10","sink": "main.php:6"}
         ]
     },
     {
         "name": "33_get_overloading",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "34_isset_overloading",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "35_unset_overloading",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "36_call_overloading",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "37_callstatic_overloading",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "38_invoke",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "39_serialize_unserialize",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "40_trait",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "41_self_methods",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "42_destructor",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "43_tostring_echo_object",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "44_verify_return_type",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "45_static_method_from_variable",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "46_object_to_array",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "47_overriding",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "48_construct_with_inheritance",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "49_static_instance",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "50_throw_exception",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "51_catch_exceptions",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "52_try_catch_finally",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "53_track_error",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "54_generators",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "55_goto",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "56_exit",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "57_JS_redirect",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "58_simple_array",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "59_foreach_with_array",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "60_array_walk",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "61_array_map",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "62_parse_str_function",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "63_substring_replace_function",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "64_preg_match",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "65_system",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "66_superglobals",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "67_odbc",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "68_compact",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "69_create_function",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "70_extract",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "71_array_functions",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "72_procedural_queries",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "73_wrong_sanitizer",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "74_dirname",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "75_buffer",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "76_function_variable",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "77_object_callable",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "78_autoloading_classes",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "79_dynamic_include",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "80_callback_functions",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "81_new_from_variable",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "82_methods_variable",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "83_array_variable_key",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "84_variable_variables",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "85_type_juggling",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "86_implement_interfaces",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "87_static_prop_multiple_child",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "87_unset_element_from_array",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "88_arithmetic_operation_on_index",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "89_check_type",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "90_compare_variables",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "91_object_in_object",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "92_case_sensitive",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "93_call_function_with_concat",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "94_sanitizers",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     },
     {
         "name": "95_DB_query",
-        "vulnerability": [
+        "vulnerabilities": [
             {"source": "","sink": ""}
         ]
     }
