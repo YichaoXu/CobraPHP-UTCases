@@ -435,7 +435,7 @@
     {
         "name": "69_create_function",
         "vulnerabilities": [
-            {"type": 79, "source": "main.php:3","sink": "?.php:1"}
+            {"type": 79, "source": "main.php:3","sink": "*"}
         ]
     },
     {
@@ -447,55 +447,66 @@
     {
         "name": "71_array_functions",
         "vulnerabilities": [
-            {"type": 79, "source": "","sink": ""}
+            {"type": 79, "source": "first_ex.php:3","sink": "first_ex.php:8"}, 
+            {"type": 79, "source": "second_ex.php:3","sink": "second_ex.php:7"}
+
         ]
     },
     {
         "name": "72_procedural_queries",
         "vulnerabilities": [
-            {"type": 79, "source": "","sink": ""}
+            {"type": 89, "source": "first_ex.php:3","sink": "first_ex.php:6"}, 
+            {"type": 89, "source": "second_ex.php:3","sink": "second_ex.php:6"}, 
+            {"type": 89, "source": "third_ex.php:3","sink": "third_ex.php:7"} 
         ]
     },
     {
         "name": "73_wrong_sanitizer",
         "vulnerabilities": [
-            {"type": 79, "source": "","sink": ""}
+            {"type": 89, "source": "first_ex.php:2","sink": "first_ex.php:8"}, 
+            {"type": 89, "source": "second_ex.php:4","sink": "second_ex.php:4"}
         ]
     },
     {
         "name": "74_dirname",
         "vulnerabilities": [
-            {"type": 79, "source": "","sink": ""}
+            {"type": 79, "source": "folder/a.php:3","sink": "ttt/b.php:3"}
         ]
     },
     {
         "name": "75_buffer",
         "vulnerabilities": [
-            {"type": 79, "source": "","sink": ""}
+            {"type": 79, "source": "main.php:3","sink": "main.php:5"}
         ]
     },
     {
         "name": "76_function_variable",
         "vulnerabilities": [
-            {"type": 79, "source": "","sink": ""}
+            {"type": 79, "source": "first_ex.php:7","sink": "first_ex.php:5"}, 
+            {"type": 79, "source": "second_ex.php:7","sink": "second_ex.php:5"}
         ]
     },
     {
         "name": "77_object_callable",
         "vulnerabilities": [
-            {"type": 79, "source": "","sink": ""}
+            {"type": 79, "source": "first_ex.php:16","sink": "first_ex.php:13"}, 
+            {"type": 79, "source": "second_ex.php:16","sink": "second_ex.php:13"}
         ]
     },
     {
         "name": "78_autoloading_classes",
         "vulnerabilities": [
-            {"type": 79, "source": "","sink": ""}
+            {"type": 79, "source": "main.php:6","sink": "MyClass1.php:3"}
         ]
     },
     {
         "name": "79_dynamic_include",
         "vulnerabilities": [
-            {"type": 79, "source": "","sink": ""}
+            {"type": 79, "source": "first_ex/main.php:3","sink": "first_ex/a.php:3"}, 
+            {"type": 79, "source": "second_ex/main.php:3","sink": "second_ex/a.php:3"}, 
+            {"type": 79, "source": "third_ex/main.php:3","sink": "third_ex/b.php:3"}, 
+            {"type": 79, "source": "fourth_ex/main.php:3","sink": "fourth_ex/file1.php:3"}, 
+            {"type": 79, "source": "fifth_ex/main.php:3","sink": "fifth_ex/file1.php:3"}
         ]
     },
     {
