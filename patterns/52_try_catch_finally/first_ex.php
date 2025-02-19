@@ -11,8 +11,8 @@ function foo($b)
         return $bar;
     } finally {
         echo "finally \n";
-        //sanitize_xss
-        $bar = htmlspecialchars($bar);
+        // This value will return from the function
+        return $bar;
     }
 }
 $b = $_GET["p1"];
