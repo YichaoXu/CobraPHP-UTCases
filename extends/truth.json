@@ -1,1299 +1,1299 @@
 [
     {
-        "name": "stmtCtrlFlowChangingCtrlFlowGoto",
-        "vulnerabilities": [
-            {"type": 79, "source": "ctrlFlowGoto.php:3","sink": "ctrlFlowGoto.php:9"}
-        ]
-    },
-    {
-        "name": "exprCallKeywordsFuncKeywordClone",
-        "vulnerabilities": [
-            {"type": 79, "source": "keyword_clone.php:3","sink": "keyword_clone.php:10"},
-            {"type": 79, "source": "keyword_clone.php:3","sink": "keyword_clone.php:5"}
-        ]
-    },
-    {
-        "name": "exprOperationAssignsUnaryNumPreInc",
-        "vulnerabilities": [
-            {"type": 79, "source": "unaryNumPreInc.php:3","sink": "unaryNumPreInc.php:50"},
-            {"type": 79, "source": "unaryNumPreInc.php:3","sink": "unaryNumPreInc.php:30"},
-            {"type": 79, "source": "unaryNumPreInc.php:3","sink": "unaryNumPreInc.php:20"},
-            {"type": 79, "source": "unaryNumPreInc.php:3","sink": "unaryNumPreInc.php:40"},
-            {"type": 79, "source": "unaryNumPreInc.php:3","sink": "unaryNumPreInc.php:10"},
-            {"type": 79, "source": "unaryNumPreInc.php:3","sink": "unaryNumPreInc.php:60"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsBinaryLogicAnd",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryLogicAnd.php:3","sink": "binaryLogicAnd.php:70"},
-            {"type": 79, "source": "binaryLogicAnd.php:3","sink": "binaryLogicAnd.php:60"},
-            {"type": 79, "source": "binaryLogicAnd.php:3","sink": "binaryLogicAnd.php:90"},
-            {"type": 79, "source": "binaryLogicAnd.php:3","sink": "binaryLogicAnd.php:30"},
-            {"type": 79, "source": "binaryLogicAnd.php:3","sink": "binaryLogicAnd.php:100"},
-            {"type": 79, "source": "binaryLogicAnd.php:3","sink": "binaryLogicAnd.php:40"},
-            {"type": 79, "source": "binaryLogicAnd.php:3","sink": "binaryLogicAnd.php:20"},
-            {"type": 79, "source": "binaryLogicAnd.php:3","sink": "binaryLogicAnd.php:80"},
-            {"type": 79, "source": "binaryLogicAnd.php:3","sink": "binaryLogicAnd.php:50"},
-            {"type": 79, "source": "binaryLogicAnd.php:3","sink": "binaryLogicAnd.php:10"}
-        ]
-    },
-    {
-        "name": "exprCallKeywordsFuncKeywordIncludeRequire",
-        "vulnerabilities": [
-            {"type": 79, "source": "requirer.php:3","sink": "requirer.php:10"},
-            {"type": 79, "source": "requirer.php:3","sink": "requiree.php:7"}
-        ]
-    },
-    {
-        "name": "exprCallFunctionLikeMethNorm",
-        "vulnerabilities": [
-            {"type": 79, "source": "meth_norm.php:3","sink": "meth_norm.php:12"}
-        ]
-    },
-    {
-        "name": "stmtCtrlFlowCondLikeCtrlFlowIf",
-        "vulnerabilities": [
-            {"type": 79, "source": "ctrlFlowIf.php:3","sink": "ctrlFlowIf.php:8"}
-        ]
-    },
-    {
-        "name": "exprOperationAssignsUnaryNumPreDec",
-        "vulnerabilities": [
-            {"type": 79, "source": "unaryNumPreDec.php:3","sink": "unaryNumPreDec.php:60"},
-            {"type": 79, "source": "unaryNumPreDec.php:3","sink": "unaryNumPreDec.php:20"},
-            {"type": 79, "source": "unaryNumPreDec.php:3","sink": "unaryNumPreDec.php:10"},
-            {"type": 79, "source": "unaryNumPreDec.php:3","sink": "unaryNumPreDec.php:50"},
-            {"type": 79, "source": "unaryNumPreDec.php:3","sink": "unaryNumPreDec.php:40"},
-            {"type": 79, "source": "unaryNumPreDec.php:3","sink": "unaryNumPreDec.php:30"}
-        ]
-    },
-    {
-        "name": "stmtDeclareVariablesDeclareVarStatic",
-        "vulnerabilities": [
-            {"type": 79, "source": "declareVarStatic.php:3","sink": "declareVarStatic.php:5"}
-        ]
-    },
-    {
-        "name": "exprCallFunctionLikeFuncNestDefs",
-        "vulnerabilities": [
-            {"type": 79, "source": "func_nest_defs.php:3","sink": "func_nest_defs.php:10"},
-            {"type": 79, "source": "func_nest_defs.php:3","sink": "func_nest_defs.php:15"}
-        ]
-    },
-    {
-        "name": "exprCallFunctionLikeFuncNestMixed",
-        "vulnerabilities": []
-    },
-    {
-        "name": "exprOperationAssignsBinaryAssignByRefer",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryAssignByRefer.php:2","sink": "binaryAssignByRefer.php:51"},
-            {"type": 79, "source": "binaryAssignByRefer.php:2","sink": "binaryAssignByRefer.php:19"},
-            {"type": 79, "source": "binaryAssignByRefer.php:2","sink": "binaryAssignByRefer.php:60"},
-            {"type": 79, "source": "binaryAssignByRefer.php:2","sink": "binaryAssignByRefer.php:29"},
-            {"type": 79, "source": "binaryAssignByRefer.php:2","sink": "binaryAssignByRefer.php:10"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsBinaryBitwiseAnd",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryBitwiseAnd.php:3","sink": "binaryBitwiseAnd.php:30"},
-            {"type": 79, "source": "binaryBitwiseAnd.php:3","sink": "binaryBitwiseAnd.php:80"},
-            {"type": 79, "source": "binaryBitwiseAnd.php:3","sink": "binaryBitwiseAnd.php:70"},
-            {"type": 79, "source": "binaryBitwiseAnd.php:3","sink": "binaryBitwiseAnd.php:20"},
-            {"type": 79, "source": "binaryBitwiseAnd.php:3","sink": "binaryBitwiseAnd.php:60"},
-            {"type": 79, "source": "binaryBitwiseAnd.php:3","sink": "binaryBitwiseAnd.php:10"},
-            {"type": 79, "source": "binaryBitwiseAnd.php:3","sink": "binaryBitwiseAnd.php:50"},
-            {"type": 79, "source": "binaryBitwiseAnd.php:3","sink": "binaryBitwiseAnd.php:40"},
-            {"type": 79, "source": "binaryBitwiseAnd.php:3","sink": "binaryBitwiseAnd.php:90"}
-        ]
-    },
-    {
-        "name": "exprSyntaxPeripheralInstanceOf",
-        "vulnerabilities": [
-            {"type": 79, "source": "instanceOf.php:3","sink": "instanceOf.php:11"},
-            {"type": 79, "source": "instanceOf.php:3","sink": "instanceOf.php:15"}
-        ]
-    },
-    {
-        "name": "exprOperationAssignsBinaryAssignByValue",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryAssignByValue.php:2","sink": "binaryAssignByValue.php:61"},
-            {"type": 79, "source": "binaryAssignByValue.php:2","sink": "binaryAssignByValue.php:51"},
-            {"type": 79, "source": "binaryAssignByValue.php:2","sink": "binaryAssignByValue.php:10"},
-            {"type": 79, "source": "binaryAssignByValue.php:2","sink": "binaryAssignByValue.php:19"},
-            {"type": 79, "source": "binaryAssignByValue.php:2","sink": "binaryAssignByValue.php:29"}
-        ]
-    },
-    {
-        "name": "exprOperationAssignsBinaryAssignMul",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryAssignMul.php:3","sink": "binaryAssignMul.php:40"},
-            {"type": 79, "source": "binaryAssignMul.php:3","sink": "binaryAssignMul.php:70"},
-            {"type": 79, "source": "binaryAssignMul.php:3","sink": "binaryAssignMul.php:60"},
-            {"type": 79, "source": "binaryAssignMul.php:3","sink": "binaryAssignMul.php:10"},
-            {"type": 79, "source": "binaryAssignMul.php:3","sink": "binaryAssignMul.php:30"},
-            {"type": 79, "source": "binaryAssignMul.php:3","sink": "binaryAssignMul.php:20"},
-            {"type": 79, "source": "binaryAssignMul.php:3","sink": "binaryAssignMul.php:50"}
-        ]
-    },
-    {
-        "name": "stmtCtrlFlowLoopLikeCtrlFlowDoWhile",
-        "vulnerabilities": [
-            {"type": 79, "source": "ctrlFlowDoWhile.php:3","sink": "ctrlFlowDoWhile.php:11"}
-        ]
-    },
-    {
-        "name": "exprCallFunctionLikeMethInheritNew",
-        "vulnerabilities": [
-            {"type": 79, "source": "meth_inherit_new.php:3","sink": "meth_inherit_new.php:7"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsBinaryBitwiseOr",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryBitwiseOr.php:3","sink": "binaryBitwiseOr.php:70"},
-            {"type": 79, "source": "binaryBitwiseOr.php:3","sink": "binaryBitwiseOr.php:90"},
-            {"type": 79, "source": "binaryBitwiseOr.php:3","sink": "binaryBitwiseOr.php:20"},
-            {"type": 79, "source": "binaryBitwiseOr.php:3","sink": "binaryBitwiseOr.php:10"},
-            {"type": 79, "source": "binaryBitwiseOr.php:3","sink": "binaryBitwiseOr.php:60"},
-            {"type": 79, "source": "binaryBitwiseOr.php:3","sink": "binaryBitwiseOr.php:40"},
-            {"type": 79, "source": "binaryBitwiseOr.php:3","sink": "binaryBitwiseOr.php:50"},
-            {"type": 79, "source": "binaryBitwiseOr.php:3","sink": "binaryBitwiseOr.php:30"},
-            {"type": 79, "source": "binaryBitwiseOr.php:3","sink": "binaryBitwiseOr.php:80"}
-        ]
-    },
-    {
-        "name": "exprCallFunctionLikeMethObjMemReturn",
-        "vulnerabilities": [
-            {"type": 79, "source": "meth_obj_mem_return.php:3","sink": "meth_obj_mem_return.php:7"}
-        ]
-    },
-    {
-        "name": "exprCallFunctionLikeStrParamSpecific",
-        "vulnerabilities": [
-            {"type": 79, "source": "str_param_specific.php:2","sink": "str_param_specific.php:4"},
-            {"type": 79, "source": "str_param_specific.php:2","sink": "str_param_specific.php:9"}
-        ]
-    },
-    {
-        "name": "stmtDeclareClassLikeDeclareInterface",
-        "vulnerabilities": [
-            {"type": 79, "source": "declareInterface.php:3","sink": "declareInterface.php:13"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsBinaryBitwiseXor",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryBitwiseXor.php:3","sink": "binaryBitwiseXor.php:40"},
-            {"type": 79, "source": "binaryBitwiseXor.php:3","sink": "binaryBitwiseXor.php:90"},
-            {"type": 79, "source": "binaryBitwiseXor.php:3","sink": "binaryBitwiseXor.php:60"},
-            {"type": 79, "source": "binaryBitwiseXor.php:3","sink": "binaryBitwiseXor.php:50"},
-            {"type": 79, "source": "binaryBitwiseXor.php:3","sink": "binaryBitwiseXor.php:80"},
-            {"type": 79, "source": "binaryBitwiseXor.php:3","sink": "binaryBitwiseXor.php:30"},
-            {"type": 79, "source": "binaryBitwiseXor.php:3","sink": "binaryBitwiseXor.php:20"},
-            {"type": 79, "source": "binaryBitwiseXor.php:3","sink": "binaryBitwiseXor.php:10"},
-            {"type": 79, "source": "binaryBitwiseXor.php:3","sink": "binaryBitwiseXor.php:70"}
-        ]
-    },
-    {
-        "name": "exprDeclareFuncsLikeDeclareFuncClosure",
-        "vulnerabilities": [
-            {"type": 79, "source": "declareFuncClosure.php:3","sink": "declareFuncClosure.php:83"},
-            {"type": 79, "source": "declareFuncClosure.php:3","sink": "declareFuncClosure.php:67"},
-            {"type": 79, "source": "declareFuncClosure.php:3","sink": "declareFuncClosure.php:51"},
-            {"type": 79, "source": "declareFuncClosure.php:3","sink": "declareFuncClosure.php:25"},
-            {"type": 79, "source": "declareFuncClosure.php:3","sink": "declareFuncClosure.php:37"},
-            {"type": 79, "source": "declareFuncClosure.php:3","sink": "declareFuncClosure.php:12"},
-            {"type": 79, "source": "declareFuncClosure.php:3","sink": "declareFuncClosure.php:104"}
-        ]
-    },
-    {
-        "name": "exprCallKeywordsFuncKeywordIsset",
-        "vulnerabilities": []
-    },
-    {
-        "name": "stmtCtrlFlowTryCatchCtrlFlowTry",
-        "vulnerabilities": [
-            {"type": 79, "source": "ctrlFlowTry.php:3","sink": "ctrlFlowTry.php:5"}
-        ]
-    },
-    {
-        "name": "exprCallFunctionLikeMethObjContainer",
-        "vulnerabilities": [
-            {"type": 79, "source": "meth_obj_container.php:4","sink": "meth_obj_container.php:14"}
-        ]
-    },
-    {
-        "name": "exprCallFunctionLikeStrParamSingle",
-        "vulnerabilities": [
-            {"type": 79, "source": "str_param_single.php:2","sink": "str_param_single.php:4"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsBinaryNullCoalesce",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryNullCoalesce.php:3","sink": "binaryNullCoalesce.php:70"},
-            {"type": 79, "source": "binaryNullCoalesce.php:3","sink": "binaryNullCoalesce.php:94"},
-            {"type": 79, "source": "binaryNullCoalesce.php:3","sink": "binaryNullCoalesce.php:10"},
-            {"type": 79, "source": "binaryNullCoalesce.php:3","sink": "binaryNullCoalesce.php:30"},
-            {"type": 79, "source": "binaryNullCoalesce.php:3","sink": "binaryNullCoalesce.php:60"},
-            {"type": 79, "source": "binaryNullCoalesce.php:3","sink": "binaryNullCoalesce.php:40"},
-            {"type": 79, "source": "binaryNullCoalesce.php:3","sink": "binaryNullCoalesce.php:84"},
-            {"type": 79, "source": "binaryNullCoalesce.php:3","sink": "binaryNullCoalesce.php:50"},
-            {"type": 79, "source": "binaryNullCoalesce.php:3","sink": "binaryNullCoalesce.php:104"},
-            {"type": 79, "source": "binaryNullCoalesce.php:3","sink": "binaryNullCoalesce.php:20"}
-        ]
-    },
-    {
-        "name": "exprOperationAssignsBinaryAssignShiftLeft",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryAssignShiftLeft.php:3","sink": "binaryAssignShiftLeft.php:40"},
-            {"type": 79, "source": "binaryAssignShiftLeft.php:3","sink": "binaryAssignShiftLeft.php:10"},
-            {"type": 79, "source": "binaryAssignShiftLeft.php:3","sink": "binaryAssignShiftLeft.php:50"},
-            {"type": 79, "source": "binaryAssignShiftLeft.php:3","sink": "binaryAssignShiftLeft.php:60"},
-            {"type": 79, "source": "binaryAssignShiftLeft.php:3","sink": "binaryAssignShiftLeft.php:30"},
-            {"type": 79, "source": "binaryAssignShiftLeft.php:3","sink": "binaryAssignShiftLeft.php:20"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsTypeCastArray",
-        "vulnerabilities": [
-            {"type": 79, "source": "typeCastArray.php:3","sink": "typeCastArray.php:82"},
-            {"type": 79, "source": "typeCastArray.php:3","sink": "typeCastArray.php:18"},
-            {"type": 79, "source": "typeCastArray.php:3","sink": "typeCastArray.php:63"},
-            {"type": 79, "source": "typeCastArray.php:3","sink": "typeCastArray.php:72"},
-            {"type": 79, "source": "typeCastArray.php:3","sink": "typeCastArray.php:36"},
-            {"type": 79, "source": "typeCastArray.php:3","sink": "typeCastArray.php:54"},
-            {"type": 79, "source": "typeCastArray.php:3","sink": "typeCastArray.php:45"},
-            {"type": 79, "source": "typeCastArray.php:3","sink": "typeCastArray.php:91"},
-            {"type": 79, "source": "typeCastArray.php:3","sink": "typeCastArray.php:27"},
-            {"type": 79, "source": "typeCastArray.php:3","sink": "typeCastArray.php:9"}
-        ]
-    },
-    {
-        "name": "exprOperationCompareCmpNotIdentical",
-        "vulnerabilities": [
-            {"type": 79, "source": "cmpNotIdentical.php:3","sink": "cmpNotIdentical.php:20"},
-            {"type": 79, "source": "cmpNotIdentical.php:3","sink": "cmpNotIdentical.php:110"},
-            {"type": 79, "source": "cmpNotIdentical.php:3","sink": "cmpNotIdentical.php:60"},
-            {"type": 79, "source": "cmpNotIdentical.php:3","sink": "cmpNotIdentical.php:100"},
-            {"type": 79, "source": "cmpNotIdentical.php:3","sink": "cmpNotIdentical.php:30"},
-            {"type": 79, "source": "cmpNotIdentical.php:3","sink": "cmpNotIdentical.php:40"},
-            {"type": 79, "source": "cmpNotIdentical.php:3","sink": "cmpNotIdentical.php:10"},
-            {"type": 79, "source": "cmpNotIdentical.php:3","sink": "cmpNotIdentical.php:70"},
-            {"type": 79, "source": "cmpNotIdentical.php:3","sink": "cmpNotIdentical.php:50"},
-            {"type": 79, "source": "cmpNotIdentical.php:3","sink": "cmpNotIdentical.php:80"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsBinaryLogicXor",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryLogicXor.php:3","sink": "binaryLogicXor.php:70"},
-            {"type": 79, "source": "binaryLogicXor.php:3","sink": "binaryLogicXor.php:60"},
-            {"type": 79, "source": "binaryLogicXor.php:3","sink": "binaryLogicXor.php:90"},
-            {"type": 79, "source": "binaryLogicXor.php:3","sink": "binaryLogicXor.php:20"},
-            {"type": 79, "source": "binaryLogicXor.php:3","sink": "binaryLogicXor.php:10"},
-            {"type": 79, "source": "binaryLogicXor.php:3","sink": "binaryLogicXor.php:80"},
-            {"type": 79, "source": "binaryLogicXor.php:3","sink": "binaryLogicXor.php:100"},
-            {"type": 79, "source": "binaryLogicXor.php:3","sink": "binaryLogicXor.php:40"},
-            {"type": 79, "source": "binaryLogicXor.php:3","sink": "binaryLogicXor.php:30"},
-            {"type": 79, "source": "binaryLogicXor.php:3","sink": "binaryLogicXor.php:50"}
-        ]
-    },
-    {
-        "name": "stmtCtrlFlowCondLikeCtrlFlowSwitchCase",
-        "vulnerabilities": [
-            {"type": 79, "source": "ctrlFlowSwitchCase.php:3","sink": "ctrlFlowSwitchCase.php:12"}
-        ]
-    },
-    {
-        "name": "exprCallFunctionLikeMethObjMemWeak",
-        "vulnerabilities": []
-    },
-    {
-        "name": "exprCallFunctionLikeMethObjBasic",
-        "vulnerabilities": [
-            {"type": 79, "source": "meth_obj_basic.php:3","sink": "meth_obj_basic.php:9"}
-        ]
-    },
-    {
-        "name": "stmtPhaseSpecialTaskNop",
-        "vulnerabilities": [
-            {"type": 79, "source": "nop.php:3","sink": "nop.php:5"}
-        ]
-    },
-    {
-        "name": "stmtPhaseSpecialTaskDeclare",
-        "vulnerabilities": [
-            {"type": 79, "source": "declare.php:3","sink": "declare.php:8"}
-        ]
-    },
-    {
-        "name": "exprCallKeywordsFuncKeywordEcho",
-        "vulnerabilities": [
-            {"type": 79, "source": "keyword_echo.php:3","sink": "keyword_echo.php:25"},
-            {"type": 79, "source": "keyword_echo.php:3","sink": "keyword_echo.php:5"},
-            {"type": 79, "source": "keyword_echo.php:3","sink": "keyword_echo.php:12"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsBinaryBitwiseShiftLeft",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryBitwiseShiftLeft.php:3","sink": "binaryBitwiseShiftLeft.php:10"},
-            {"type": 79, "source": "binaryBitwiseShiftLeft.php:3","sink": "binaryBitwiseShiftLeft.php:60"},
-            {"type": 79, "source": "binaryBitwiseShiftLeft.php:3","sink": "binaryBitwiseShiftLeft.php:80"},
-            {"type": 79, "source": "binaryBitwiseShiftLeft.php:3","sink": "binaryBitwiseShiftLeft.php:40"},
-            {"type": 79, "source": "binaryBitwiseShiftLeft.php:3","sink": "binaryBitwiseShiftLeft.php:70"},
-            {"type": 79, "source": "binaryBitwiseShiftLeft.php:3","sink": "binaryBitwiseShiftLeft.php:20"},
-            {"type": 79, "source": "binaryBitwiseShiftLeft.php:3","sink": "binaryBitwiseShiftLeft.php:30"},
-            {"type": 79, "source": "binaryBitwiseShiftLeft.php:3","sink": "binaryBitwiseShiftLeft.php:50"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsBinaryNumMod",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryNumMod.php:3","sink": "binaryNumMod.php:20"},
-            {"type": 79, "source": "binaryNumMod.php:3","sink": "binaryNumMod.php:40"},
-            {"type": 79, "source": "binaryNumMod.php:3","sink": "binaryNumMod.php:70"},
-            {"type": 79, "source": "binaryNumMod.php:3","sink": "binaryNumMod.php:50"},
-            {"type": 79, "source": "binaryNumMod.php:3","sink": "binaryNumMod.php:10"},
-            {"type": 79, "source": "binaryNumMod.php:3","sink": "binaryNumMod.php:30"},
-            {"type": 79, "source": "binaryNumMod.php:3","sink": "binaryNumMod.php:60"},
-            {"type": 79, "source": "binaryNumMod.php:3","sink": "binaryNumMod.php:80"}
-        ]
-    },
-    {
-        "name": "exprFetchValConstantFetchconstmagicdir",
-        "vulnerabilities": [
-            {"type": 79, "source": "fetchConstMagicDir.php:3","sink": "fetchConstMagicDir.php:11"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsTypeCastBoolean",
-        "vulnerabilities": [
-            {"type": 79, "source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:117"},
-            {"type": 79, "source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:45"},
-            {"type": 79, "source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:72"},
-            {"type": 79, "source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:81"},
-            {"type": 79, "source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:90"},
-            {"type": 79, "source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:9"},
-            {"type": 79, "source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:99"},
-            {"type": 79, "source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:36"},
-            {"type": 79, "source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:18"},
-            {"type": 79, "source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:27"},
-            {"type": 79, "source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:108"},
-            {"type": 79, "source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:63"},
-            {"type": 79, "source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:54"}
-        ]
-    },
-    {
-        "name": "stmtCtrlFlowChangingCtrlFlowReturn",
-        "vulnerabilities": [
-            {"type": 79, "source": "ctrlFlowReturn.php:3","sink": "ctrlFlowReturn.php:12"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsUnaryBitwiseNot",
-        "vulnerabilities": [
-            {"type": 79, "source": "unaryBitwiseNot.php:3","sink": "unaryBitwiseNot.php:30"},
-            {"type": 79, "source": "unaryBitwiseNot.php:3","sink": "unaryBitwiseNot.php:40"},
-            {"type": 79, "source": "unaryBitwiseNot.php:3","sink": "unaryBitwiseNot.php:20"},
-            {"type": 79, "source": "unaryBitwiseNot.php:3","sink": "unaryBitwiseNot.php:50"},
-            {"type": 79, "source": "unaryBitwiseNot.php:3","sink": "unaryBitwiseNot.php:10"}
-        ]
-    },
-    {
-        "name": "exprCallFunctionLikeMethStatic",
-        "vulnerabilities": [
-            {"type": 79, "source": "meth_static.php:3","sink": "meth_static.php:12"}
-        ]
-    },
-    {
-        "name": "stmtDeclareClassLikeDeclareEnum",
-        "vulnerabilities": [
-            {"type": 79, "source": "declareEnum.php:3","sink": "declareEnum.php:7"}
-        ]
-    },
-    {
-        "name": "exprFetchValConstantFetchConstMagicFile",
-        "vulnerabilities": [
-            {"type": 79, "source": "fetchConstMagicFile.php:3","sink": "fetchConstMagicFile.php:9"}
-        ]
-    },
-    {
-        "name": "stmtPhaseSpecialTaskBlock",
-        "vulnerabilities": [
-            {"type": 79, "source": "block.php:4","sink": "block.php:8"}
-        ]
-    },
-    {
-        "name": "stmtDeclareFuncsLikeDeclareFuncNorm",
-        "vulnerabilities": [
-            {"type": 79, "source": "declareFuncNorm.php:3","sink": "declareFuncNorm.php:7"}
-        ]
-    },
-    {
-        "name": "stmtPhaseSpecialTaskNamespaceUse",
-        "vulnerabilities": [
-            {"type": 79, "source": "namespaceUse.php:3","sink": "namespaceUse.php:13"}
-        ]
-    },
-    {
-        "name": "stmtDeclareClassLikeDeclareClass",
-        "vulnerabilities": [
-            {"type": 79, "source": "declareClass.php:3","sink": "declareClass.php:7"}
-        ]
-    },
-    {
-        "name": "stmtDeclareFuncsLikeDeclareSrcFile",
-        "vulnerabilities": []
-    },
-    {
-        "name": "stmtCtrlFlowLoopLikeCtrlFlowFor",
-        "vulnerabilities": [
-            {"type": 79, "source": "ctrlFlowFor.php:3","sink": "ctrlFlowFor.php:11"}
-        ]
-    },
-    {
-        "name": "exprCallFunctionLikeMethParamFunc",
-        "vulnerabilities": [
-            {"type": 79, "source": "meth_param_func.php:3","sink": "meth_param_func.php:12"}
-        ]
-    },
-    {
-        "name": "stmtCtrlFlowChangingCtrlFlowContinue",
-        "vulnerabilities": [
-            {"type": 79, "source": "ctrlFlowContinue.php:3","sink": "ctrlFlowContinue.php:17"}
-        ]
-    },
-    {
-        "name": "exprSyntaxPeripheralErrorThrow",
-        "vulnerabilities": [
-            {"type": 79, "source": "errorThrow.php:3","sink": "errorThrow.php:17"}
-        ]
-    },
-    {
-        "name": "exprCallKeywordsFuncKeywordExit",
-        "vulnerabilities": [
-            {"type": 79, "source": "keyword_exit.php:3","sink": "keyword_exit.php:6"}
-        ]
-    },
-    {
-        "name": "exprCallFunctionLikeStrParamDeep",
-        "vulnerabilities": [
-            {"type": 79, "source": "str_param_deep.php:2","sink": "str_param_deep.php:28"}
-        ]
-    },
-    {
-        "name": "stmtCtrlFlowTryCatchCtrlFlowCatch",
-        "vulnerabilities": [
-            {"type": 79, "source": "ctrlFlowCatch.php:3","sink": "ctrlFlowCatch.php:13"},
-            {"type": 79, "source": "ctrlFlowCatch.php:3","sink": "ctrlFlowCatch.php:10"}
-        ]
-    },
-    {
-        "name": "exprOperationAssignsBinaryAssignBitwiseOr",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryAssignBitwiseOr.php:3","sink": "binaryAssignBitwiseOr.php:50"},
-            {"type": 79, "source": "binaryAssignBitwiseOr.php:3","sink": "binaryAssignBitwiseOr.php:10"},
-            {"type": 79, "source": "binaryAssignBitwiseOr.php:3","sink": "binaryAssignBitwiseOr.php:40"},
-            {"type": 79, "source": "binaryAssignBitwiseOr.php:3","sink": "binaryAssignBitwiseOr.php:20"},
-            {"type": 79, "source": "binaryAssignBitwiseOr.php:3","sink": "binaryAssignBitwiseOr.php:30"}
-        ]
-    },
-    {
-        "name": "exprCallFunctionLikeMethInheritXmem",
-        "vulnerabilities": [
-            {"type": 79, "source": "meth_inherit_xmem.php:3","sink": "meth_inherit_xmem.php:31"},
-            {"type": 79, "source": "meth_inherit_xmem.php:3","sink": "meth_inherit_xmem.php:17"}
-        ]
-    },
-    {
-        "name": "stmtPhaseSpecialTaskEcho",
-        "vulnerabilities": [
-            {"type": 79, "source": "echo.php:3","sink": "echo.php:5"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsBinaryStrConcat",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryStrConcat.php:3","sink": "binaryStrConcat.php:6"}
-        ]
-    },
-    {
-        "name": "exprOperationAssignsBinaryAssignDiv",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryAssignDiv.php:3","sink": "binaryAssignDiv.php:10"},
-            {"type": 79, "source": "binaryAssignDiv.php:3","sink": "binaryAssignDiv.php:40"},
-            {"type": 79, "source": "binaryAssignDiv.php:3","sink": "binaryAssignDiv.php:30"},
-            {"type": 79, "source": "binaryAssignDiv.php:3","sink": "binaryAssignDiv.php:60"},
-            {"type": 79, "source": "binaryAssignDiv.php:3","sink": "binaryAssignDiv.php:50"},
-            {"type": 79, "source": "binaryAssignDiv.php:3","sink": "binaryAssignDiv.php:20"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsBinaryBitwiseShiftRight",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryBitwiseShiftRight.php:3","sink": "binaryBitwiseShiftRight.php:70"},
-            {"type": 79, "source": "binaryBitwiseShiftRight.php:3","sink": "binaryBitwiseShiftRight.php:10"},
-            {"type": 79, "source": "binaryBitwiseShiftRight.php:3","sink": "binaryBitwiseShiftRight.php:80"},
-            {"type": 79, "source": "binaryBitwiseShiftRight.php:3","sink": "binaryBitwiseShiftRight.php:20"},
-            {"type": 79, "source": "binaryBitwiseShiftRight.php:3","sink": "binaryBitwiseShiftRight.php:50"},
-            {"type": 79, "source": "binaryBitwiseShiftRight.php:3","sink": "binaryBitwiseShiftRight.php:60"},
-            {"type": 79, "source": "binaryBitwiseShiftRight.php:3","sink": "binaryBitwiseShiftRight.php:40"},
-            {"type": 79, "source": "binaryBitwiseShiftRight.php:3","sink": "binaryBitwiseShiftRight.php:30"}
-        ]
-    },
-    {
-        "name": "exprSyntaxPeripheralErrorSuppress",
-        "vulnerabilities": [
-            {"type": 79, "source": "errorSuppress.php:3","sink": "errorSuppress.php:17"}
-        ]
-    },
-    {
-        "name": "stmtPhaseSpecialTaskExpression",
-        "vulnerabilities": [
-            {"type": 79, "source": "expression.php:3","sink": "expression.php:5"}
-        ]
-    },
-    {
-        "name": "exprCallFunctionLikeMethObjMemSelf",
-        "vulnerabilities": [
-            {"type": 79, "source": "meth_obj_mem_self.php:3","sink": "meth_obj_mem_self.php:7"},
-            {"type": 79, "source": "meth_obj_mem_self.php:3","sink": "meth_obj_mem_self.php:13"}
-        ]
-    },
-    {
-        "name": "exprCallKeywordsFuncKeywordEmpty",
-        "vulnerabilities": []
-    },
-    {
-        "name": "exprFetchValDeclaredFetchVarVariables",
-        "vulnerabilities": [
-            {"type": 79, "source": "fetchVarVariables.php:3","sink": "fetchVarVariables.php:8"},
-            {"type": 79, "source": "fetchVarVariables.php:3","sink": "fetchVarVariables.php:32"},
-            {"type": 79, "source": "fetchVarVariables.php:3","sink": "fetchVarVariables.php:24"},
-            {"type": 79, "source": "fetchVarVariables.php:3","sink": "fetchVarVariables.php:40"},
-            {"type": 79, "source": "fetchVarVariables.php:3","sink": "fetchVarVariables.php:16"}
-        ]
-    },
-    {
-        "name": "exprCallFunctionLikeMethObjMemDeep",
-        "vulnerabilities": [
-            {"type": 79, "source": "meth_obj_mem_deep.php:3","sink": "meth_obj_mem_deep.php:18"}
-        ]
-    },
-    {
-        "name": "exprOperationAssignsBinaryAssignConcat",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryAssignConcat.php:3","sink": "binaryAssignConcat.php:20"},
-            {"type": 79, "source": "binaryAssignConcat.php:3","sink": "binaryAssignConcat.php:75"},
-            {"type": 79, "source": "binaryAssignConcat.php:3","sink": "binaryAssignConcat.php:50"},
-            {"type": 79, "source": "binaryAssignConcat.php:3","sink": "binaryAssignConcat.php:10"},
-            {"type": 79, "source": "binaryAssignConcat.php:3","sink": "binaryAssignConcat.php:40"},
-            {"type": 79, "source": "binaryAssignConcat.php:3","sink": "binaryAssignConcat.php:30"}
-        ]
-    },
-    {
-        "name": "stmtCtrlFlowChangingCtrlFlowBreak",
-        "vulnerabilities": [
-            {"type": 79, "source": "ctrlFlowBreak.php:3","sink": "ctrlFlowBreak.php:17"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsTypeCastDouble",
-        "vulnerabilities": [
-            {"type": 79, "source": "typeCastDouble.php:3","sink": "typeCastDouble.php:108"},
-            {"type": 79, "source": "typeCastDouble.php:3","sink": "typeCastDouble.php:99"},
-            {"type": 79, "source": "typeCastDouble.php:3","sink": "typeCastDouble.php:18"},
-            {"type": 79, "source": "typeCastDouble.php:3","sink": "typeCastDouble.php:36"},
-            {"type": 79, "source": "typeCastDouble.php:3","sink": "typeCastDouble.php:27"},
-            {"type": 79, "source": "typeCastDouble.php:3","sink": "typeCastDouble.php:117"},
-            {"type": 79, "source": "typeCastDouble.php:3","sink": "typeCastDouble.php:90"},
-            {"type": 79, "source": "typeCastDouble.php:3","sink": "typeCastDouble.php:54"},
-            {"type": 79, "source": "typeCastDouble.php:3","sink": "typeCastDouble.php:72"},
-            {"type": 79, "source": "typeCastDouble.php:3","sink": "typeCastDouble.php:63"},
-            {"type": 79, "source": "typeCastDouble.php:3","sink": "typeCastDouble.php:126"},
-            {"type": 79, "source": "typeCastDouble.php:3","sink": "typeCastDouble.php:81"},
-            {"type": 79, "source": "typeCastDouble.php:3","sink": "typeCastDouble.php:45"},
-            {"type": 79, "source": "typeCastDouble.php:3","sink": "typeCastDouble.php:9"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsBinaryLogicOr",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryLogicOr.php:3","sink": "binaryLogicOr.php:50"},
-            {"type": 79, "source": "binaryLogicOr.php:3","sink": "binaryLogicOr.php:80"},
-            {"type": 79, "source": "binaryLogicOr.php:3","sink": "binaryLogicOr.php:90"},
-            {"type": 79, "source": "binaryLogicOr.php:3","sink": "binaryLogicOr.php:100"},
-            {"type": 79, "source": "binaryLogicOr.php:3","sink": "binaryLogicOr.php:70"},
-            {"type": 79, "source": "binaryLogicOr.php:3","sink": "binaryLogicOr.php:10"},
-            {"type": 79, "source": "binaryLogicOr.php:3","sink": "binaryLogicOr.php:40"},
-            {"type": 79, "source": "binaryLogicOr.php:3","sink": "binaryLogicOr.php:20"},
-            {"type": 79, "source": "binaryLogicOr.php:3","sink": "binaryLogicOr.php:60"},
-            {"type": 79, "source": "binaryLogicOr.php:3","sink": "binaryLogicOr.php:30"}
-        ]
-    },
-    {
-        "name": "exprCallFunctionLikeMethNew",
-        "vulnerabilities": [
-            {"type": 79, "source": "meth_new.php:3","sink": "meth_new.php:7"}
-        ]
-    },
-    {
-        "name": "exprOperationCompareCmpGreaterOrEqual",
-        "vulnerabilities": [
-            {"type": 79, "source": "cmpGreaterOrEqual.php:3","sink": "cmpGreaterOrEqual.php:20"},
-            {"type": 79, "source": "cmpGreaterOrEqual.php:3","sink": "cmpGreaterOrEqual.php:80"},
-            {"type": 79, "source": "cmpGreaterOrEqual.php:3","sink": "cmpGreaterOrEqual.php:90"},
-            {"type": 79, "source": "cmpGreaterOrEqual.php:3","sink": "cmpGreaterOrEqual.php:10"},
-            {"type": 79, "source": "cmpGreaterOrEqual.php:3","sink": "cmpGreaterOrEqual.php:40"},
-            {"type": 79, "source": "cmpGreaterOrEqual.php:3","sink": "cmpGreaterOrEqual.php:100"},
-            {"type": 79, "source": "cmpGreaterOrEqual.php:3","sink": "cmpGreaterOrEqual.php:60"},
-            {"type": 79, "source": "cmpGreaterOrEqual.php:3","sink": "cmpGreaterOrEqual.php:30"},
-            {"type": 79, "source": "cmpGreaterOrEqual.php:3","sink": "cmpGreaterOrEqual.php:50"},
-            {"type": 79, "source": "cmpGreaterOrEqual.php:3","sink": "cmpGreaterOrEqual.php:70"}
-        ]
-    },
-    {
-        "name": "exprOperationAssignsBinaryAssignShiftRight",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryAssignShiftRight.php:3","sink": "binaryAssignShiftRight.php:40"},
-            {"type": 79, "source": "binaryAssignShiftRight.php:3","sink": "binaryAssignShiftRight.php:20"},
-            {"type": 79, "source": "binaryAssignShiftRight.php:3","sink": "binaryAssignShiftRight.php:60"},
-            {"type": 79, "source": "binaryAssignShiftRight.php:3","sink": "binaryAssignShiftRight.php:10"},
-            {"type": 79, "source": "binaryAssignShiftRight.php:3","sink": "binaryAssignShiftRight.php:30"},
-            {"type": 79, "source": "binaryAssignShiftRight.php:3","sink": "binaryAssignShiftRight.php:50"}
-        ]
-    },
-    {
-        "name": "exprOperationAssignsBinaryAssignPower",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryAssignPower.php:3","sink": "binaryAssignPower.php:30"},
-            {"type": 79, "source": "binaryAssignPower.php:3","sink": "binaryAssignPower.php:20"},
-            {"type": 79, "source": "binaryAssignPower.php:3","sink": "binaryAssignPower.php:10"},
-            {"type": 79, "source": "binaryAssignPower.php:3","sink": "binaryAssignPower.php:60"},
-            {"type": 79, "source": "binaryAssignPower.php:3","sink": "binaryAssignPower.php:70"},
-            {"type": 79, "source": "binaryAssignPower.php:3","sink": "binaryAssignPower.php:40"},
-            {"type": 79, "source": "binaryAssignPower.php:3","sink": "binaryAssignPower.php:50"}
-        ]
-    },
-    {
-        "name": "exprOperationAssignsBinaryAssignMinus",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryAssignMinus.php:3","sink": "binaryAssignMinus.php:10"},
-            {"type": 79, "source": "binaryAssignMinus.php:3","sink": "binaryAssignMinus.php:30"},
-            {"type": 79, "source": "binaryAssignMinus.php:3","sink": "binaryAssignMinus.php:70"},
-            {"type": 79, "source": "binaryAssignMinus.php:3","sink": "binaryAssignMinus.php:40"},
-            {"type": 79, "source": "binaryAssignMinus.php:3","sink": "binaryAssignMinus.php:50"},
-            {"type": 79, "source": "binaryAssignMinus.php:3","sink": "binaryAssignMinus.php:60"},
-            {"type": 79, "source": "binaryAssignMinus.php:3","sink": "binaryAssignMinus.php:20"}
-        ]
-    },
-    {
-        "name": "exprFetchValDeclaredFetchVarPropertyArrDim",
-        "vulnerabilities": [
-            {"type": 79, "source": "fetchVarPropertyArrDim.php:3","sink": "fetchVarPropertyArrDim.php:46"},
-            {"type": 79, "source": "fetchVarPropertyArrDim.php:3","sink": "fetchVarPropertyArrDim.php:55"},
-            {"type": 79, "source": "fetchVarPropertyArrDim.php:3","sink": "fetchVarPropertyArrDim.php:39"},
-            {"type": 79, "source": "fetchVarPropertyArrDim.php:3","sink": "fetchVarPropertyArrDim.php:17"},
-            {"type": 79, "source": "fetchVarPropertyArrDim.php:3","sink": "fetchVarPropertyArrDim.php:25"},
-            {"type": 79, "source": "fetchVarPropertyArrDim.php:3","sink": "fetchVarPropertyArrDim.php:32"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsTypeCastUnset",
-        "vulnerabilities": [
-            {"type": 79, "source": "typeCastUnset.php:3","sink": "typeCastUnset.php:45"},
-            {"type": 79, "source": "typeCastUnset.php:3","sink": "typeCastUnset.php:72"},
-            {"type": 79, "source": "typeCastUnset.php:3","sink": "typeCastUnset.php:63"},
-            {"type": 79, "source": "typeCastUnset.php:3","sink": "typeCastUnset.php:27"},
-            {"type": 79, "source": "typeCastUnset.php:3","sink": "typeCastUnset.php:36"},
-            {"type": 79, "source": "typeCastUnset.php:3","sink": "typeCastUnset.php:9"},
-            {"type": 79, "source": "typeCastUnset.php:3","sink": "typeCastUnset.php:18"},
-            {"type": 79, "source": "typeCastUnset.php:3","sink": "typeCastUnset.php:54"}
-        ]
-    },
-    {
-        "name": "stmtDeclareVariablesDeclareConstGlobal",
-        "vulnerabilities": [
-            {"type": 79, "source": "declareConstGlobal.php:3","sink": "declareConstGlobal.php:7"}
-        ]
-    },
-    {
-        "name": "stmtPhaseSpecialTaskNamespace",
-        "vulnerabilities": [
-            {"type": 79, "source": "namespace.php:3","sink": "namespace.php:6"}
-        ]
-    },
-    {
-        "name": "exprOperationAssignsUnaryNumPostDec",
-        "vulnerabilities": [
-            {"type": 79, "source": "unaryNumPostDec.php:3","sink": "unaryNumPostDec.php:40"},
-            {"type": 79, "source": "unaryNumPostDec.php:3","sink": "unaryNumPostDec.php:10"},
-            {"type": 79, "source": "unaryNumPostDec.php:3","sink": "unaryNumPostDec.php:20"},
-            {"type": 79, "source": "unaryNumPostDec.php:3","sink": "unaryNumPostDec.php:60"},
-            {"type": 79, "source": "unaryNumPostDec.php:3","sink": "unaryNumPostDec.php:50"},
-            {"type": 79, "source": "unaryNumPostDec.php:3","sink": "unaryNumPostDec.php:30"}
-        ]
-    },
-    {
-        "name": "exprOperationCompareCmpGreater",
-        "vulnerabilities": [
-            {"type": 79, "source": "cmpGreater.php:3","sink": "cmpGreater.php:90"},
-            {"type": 79, "source": "cmpGreater.php:3","sink": "cmpGreater.php:60"},
-            {"type": 79, "source": "cmpGreater.php:3","sink": "cmpGreater.php:10"},
-            {"type": 79, "source": "cmpGreater.php:3","sink": "cmpGreater.php:80"},
-            {"type": 79, "source": "cmpGreater.php:3","sink": "cmpGreater.php:20"},
-            {"type": 79, "source": "cmpGreater.php:3","sink": "cmpGreater.php:50"},
-            {"type": 79, "source": "cmpGreater.php:3","sink": "cmpGreater.php:100"},
-            {"type": 79, "source": "cmpGreater.php:3","sink": "cmpGreater.php:30"},
-            {"type": 79, "source": "cmpGreater.php:3","sink": "cmpGreater.php:70"},
-            {"type": 79, "source": "cmpGreater.php:3","sink": "cmpGreater.php:40"}
-        ]
-    },
-    {
-        "name": "stmtDeclareClassLikeDeclareTrait",
-        "vulnerabilities": [
-            {"type": 79, "source": "declareTrait.php:3","sink": "declareTrait.php:6"}
-        ]
-    },
-    {
-        "name": "exprCallFunctionLikeStrParamMultiple",
-        "vulnerabilities": [
-            {"type": 79, "source": "str_param_multiple.php:3","sink": "str_param_multiple.php:5"}
-        ]
-    },
-    {
-        "name": "exprFetchValDeclaredFetchVarPropertyStatic",
-        "vulnerabilities": [
-            {"type": 79, "source": "fetchVarPropertyStatic.php:3","sink": "fetchVarPropertyStatic.php:53"},
-            {"type": 79, "source": "fetchVarPropertyStatic.php:3","sink": "fetchVarPropertyStatic.php:86"},
-            {"type": 79, "source": "fetchVarPropertyStatic.php:3","sink": "fetchVarPropertyStatic.php:34"},
-            {"type": 79, "source": "fetchVarPropertyStatic.php:3","sink": "fetchVarPropertyStatic.php:66"},
-            {"type": 79, "source": "fetchVarPropertyStatic.php:3","sink": "fetchVarPropertyStatic.php:47"},
-            {"type": 79, "source": "fetchVarPropertyStatic.php:3","sink": "fetchVarPropertyStatic.php:79"},
-            {"type": 79, "source": "fetchVarPropertyStatic.php:3","sink": "fetchVarPropertyStatic.php:60"},
-            {"type": 79, "source": "fetchVarPropertyStatic.php:3","sink": "fetchVarPropertyStatic.php:73"},
-            {"type": 79, "source": "fetchVarPropertyStatic.php:3","sink": "fetchVarPropertyStatic.php:40"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsTypeCastObject",
-        "vulnerabilities": [
-            {"type": 79, "source": "typeCastObject.php:3","sink": "typeCastObject.php:36"},
-            {"type": 79, "source": "typeCastObject.php:3","sink": "typeCastObject.php:45"},
-            {"type": 79, "source": "typeCastObject.php:3","sink": "typeCastObject.php:90"},
-            {"type": 79, "source": "typeCastObject.php:3","sink": "typeCastObject.php:63"},
-            {"type": 79, "source": "typeCastObject.php:3","sink": "typeCastObject.php:9"},
-            {"type": 79, "source": "typeCastObject.php:3","sink": "typeCastObject.php:81"},
-            {"type": 79, "source": "typeCastObject.php:3","sink": "typeCastObject.php:72"},
-            {"type": 79, "source": "typeCastObject.php:3","sink": "typeCastObject.php:54"},
-            {"type": 79, "source": "typeCastObject.php:3","sink": "typeCastObject.php:18"},
-            {"type": 79, "source": "typeCastObject.php:3","sink": "typeCastObject.php:27"}
-        ]
-    },
-    {
-        "name": "exprOperationCompareCmpSpaceShip",
-        "vulnerabilities": [
-            {"type": 79, "source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:70"},
-            {"type": 79, "source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:100"},
-            {"type": 79, "source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:110"},
-            {"type": 79, "source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:30"},
-            {"type": 79, "source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:60"},
-            {"type": 79, "source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:40"},
-            {"type": 79, "source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:90"},
-            {"type": 79, "source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:80"},
-            {"type": 79, "source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:10"},
-            {"type": 79, "source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:50"},
-            {"type": 79, "source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:20"},
-            {"type": 79, "source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:120"}
-        ]
-    },
-    {
-        "name": "exprOperationAssignsUnaryNumPostInc",
-        "vulnerabilities": [
-            {"type": 79, "source": "unaryNumPostInc.php:3","sink": "unaryNumPostInc.php:60"},
-            {"type": 79, "source": "unaryNumPostInc.php:3","sink": "unaryNumPostInc.php:10"},
-            {"type": 79, "source": "unaryNumPostInc.php:3","sink": "unaryNumPostInc.php:40"},
-            {"type": 79, "source": "unaryNumPostInc.php:3","sink": "unaryNumPostInc.php:20"},
-            {"type": 79, "source": "unaryNumPostInc.php:3","sink": "unaryNumPostInc.php:50"},
-            {"type": 79, "source": "unaryNumPostInc.php:3","sink": "unaryNumPostInc.php:30"}
-        ]
-    },
-    {
-        "name": "exprOperationCompareCmpSmaller",
-        "vulnerabilities": [
-            {"type": 79, "source": "cmpSmaller.php:3","sink": "cmpSmaller.php:60"},
-            {"type": 79, "source": "cmpSmaller.php:3","sink": "cmpSmaller.php:80"},
-            {"type": 79, "source": "cmpSmaller.php:3","sink": "cmpSmaller.php:30"},
-            {"type": 79, "source": "cmpSmaller.php:3","sink": "cmpSmaller.php:10"},
-            {"type": 79, "source": "cmpSmaller.php:3","sink": "cmpSmaller.php:100"},
-            {"type": 79, "source": "cmpSmaller.php:3","sink": "cmpSmaller.php:40"},
-            {"type": 79, "source": "cmpSmaller.php:3","sink": "cmpSmaller.php:50"},
-            {"type": 79, "source": "cmpSmaller.php:3","sink": "cmpSmaller.php:70"},
-            {"type": 79, "source": "cmpSmaller.php:3","sink": "cmpSmaller.php:90"},
-            {"type": 79, "source": "cmpSmaller.php:3","sink": "cmpSmaller.php:20"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsBinaryNumPlus",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryNumPlus.php:3","sink": "binaryNumPlus.php:50"},
-            {"type": 79, "source": "binaryNumPlus.php:3","sink": "binaryNumPlus.php:20"},
-            {"type": 79, "source": "binaryNumPlus.php:3","sink": "binaryNumPlus.php:70"},
-            {"type": 79, "source": "binaryNumPlus.php:3","sink": "binaryNumPlus.php:80"},
-            {"type": 79, "source": "binaryNumPlus.php:3","sink": "binaryNumPlus.php:90"},
-            {"type": 79, "source": "binaryNumPlus.php:3","sink": "binaryNumPlus.php:100"},
-            {"type": 79, "source": "binaryNumPlus.php:3","sink": "binaryNumPlus.php:60"},
-            {"type": 79, "source": "binaryNumPlus.php:3","sink": "binaryNumPlus.php:30"},
-            {"type": 79, "source": "binaryNumPlus.php:3","sink": "binaryNumPlus.php:10"},
-            {"type": 79, "source": "binaryNumPlus.php:3","sink": "binaryNumPlus.php:40"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsBinaryNumMul",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryNumMul.php:3","sink": "binaryNumMul.php:50"},
-            {"type": 79, "source": "binaryNumMul.php:3","sink": "binaryNumMul.php:70"},
-            {"type": 79, "source": "binaryNumMul.php:3","sink": "binaryNumMul.php:80"},
-            {"type": 79, "source": "binaryNumMul.php:3","sink": "binaryNumMul.php:60"},
-            {"type": 79, "source": "binaryNumMul.php:3","sink": "binaryNumMul.php:10"},
-            {"type": 79, "source": "binaryNumMul.php:3","sink": "binaryNumMul.php:20"},
-            {"type": 79, "source": "binaryNumMul.php:3","sink": "binaryNumMul.php:100"},
-            {"type": 79, "source": "binaryNumMul.php:3","sink": "binaryNumMul.php:90"},
-            {"type": 79, "source": "binaryNumMul.php:3","sink": "binaryNumMul.php:40"},
-            {"type": 79, "source": "binaryNumMul.php:3","sink": "binaryNumMul.php:30"}
-        ]
-    },
-    {
-        "name": "stmtCtrlFlowCondLikeCtrlFlowSwitch",
-        "vulnerabilities": [
-            {"type": 79, "source": "ctrlFlowSwitch.php:3","sink": "ctrlFlowSwitch.php:9"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsTypeCastString",
-        "vulnerabilities": [
-            {"type": 79, "source": "typeCastString.php:3","sink": "typeCastString.php:90"},
-            {"type": 79, "source": "typeCastString.php:3","sink": "typeCastString.php:72"},
-            {"type": 79, "source": "typeCastString.php:3","sink": "typeCastString.php:9"},
-            {"type": 79, "source": "typeCastString.php:3","sink": "typeCastString.php:99"},
-            {"type": 79, "source": "typeCastString.php:3","sink": "typeCastString.php:29"},
-            {"type": 79, "source": "typeCastString.php:3","sink": "typeCastString.php:63"},
-            {"type": 79, "source": "typeCastString.php:3","sink": "typeCastString.php:47"},
-            {"type": 79, "source": "typeCastString.php:3","sink": "typeCastString.php:38"},
-            {"type": 79, "source": "typeCastString.php:3","sink": "typeCastString.php:56"},
-            {"type": 79, "source": "typeCastString.php:3","sink": "typeCastString.php:81"},
-            {"type": 79, "source": "typeCastString.php:3","sink": "typeCastString.php:18"}
-        ]
-    },
-    {
-        "name": "stmtCtrlFlowChangingCtrlFlowThrow",
-        "vulnerabilities": [
-            {"type": 79, "source": "ctrlFlowThrow.php:3","sink": "ctrlFlowThrow.php:5"}
-        ]
-    },
-    {
-        "name": "stmtDeclareVariablesDeclareProperty",
-        "vulnerabilities": [
-            {"type": 79, "source": "declareProperty.php:3","sink": "declareProperty.php:5"}
-        ]
-    },
-    {
-        "name": "stmtCtrlFlowLoopLikeCtrlFlowForEach",
-        "vulnerabilities": [
-            {"type": 79, "source": "ctrlFlowForEach.php:3","sink": "ctrlFlowForEach.php:11"}
-        ]
-    },
-    {
-        "name": "exprCallFunctionLikeMethObjMem",
-        "vulnerabilities": [
-            {"type": 79, "source": "meth_obj_mem.php:3","sink": "meth_obj_mem.php:7"}
-        ]
-    },
-    {
-        "name": "exprSyntaxPeripheralValueYieldFrom",
-        "vulnerabilities": []
-    },
-    {
-        "name": "exprOperationCompareCmpSmallerOrEqual",
-        "vulnerabilities": [
-            {"type": 79, "source": "cmpSmallerOrEqual.php:3","sink": "cmpSmallerOrEqual.php:10"},
-            {"type": 79, "source": "cmpSmallerOrEqual.php:3","sink": "cmpSmallerOrEqual.php:70"},
-            {"type": 79, "source": "cmpSmallerOrEqual.php:3","sink": "cmpSmallerOrEqual.php:80"},
-            {"type": 79, "source": "cmpSmallerOrEqual.php:3","sink": "cmpSmallerOrEqual.php:50"},
-            {"type": 79, "source": "cmpSmallerOrEqual.php:3","sink": "cmpSmallerOrEqual.php:60"},
-            {"type": 79, "source": "cmpSmallerOrEqual.php:3","sink": "cmpSmallerOrEqual.php:100"},
-            {"type": 79, "source": "cmpSmallerOrEqual.php:3","sink": "cmpSmallerOrEqual.php:20"},
-            {"type": 79, "source": "cmpSmallerOrEqual.php:3","sink": "cmpSmallerOrEqual.php:40"},
-            {"type": 79, "source": "cmpSmallerOrEqual.php:3","sink": "cmpSmallerOrEqual.php:90"},
-            {"type": 79, "source": "cmpSmallerOrEqual.php:3","sink": "cmpSmallerOrEqual.php:30"}
-        ]
-    },
-    {
-        "name": "exprCallFunctionLikeFuncNorm",
-        "vulnerabilities": [
-            {"type": 79, "source": "func_norm.php:2","sink": "func_norm.php:13"},
-            {"type": 79, "source": "func_norm.php:2","sink": "func_norm.php:4"}
-        ]
-    },
-    {
-        "name": "stmtPhaseSpecialTaskUnset",
-        "vulnerabilities": [
-            {"type": 79, "source": "unset.php:3","sink": "unset.php:4"}
-        ]
-    },
-    {
-        "name": "stmtCtrlFlowTryCatchCtrlFlowFinally",
-        "vulnerabilities": [
-            {"type": 79, "source": "ctrlFlowFinally.php:3","sink": "ctrlFlowFinally.php:7"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsUnaryNumMinus",
-        "vulnerabilities": [
-            {"type": 79, "source": "unaryNumMinus.php:3","sink": "unaryNumMinus.php:36"},
-            {"type": 79, "source": "unaryNumMinus.php:3","sink": "unaryNumMinus.php:27"},
-            {"type": 79, "source": "unaryNumMinus.php:3","sink": "unaryNumMinus.php:18"},
-            {"type": 79, "source": "unaryNumMinus.php:3","sink": "unaryNumMinus.php:81"},
-            {"type": 79, "source": "unaryNumMinus.php:3","sink": "unaryNumMinus.php:9"},
-            {"type": 79, "source": "unaryNumMinus.php:3","sink": "unaryNumMinus.php:63"},
-            {"type": 79, "source": "unaryNumMinus.php:3","sink": "unaryNumMinus.php:72"},
-            {"type": 79, "source": "unaryNumMinus.php:3","sink": "unaryNumMinus.php:54"},
-            {"type": 79, "source": "unaryNumMinus.php:3","sink": "unaryNumMinus.php:45"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsBinaryBooleanOr",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryBooleanOr.php:3","sink": "binaryBooleanOr.php:60"},
-            {"type": 79, "source": "binaryBooleanOr.php:3","sink": "binaryBooleanOr.php:100"},
-            {"type": 79, "source": "binaryBooleanOr.php:3","sink": "binaryBooleanOr.php:10"},
-            {"type": 79, "source": "binaryBooleanOr.php:3","sink": "binaryBooleanOr.php:90"},
-            {"type": 79, "source": "binaryBooleanOr.php:3","sink": "binaryBooleanOr.php:70"},
-            {"type": 79, "source": "binaryBooleanOr.php:3","sink": "binaryBooleanOr.php:30"},
-            {"type": 79, "source": "binaryBooleanOr.php:3","sink": "binaryBooleanOr.php:80"},
-            {"type": 79, "source": "binaryBooleanOr.php:3","sink": "binaryBooleanOr.php:50"},
-            {"type": 79, "source": "binaryBooleanOr.php:3","sink": "binaryBooleanOr.php:20"},
-            {"type": 79, "source": "binaryBooleanOr.php:3","sink": "binaryBooleanOr.php:40"}
-        ]
-    },
-    {
-        "name": "exprCallFunctionLikeFuncNestCalls",
-        "vulnerabilities": [
-            {"type": 79, "source": "func_nest_calls.php:3","sink": "func_nest_calls.php:5"}
-        ]
-    },
-    {
-        "name": "exprCallKeywordsFuncKeywordEval",
-        "vulnerabilities": [
-            {"type": 79, "source": "keyword_eval.php:2","sink": ".eval/site_8a33cae3/eb1fd8af.php:1"}
-        ]
-    },
-    {
-        "name": "exprSyntaxPeripheralValueYield",
-        "vulnerabilities": []
-    },
-    {
-        "name": "exprOperationPrimitsUnaryNumPlus",
-        "vulnerabilities": [
-            {"type": 79, "source": "unaryNumPlus.php:3","sink": "unaryNumPlus.php:18"},
-            {"type": 79, "source": "unaryNumPlus.php:3","sink": "unaryNumPlus.php:81"},
-            {"type": 79, "source": "unaryNumPlus.php:3","sink": "unaryNumPlus.php:63"},
-            {"type": 79, "source": "unaryNumPlus.php:3","sink": "unaryNumPlus.php:72"},
-            {"type": 79, "source": "unaryNumPlus.php:3","sink": "unaryNumPlus.php:45"},
-            {"type": 79, "source": "unaryNumPlus.php:3","sink": "unaryNumPlus.php:9"},
-            {"type": 79, "source": "unaryNumPlus.php:3","sink": "unaryNumPlus.php:54"},
-            {"type": 79, "source": "unaryNumPlus.php:3","sink": "unaryNumPlus.php:27"},
-            {"type": 79, "source": "unaryNumPlus.php:3","sink": "unaryNumPlus.php:36"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsUnaryBooleanNot",
-        "vulnerabilities": [
-            {"type": 79, "source": "unaryBooleanNot.php:3","sink": "unaryBooleanNot.php:9"},
-            {"type": 79, "source": "unaryBooleanNot.php:3","sink": "unaryBooleanNot.php:63"},
-            {"type": 79, "source": "unaryBooleanNot.php:3","sink": "unaryBooleanNot.php:54"},
-            {"type": 79, "source": "unaryBooleanNot.php:3","sink": "unaryBooleanNot.php:36"},
-            {"type": 79, "source": "unaryBooleanNot.php:3","sink": "unaryBooleanNot.php:81"},
-            {"type": 79, "source": "unaryBooleanNot.php:3","sink": "unaryBooleanNot.php:45"},
-            {"type": 79, "source": "unaryBooleanNot.php:3","sink": "unaryBooleanNot.php:18"},
-            {"type": 79, "source": "unaryBooleanNot.php:3","sink": "unaryBooleanNot.php:99"},
-            {"type": 79, "source": "unaryBooleanNot.php:3","sink": "unaryBooleanNot.php:90"},
-            {"type": 79, "source": "unaryBooleanNot.php:3","sink": "unaryBooleanNot.php:27"},
-            {"type": 79, "source": "unaryBooleanNot.php:3","sink": "unaryBooleanNot.php:72"}
-        ]
-    },
-    {
-        "name": "exprDeclareFuncsLikeDeclareFuncArrow",
-        "vulnerabilities": [
-            {"type": 79, "source": "declareFuncArrow.php:3","sink": "declareFuncArrow.php:57"},
-            {"type": 79, "source": "declareFuncArrow.php:3","sink": "declareFuncArrow.php:37"},
-            {"type": 79, "source": "declareFuncArrow.php:3","sink": "declareFuncArrow.php:9"},
-            {"type": 79, "source": "declareFuncArrow.php:3","sink": "declareFuncArrow.php:48"},
-            {"type": 79, "source": "declareFuncArrow.php:3","sink": "declareFuncArrow.php:19"}
-        ]
-    },
-    {
-        "name": "exprOperationAssignsBinaryAssignCoalesce",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryAssignCoalesce.php:3","sink": "binaryAssignCoalesce.php:70"},
-            {"type": 79, "source": "binaryAssignCoalesce.php:3","sink": "binaryAssignCoalesce.php:20"},
-            {"type": 79, "source": "binaryAssignCoalesce.php:3","sink": "binaryAssignCoalesce.php:10"},
-            {"type": 79, "source": "binaryAssignCoalesce.php:3","sink": "binaryAssignCoalesce.php:30"},
-            {"type": 79, "source": "binaryAssignCoalesce.php:3","sink": "binaryAssignCoalesce.php:50"},
-            {"type": 79, "source": "binaryAssignCoalesce.php:3","sink": "binaryAssignCoalesce.php:40"}
-        ]
-    },
-    {
-        "name": "exprOperationCompareCmpIdentical",
-        "vulnerabilities": [
-            {"type": 79, "source": "cmpIdentical.php:3","sink": "cmpIdentical.php:60"},
-            {"type": 79, "source": "cmpIdentical.php:3","sink": "cmpIdentical.php:80"},
-            {"type": 79, "source": "cmpIdentical.php:3","sink": "cmpIdentical.php:50"},
-            {"type": 79, "source": "cmpIdentical.php:3","sink": "cmpIdentical.php:40"},
-            {"type": 79, "source": "cmpIdentical.php:3","sink": "cmpIdentical.php:30"},
-            {"type": 79, "source": "cmpIdentical.php:3","sink": "cmpIdentical.php:20"},
-            {"type": 79, "source": "cmpIdentical.php:3","sink": "cmpIdentical.php:110"},
-            {"type": 79, "source": "cmpIdentical.php:3","sink": "cmpIdentical.php:10"},
-            {"type": 79, "source": "cmpIdentical.php:3","sink": "cmpIdentical.php:90"},
-            {"type": 79, "source": "cmpIdentical.php:3","sink": "cmpIdentical.php:100"},
-            {"type": 79, "source": "cmpIdentical.php:3","sink": "cmpIdentical.php:70"}
-        ]
-    },
-    {
-        "name": "exprPhaseSpecialTaskValueTernary",
-        "vulnerabilities": [
-            {"type": 79, "source": "valueTernary.php:3","sink": "valueTernary.php:6"}
-        ]
-    },
-    {
-        "name": "exprOperationAssignsBinaryAssignMod",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryAssignMod.php:3","sink": "binaryAssignMod.php:60"},
-            {"type": 79, "source": "binaryAssignMod.php:3","sink": "binaryAssignMod.php:20"},
-            {"type": 79, "source": "binaryAssignMod.php:3","sink": "binaryAssignMod.php:40"},
-            {"type": 79, "source": "binaryAssignMod.php:3","sink": "binaryAssignMod.php:50"},
-            {"type": 79, "source": "binaryAssignMod.php:3","sink": "binaryAssignMod.php:10"},
-            {"type": 79, "source": "binaryAssignMod.php:3","sink": "binaryAssignMod.php:30"}
-        ]
-    },
-    {
-        "name": "exprCallKeywordsFuncKeywordInstanceof",
-        "vulnerabilities": []
-    },
-    {
-        "name": "stmtCtrlFlowCondLikeCtrlFlowElse",
-        "vulnerabilities": [
-            {"type": 79, "source": "ctrlFlowElse.php:3","sink": "ctrlFlowElse.php:8"}
-        ]
-    },
-    {
-        "name": "exprCallKeywordsFuncKeywordIncludeAutoload",
-        "vulnerabilities": []
-    },
-    {
-        "name": "stmtDeclareFuncsLikeDeclareFuncMeth",
-        "vulnerabilities": [
-            {"type": 79, "source": "declareFuncMeth.php:3","sink": "declareFuncMeth.php:9"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsTypeCastInt",
-        "vulnerabilities": [
-            {"type": 79, "source": "typeCastInt.php:3","sink": "typeCastInt.php:54"},
-            {"type": 79, "source": "typeCastInt.php:3","sink": "typeCastInt.php:36"},
-            {"type": 79, "source": "typeCastInt.php:3","sink": "typeCastInt.php:108"},
-            {"type": 79, "source": "typeCastInt.php:3","sink": "typeCastInt.php:90"},
-            {"type": 79, "source": "typeCastInt.php:3","sink": "typeCastInt.php:117"},
-            {"type": 79, "source": "typeCastInt.php:3","sink": "typeCastInt.php:99"},
-            {"type": 79, "source": "typeCastInt.php:3","sink": "typeCastInt.php:9"},
-            {"type": 79, "source": "typeCastInt.php:3","sink": "typeCastInt.php:81"},
-            {"type": 79, "source": "typeCastInt.php:3","sink": "typeCastInt.php:63"},
-            {"type": 79, "source": "typeCastInt.php:3","sink": "typeCastInt.php:126"},
-            {"type": 79, "source": "typeCastInt.php:3","sink": "typeCastInt.php:45"},
-            {"type": 79, "source": "typeCastInt.php:3","sink": "typeCastInt.php:27"},
-            {"type": 79, "source": "typeCastInt.php:3","sink": "typeCastInt.php:18"},
-            {"type": 79, "source": "typeCastInt.php:3","sink": "typeCastInt.php:72"}
-        ]
-    },
-    {
-        "name": "exprOperationAssignsBinaryAssignBitwiseXor",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryAssignBitwiseXor.php:3","sink": "binaryAssignBitwiseXor.php:30"},
-            {"type": 79, "source": "binaryAssignBitwiseXor.php:3","sink": "binaryAssignBitwiseXor.php:20"},
-            {"type": 79, "source": "binaryAssignBitwiseXor.php:3","sink": "binaryAssignBitwiseXor.php:50"},
-            {"type": 79, "source": "binaryAssignBitwiseXor.php:3","sink": "binaryAssignBitwiseXor.php:10"},
-            {"type": 79, "source": "binaryAssignBitwiseXor.php:3","sink": "binaryAssignBitwiseXor.php:40"}
-        ]
-    },
-    {
-        "name": "exprOperationCompareCmpEqual",
-        "vulnerabilities": [
-            {"type": 79, "source": "cmpEqual.php:3","sink": "cmpEqual.php:10"},
-            {"type": 79, "source": "cmpEqual.php:3","sink": "cmpEqual.php:100"},
-            {"type": 79, "source": "cmpEqual.php:3","sink": "cmpEqual.php:20"},
-            {"type": 79, "source": "cmpEqual.php:3","sink": "cmpEqual.php:90"},
-            {"type": 79, "source": "cmpEqual.php:3","sink": "cmpEqual.php:110"},
-            {"type": 79, "source": "cmpEqual.php:3","sink": "cmpEqual.php:50"},
-            {"type": 79, "source": "cmpEqual.php:3","sink": "cmpEqual.php:80"},
-            {"type": 79, "source": "cmpEqual.php:3","sink": "cmpEqual.php:70"},
-            {"type": 79, "source": "cmpEqual.php:3","sink": "cmpEqual.php:30"},
-            {"type": 79, "source": "cmpEqual.php:3","sink": "cmpEqual.php:60"},
-            {"type": 79, "source": "cmpEqual.php:3","sink": "cmpEqual.php:40"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsBinaryNumPower",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryNumPower.php:3","sink": "binaryNumPower.php:80"},
-            {"type": 79, "source": "binaryNumPower.php:3","sink": "binaryNumPower.php:70"},
-            {"type": 79, "source": "binaryNumPower.php:3","sink": "binaryNumPower.php:40"},
-            {"type": 79, "source": "binaryNumPower.php:3","sink": "binaryNumPower.php:50"},
-            {"type": 79, "source": "binaryNumPower.php:3","sink": "binaryNumPower.php:20"},
-            {"type": 79, "source": "binaryNumPower.php:3","sink": "binaryNumPower.php:10"},
-            {"type": 79, "source": "binaryNumPower.php:3","sink": "binaryNumPower.php:60"},
-            {"type": 79, "source": "binaryNumPower.php:3","sink": "binaryNumPower.php:90"},
-            {"type": 79, "source": "binaryNumPower.php:3","sink": "binaryNumPower.php:30"},
-            {"type": 79, "source": "binaryNumPower.php:3","sink": "binaryNumPower.php:100"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsBinaryNumMinus",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryNumMinus.php:3","sink": "binaryNumMinus.php:30"},
-            {"type": 79, "source": "binaryNumMinus.php:3","sink": "binaryNumMinus.php:10"},
-            {"type": 79, "source": "binaryNumMinus.php:3","sink": "binaryNumMinus.php:50"},
-            {"type": 79, "source": "binaryNumMinus.php:3","sink": "binaryNumMinus.php:100"},
-            {"type": 79, "source": "binaryNumMinus.php:3","sink": "binaryNumMinus.php:80"},
-            {"type": 79, "source": "binaryNumMinus.php:3","sink": "binaryNumMinus.php:20"},
-            {"type": 79, "source": "binaryNumMinus.php:3","sink": "binaryNumMinus.php:70"},
-            {"type": 79, "source": "binaryNumMinus.php:3","sink": "binaryNumMinus.php:90"},
-            {"type": 79, "source": "binaryNumMinus.php:3","sink": "binaryNumMinus.php:40"},
-            {"type": 79, "source": "binaryNumMinus.php:3","sink": "binaryNumMinus.php:60"}
-        ]
-    },
-    {
-        "name": "exprFetchValDeclaredFetchVarPropertyNorm",
-        "vulnerabilities": [
-            {"type": 79, "source": "fetchVarPropertyNorm.php:3","sink": "fetchVarPropertyNorm.php:53"},
-            {"type": 79, "source": "fetchVarPropertyNorm.php:3","sink": "fetchVarPropertyNorm.php:39"},
-            {"type": 79, "source": "fetchVarPropertyNorm.php:3","sink": "fetchVarPropertyNorm.php:33"},
-            {"type": 79, "source": "fetchVarPropertyNorm.php:3","sink": "fetchVarPropertyNorm.php:27"},
-            {"type": 79, "source": "fetchVarPropertyNorm.php:3","sink": "fetchVarPropertyNorm.php:45"}
-        ]
-    },
-    {
-        "name": "exprOperationAssignsBinaryAssignPlus",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryAssignPlus.php:3","sink": "binaryAssignPlus.php:60"},
-            {"type": 79, "source": "binaryAssignPlus.php:3","sink": "binaryAssignPlus.php:10"},
-            {"type": 79, "source": "binaryAssignPlus.php:3","sink": "binaryAssignPlus.php:40"},
-            {"type": 79, "source": "binaryAssignPlus.php:3","sink": "binaryAssignPlus.php:30"},
-            {"type": 79, "source": "binaryAssignPlus.php:3","sink": "binaryAssignPlus.php:50"},
-            {"type": 79, "source": "binaryAssignPlus.php:3","sink": "binaryAssignPlus.php:70"},
-            {"type": 79, "source": "binaryAssignPlus.php:3","sink": "binaryAssignPlus.php:20"}
-        ]
-    },
-    {
-        "name": "exprOperationCompareCmpNotEqual",
-        "vulnerabilities": [
-            {"type": 79, "source": "cmpNotEqual.php:3","sink": "cmpNotEqual.php:50"},
-            {"type": 79, "source": "cmpNotEqual.php:3","sink": "cmpNotEqual.php:100"},
-            {"type": 79, "source": "cmpNotEqual.php:3","sink": "cmpNotEqual.php:10"},
-            {"type": 79, "source": "cmpNotEqual.php:3","sink": "cmpNotEqual.php:80"},
-            {"type": 79, "source": "cmpNotEqual.php:3","sink": "cmpNotEqual.php:60"},
-            {"type": 79, "source": "cmpNotEqual.php:3","sink": "cmpNotEqual.php:110"},
-            {"type": 79, "source": "cmpNotEqual.php:3","sink": "cmpNotEqual.php:90"},
-            {"type": 79, "source": "cmpNotEqual.php:3","sink": "cmpNotEqual.php:40"},
-            {"type": 79, "source": "cmpNotEqual.php:3","sink": "cmpNotEqual.php:20"},
-            {"type": 79, "source": "cmpNotEqual.php:3","sink": "cmpNotEqual.php:30"},
-            {"type": 79, "source": "cmpNotEqual.php:3","sink": "cmpNotEqual.php:70"}
-        ]
-    },
-    {
-        "name": "exprOperationAssignsBinaryAssignBitwiseAnd",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryAssignBitwiseAnd.php:3","sink": "binaryAssignBitwiseAnd.php:20"},
-            {"type": 79, "source": "binaryAssignBitwiseAnd.php:3","sink": "binaryAssignBitwiseAnd.php:40"},
-            {"type": 79, "source": "binaryAssignBitwiseAnd.php:3","sink": "binaryAssignBitwiseAnd.php:30"},
-            {"type": 79, "source": "binaryAssignBitwiseAnd.php:3","sink": "binaryAssignBitwiseAnd.php:50"},
-            {"type": 79, "source": "binaryAssignBitwiseAnd.php:3","sink": "binaryAssignBitwiseAnd.php:10"}
-        ]
-    },
-    {
-        "name": "exprCallFunctionLikeStrCallee",
-        "vulnerabilities": [
-            {"type": 79, "source": "str_callee.php:2","sink": "str_callee.php:21"},
-            {"type": 79, "source": "str_callee.php:2","sink": "str_callee.php:4"},
-            {"type": 79, "source": "str_callee.php:2","sink": "str_callee.php:9"}
-        ]
-    },
-    {
-        "name": "exprOperationPrimitsBinaryBooleanAnd",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryBooleanAnd.php:3","sink": "binaryBooleanAnd.php:50"},
-            {"type": 79, "source": "binaryBooleanAnd.php:3","sink": "binaryBooleanAnd.php:80"},
-            {"type": 79, "source": "binaryBooleanAnd.php:3","sink": "binaryBooleanAnd.php:70"},
-            {"type": 79, "source": "binaryBooleanAnd.php:3","sink": "binaryBooleanAnd.php:60"},
-            {"type": 79, "source": "binaryBooleanAnd.php:3","sink": "binaryBooleanAnd.php:40"},
-            {"type": 79, "source": "binaryBooleanAnd.php:3","sink": "binaryBooleanAnd.php:20"},
-            {"type": 79, "source": "binaryBooleanAnd.php:3","sink": "binaryBooleanAnd.php:100"},
-            {"type": 79, "source": "binaryBooleanAnd.php:3","sink": "binaryBooleanAnd.php:10"},
-            {"type": 79, "source": "binaryBooleanAnd.php:3","sink": "binaryBooleanAnd.php:30"},
-            {"type": 79, "source": "binaryBooleanAnd.php:3","sink": "binaryBooleanAnd.php:90"}
-        ]
-    },
-    {
-        "name": "stmtDeclareVariablesDeclareConstClass",
-        "vulnerabilities": [
-            {"type": 79, "source": "declareConstClass.php:3","sink": "declareConstClass.php:10"}
-        ]
-    },
-    {
-        "name": "stmtCtrlFlowLoopLikeCtrlFlowWhile",
-        "vulnerabilities": [
-            {"type": 79, "source": "ctrlFlowWhile.php:3","sink": "ctrlFlowWhile.php:11"}
-        ]
-    },
-    {
-        "name": "exprCallKeywordsFuncKeywordPrint",
-        "vulnerabilities": []
-    },
-    {
-        "name": "exprOperationPrimitsBinaryNumDiv",
-        "vulnerabilities": [
-            {"type": 79, "source": "binaryNumDiv.php:3","sink": "binaryNumDiv.php:70"},
-            {"type": 79, "source": "binaryNumDiv.php:3","sink": "binaryNumDiv.php:50"},
-            {"type": 79, "source": "binaryNumDiv.php:3","sink": "binaryNumDiv.php:60"},
-            {"type": 79, "source": "binaryNumDiv.php:3","sink": "binaryNumDiv.php:90"},
-            {"type": 79, "source": "binaryNumDiv.php:3","sink": "binaryNumDiv.php:40"},
-            {"type": 79, "source": "binaryNumDiv.php:3","sink": "binaryNumDiv.php:10"},
-            {"type": 79, "source": "binaryNumDiv.php:3","sink": "binaryNumDiv.php:30"},
-            {"type": 79, "source": "binaryNumDiv.php:3","sink": "binaryNumDiv.php:20"},
-            {"type": 79, "source": "binaryNumDiv.php:3","sink": "binaryNumDiv.php:80"}
-        ]
-    },
-    {
-        "name": "stmtCtrlFlowCondLikeCtrlFlowElseIf",
-        "vulnerabilities": [
-            {"type": 79, "source": "ctrlFlowElseIf.php:3","sink": "ctrlFlowElseIf.php:8"}
-        ]
-    },
-    {
-        "name": "exprPhaseSpecialTaskValueMatch",
-        "vulnerabilities": [
-            {"type": 79, "source": "valueMatch.php:3","sink": "valueMatch.php:11"}
-        ]
-    },
-    {
-        "name": "exprFetchValConstantFetchConstMagicClass",
-        "vulnerabilities": [
-            {"type": 79, "source": "fetchConstMagicClass.php:3","sink": "fetchConstMagicClass.php:7"},
-            {"type": 79, "source": "fetchConstMagicClass.php:3","sink": "fetchConstMagicClass.php:20"}
-        ]
+      "name": "expr/CallFunctionLike/func_nest_calls.php",
+      "vulnerabilities": [
+        {"source": "func_nest_calls.php:3","sink": "func_nest_calls.php:5"}
+      ]
+    },
+    {
+      "name": "expr/CallFunctionLike/func_nest_defs.php",
+      "vulnerabilities": [
+        {"source": "func_nest_defs.php:3","sink": "func_nest_defs.php:15"},
+        {"source": "func_nest_defs.php:3","sink": "func_nest_defs.php:10"}
+      ]
+    },
+    {
+      "name": "expr/CallFunctionLike/func_nest_mixed.php",
+      "vulnerabilities": []
+    },
+    {
+      "name": "expr/CallFunctionLike/func_norm.php",
+      "vulnerabilities": [
+        {"source": "func_norm.php:3","sink": "func_norm.php:14"},
+        {"source": "func_norm.php:3","sink": "func_norm.php:5"}
+      ]
+    },
+    {
+      "name": "expr/CallFunctionLike/meth_inherit_new.php",
+      "vulnerabilities": [
+        {"source": "meth_inherit_new.php:3","sink": "meth_inherit_new.php:7"}
+      ]
+    },
+    {
+      "name": "expr/CallFunctionLike/meth_inherit_xmem.php",
+      "vulnerabilities": [
+        {"source": "meth_inherit_xmem.php:3","sink": "meth_inherit_xmem.php:31"},
+        {"source": "meth_inherit_xmem.php:3","sink": "meth_inherit_xmem.php:17"}
+      ]
+    },
+    {
+      "name": "expr/CallFunctionLike/meth_new.php",
+      "vulnerabilities": [
+        {"source": "meth_new.php:3","sink": "meth_new.php:7"}
+      ]
+    },
+    {
+      "name": "expr/CallFunctionLike/meth_norm.php",
+      "vulnerabilities": [
+        {"source": "meth_norm.php:3","sink": "meth_norm.php:12"}
+      ]
+    },
+    {
+      "name": "expr/CallFunctionLike/meth_obj_basic.php",
+      "vulnerabilities": [
+        {"source": "meth_obj_basic.php:3","sink": "meth_obj_basic.php:9"}
+      ]
+    },
+    {
+      "name": "expr/CallFunctionLike/meth_obj_container.php",
+      "vulnerabilities": [
+        {"source": "meth_obj_container.php:4","sink": "meth_obj_container.php:13"}
+      ]
+    },
+    {
+      "name": "expr/CallFunctionLike/meth_obj_mem.php",
+      "vulnerabilities": [
+        {"source": "meth_obj_mem.php:3","sink": "meth_obj_mem.php:7"}
+      ]
+    },
+    {
+      "name": "expr/CallFunctionLike/meth_obj_mem_deep.php",
+      "vulnerabilities": [
+        {"source": "meth_obj_mem_deep.php:3","sink": "meth_obj_mem_deep.php:18"}
+      ]
+    },
+    {
+      "name": "expr/CallFunctionLike/meth_obj_mem_return.php",
+      "vulnerabilities": [
+        {"source": "meth_obj_mem_return.php:3","sink": "meth_obj_mem_return.php:7"}
+      ]
+    },
+    {
+      "name": "expr/CallFunctionLike/meth_obj_mem_self.php",
+      "vulnerabilities": [
+        {"source": "meth_obj_mem_self.php:3","sink": "meth_obj_mem_self.php:13"},
+        {"source": "meth_obj_mem_self.php:3","sink": "meth_obj_mem_self.php:7"}
+      ]
+    },
+    {
+      "name": "expr/CallFunctionLike/meth_obj_mem_weak.php",
+      "vulnerabilities": []
+    },
+    {
+      "name": "expr/CallFunctionLike/meth_param_func.php",
+      "vulnerabilities": [
+        {"source": "meth_param_func.php:3","sink": "meth_param_func.php:12"}
+      ]
+    },
+    {
+      "name": "expr/CallFunctionLike/meth_static.php",
+      "vulnerabilities": [
+        {"source": "meth_static.php:3","sink": "meth_static.php:12"}
+      ]
+    },
+    {
+      "name": "expr/CallFunctionLike/str_callee.php",
+      "vulnerabilities": [
+        {"source": "str_callee.php:3","sink": "str_callee.php:22"},
+        {"source": "str_callee.php:3","sink": "str_callee.php:10"},
+        {"source": "str_callee.php:3","sink": "str_callee.php:5"}
+      ]
+    },
+    {
+      "name": "expr/CallFunctionLike/str_param_deep.php",
+      "vulnerabilities": [
+        {"source": "str_param_deep.php:3","sink": "str_param_deep.php:29"}
+      ]
+    },
+    {
+      "name": "expr/CallFunctionLike/str_param_multiple.php",
+      "vulnerabilities": [
+        {"source": "str_param_multiple.php:3","sink": "str_param_multiple.php:5"}
+      ]
+    },
+    {
+      "name": "expr/CallFunctionLike/str_param_single.php",
+      "vulnerabilities": [
+        {"source": "str_param_single.php:3","sink": "str_param_single.php:5"}
+      ]
+    },
+    {
+      "name": "expr/CallFunctionLike/str_param_specific.php",
+      "vulnerabilities": [
+        {"source": "str_param_specific.php:3","sink": "str_param_specific.php:10"},
+        {"source": "str_param_specific.php:3","sink": "str_param_specific.php:5"}
+      ]
+    },
+    {
+      "name": "expr/CallKeywordsFunc/keyword_clone.php",
+      "vulnerabilities": [
+        {"source": "keyword_clone.php:3","sink": "keyword_clone.php:10"},
+        {"source": "keyword_clone.php:3","sink": "keyword_clone.php:5"}
+      ]
+    },
+    {
+      "name": "expr/CallKeywordsFunc/keyword_echo.php",
+      "vulnerabilities": [
+        {"source": "keyword_echo.php:3","sink": "keyword_echo.php:5"},
+        {"source": "keyword_echo.php:3","sink": "keyword_echo.php:12"},
+        {"source": "keyword_echo.php:3","sink": "keyword_echo.php:25"}
+      ]
+    },
+    {
+      "name": "expr/CallKeywordsFunc/keyword_empty.php",
+      "vulnerabilities": []
+    },
+    {
+      "name": "expr/CallKeywordsFunc/keyword_eval.php",
+      "vulnerabilities": [
+        {"source": "keyword_eval.php:3","sink": ".eval/site_8a33cea5/eb1fd8af.php:1"}
+      ]
+    },
+    {
+      "name": "expr/CallKeywordsFunc/keyword_exit.php",
+      "vulnerabilities": [
+        {"source": "keyword_exit.php:3","sink": "keyword_exit.php:6"}
+      ]
+    },
+    {
+      "name": "expr/CallKeywordsFunc/keyword_include/autoload",
+      "vulnerabilities": []
+    },
+    {
+      "name": "expr/CallKeywordsFunc/keyword_include/require",
+      "vulnerabilities": [
+        {"source": "requirer.php:3","sink": "requiree.php:7"},
+        {"source": "requirer.php:3","sink": "requirer.php:10"}
+      ]
+    },
+    {
+      "name": "expr/CallKeywordsFunc/keyword_instanceof.php",
+      "vulnerabilities": []
+    },
+    {
+      "name": "expr/CallKeywordsFunc/keyword_isset.php",
+      "vulnerabilities": []
+    },
+    {
+      "name": "expr/CallKeywordsFunc/keyword_print.php",
+      "vulnerabilities": []
+    },
+    {
+      "name": "expr/DeclareFuncsLike/declareFuncArrow.php",
+      "vulnerabilities": [
+        {"source": "declareFuncArrow.php:3","sink": "declareFuncArrow.php:39"},
+        {"source": "declareFuncArrow.php:3","sink": "declareFuncArrow.php:59"},
+        {"source": "declareFuncArrow.php:3","sink": "declareFuncArrow.php:19"},
+        {"source": "declareFuncArrow.php:3","sink": "declareFuncArrow.php:9"},
+        {"source": "declareFuncArrow.php:3","sink": "declareFuncArrow.php:50"}
+      ]
+    },
+    {
+      "name": "expr/DeclareFuncsLike/declareFuncClosure.php",
+      "vulnerabilities": [
+        {"source": "declareFuncClosure.php:3","sink": "declareFuncClosure.php:12"},
+        {"source": "declareFuncClosure.php:3","sink": "declareFuncClosure.php:85"},
+        {"source": "declareFuncClosure.php:3","sink": "declareFuncClosure.php:68"},
+        {"source": "declareFuncClosure.php:3","sink": "declareFuncClosure.php:108"},
+        {"source": "declareFuncClosure.php:3","sink": "declareFuncClosure.php:51"},
+        {"source": "declareFuncClosure.php:3","sink": "declareFuncClosure.php:25"},
+        {"source": "declareFuncClosure.php:3","sink": "declareFuncClosure.php:37"}
+      ]
+    },
+    {
+      "name": "expr/FetchValConstant/fetchConstMagicClass.php",
+      "vulnerabilities": [
+        {"source": "fetchConstMagicClass.php:3","sink": "fetchConstMagicClass.php:9"},
+        {"source": "fetchConstMagicClass.php:3","sink": "fetchConstMagicClass.php:22"}
+      ]
+    },
+    {
+      "name": "expr/FetchValConstant/fetchconstmagicdir",
+      "vulnerabilities": [
+        {"source": "fetchConstMagicDir.php:3","sink": "fetchConstMagicDir.php:11"}
+      ]
+    },
+    {
+      "name": "expr/FetchValConstant/fetchConstMagicFile.php",
+      "vulnerabilities": [
+        {"source": "fetchConstMagicFile.php:3","sink": "fetchConstMagicFile.php:9"}
+      ]
+    },
+    {
+      "name": "expr/FetchValDeclared/fetchVarPropertyArrDim.php",
+      "vulnerabilities": [
+        {"source": "fetchVarPropertyArrDim.php:3","sink": "fetchVarPropertyArrDim.php:39"},
+        {"source": "fetchVarPropertyArrDim.php:3","sink": "fetchVarPropertyArrDim.php:17"},
+        {"source": "fetchVarPropertyArrDim.php:3","sink": "fetchVarPropertyArrDim.php:25"},
+        {"source": "fetchVarPropertyArrDim.php:3","sink": "fetchVarPropertyArrDim.php:55"},
+        {"source": "fetchVarPropertyArrDim.php:3","sink": "fetchVarPropertyArrDim.php:46"},
+        {"source": "fetchVarPropertyArrDim.php:3","sink": "fetchVarPropertyArrDim.php:32"}
+      ]
+    },
+    {
+      "name": "expr/FetchValDeclared/fetchVarPropertyNorm.php",
+      "vulnerabilities": [
+        {"source": "fetchVarPropertyNorm.php:3","sink": "fetchVarPropertyNorm.php:56"},
+        {"source": "fetchVarPropertyNorm.php:3","sink": "fetchVarPropertyNorm.php:48"},
+        {"source": "fetchVarPropertyNorm.php:3","sink": "fetchVarPropertyNorm.php:30"},
+        {"source": "fetchVarPropertyNorm.php:3","sink": "fetchVarPropertyNorm.php:36"},
+        {"source": "fetchVarPropertyNorm.php:3","sink": "fetchVarPropertyNorm.php:42"}
+      ]
+    },
+    {
+      "name": "expr/FetchValDeclared/fetchVarPropertyStatic.php",
+      "vulnerabilities": [
+        {"source": "fetchVarPropertyStatic.php:3","sink": "fetchVarPropertyStatic.php:38"},
+        {"source": "fetchVarPropertyStatic.php:3","sink": "fetchVarPropertyStatic.php:64"},
+        {"source": "fetchVarPropertyStatic.php:3","sink": "fetchVarPropertyStatic.php:70"},
+        {"source": "fetchVarPropertyStatic.php:3","sink": "fetchVarPropertyStatic.php:51"},
+        {"source": "fetchVarPropertyStatic.php:3","sink": "fetchVarPropertyStatic.php:83"},
+        {"source": "fetchVarPropertyStatic.php:3","sink": "fetchVarPropertyStatic.php:77"},
+        {"source": "fetchVarPropertyStatic.php:3","sink": "fetchVarPropertyStatic.php:57"},
+        {"source": "fetchVarPropertyStatic.php:3","sink": "fetchVarPropertyStatic.php:44"},
+        {"source": "fetchVarPropertyStatic.php:3","sink": "fetchVarPropertyStatic.php:90"}
+      ]
+    },
+    {
+      "name": "expr/FetchValDeclared/fetchVarVariables.php",
+      "vulnerabilities": [
+        {"source": "fetchVarVariables.php:3","sink": "fetchVarVariables.php:32"},
+        {"source": "fetchVarVariables.php:3","sink": "fetchVarVariables.php:24"},
+        {"source": "fetchVarVariables.php:3","sink": "fetchVarVariables.php:8"},
+        {"source": "fetchVarVariables.php:3","sink": "fetchVarVariables.php:16"},
+        {"source": "fetchVarVariables.php:3","sink": "fetchVarVariables.php:40"}
+      ]
+    },
+    {
+      "name": "expr/OperationAssigns/binaryAssignBitwiseAnd.php",
+      "vulnerabilities": [
+        {"source": "binaryAssignBitwiseAnd.php:3","sink": "binaryAssignBitwiseAnd.php:20"},
+        {"source": "binaryAssignBitwiseAnd.php:3","sink": "binaryAssignBitwiseAnd.php:30"},
+        {"source": "binaryAssignBitwiseAnd.php:3","sink": "binaryAssignBitwiseAnd.php:50"},
+        {"source": "binaryAssignBitwiseAnd.php:3","sink": "binaryAssignBitwiseAnd.php:10"},
+        {"source": "binaryAssignBitwiseAnd.php:3","sink": "binaryAssignBitwiseAnd.php:40"}
+      ]
+    },
+    {
+      "name": "expr/OperationAssigns/binaryAssignBitwiseOr.php",
+      "vulnerabilities": [
+        {"source": "binaryAssignBitwiseOr.php:3","sink": "binaryAssignBitwiseOr.php:20"},
+        {"source": "binaryAssignBitwiseOr.php:3","sink": "binaryAssignBitwiseOr.php:30"},
+        {"source": "binaryAssignBitwiseOr.php:3","sink": "binaryAssignBitwiseOr.php:40"},
+        {"source": "binaryAssignBitwiseOr.php:3","sink": "binaryAssignBitwiseOr.php:10"},
+        {"source": "binaryAssignBitwiseOr.php:3","sink": "binaryAssignBitwiseOr.php:50"}
+      ]
+    },
+    {
+      "name": "expr/OperationAssigns/binaryAssignBitwiseXor.php",
+      "vulnerabilities": [
+        {"source": "binaryAssignBitwiseXor.php:3","sink": "binaryAssignBitwiseXor.php:10"},
+        {"source": "binaryAssignBitwiseXor.php:3","sink": "binaryAssignBitwiseXor.php:40"},
+        {"source": "binaryAssignBitwiseXor.php:3","sink": "binaryAssignBitwiseXor.php:30"},
+        {"source": "binaryAssignBitwiseXor.php:3","sink": "binaryAssignBitwiseXor.php:20"},
+        {"source": "binaryAssignBitwiseXor.php:3","sink": "binaryAssignBitwiseXor.php:50"}
+      ]
+    },
+    {
+      "name": "expr/OperationAssigns/binaryAssignByRefer.php",
+      "vulnerabilities": [
+        {"source": "binaryAssignByRefer.php:3","sink": "binaryAssignByRefer.php:20"},
+        {"source": "binaryAssignByRefer.php:3","sink": "binaryAssignByRefer.php:52"},
+        {"source": "binaryAssignByRefer.php:3","sink": "binaryAssignByRefer.php:11"},
+        {"source": "binaryAssignByRefer.php:3","sink": "binaryAssignByRefer.php:30"},
+        {"source": "binaryAssignByRefer.php:3","sink": "binaryAssignByRefer.php:61"}
+      ]
+    },
+    {
+      "name": "expr/OperationAssigns/binaryAssignByValue.php",
+      "vulnerabilities": [
+        {"source": "binaryAssignByValue.php:3","sink": "binaryAssignByValue.php:20"},
+        {"source": "binaryAssignByValue.php:3","sink": "binaryAssignByValue.php:11"},
+        {"source": "binaryAssignByValue.php:3","sink": "binaryAssignByValue.php:62"},
+        {"source": "binaryAssignByValue.php:3","sink": "binaryAssignByValue.php:52"},
+        {"source": "binaryAssignByValue.php:3","sink": "binaryAssignByValue.php:30"}
+      ]
+    },
+    {
+      "name": "expr/OperationAssigns/binaryAssignCoalesce.php",
+      "vulnerabilities": [
+        {"source": "binaryAssignCoalesce.php:3","sink": "binaryAssignCoalesce.php:10"},
+        {"source": "binaryAssignCoalesce.php:3","sink": "binaryAssignCoalesce.php:40"},
+        {"source": "binaryAssignCoalesce.php:3","sink": "binaryAssignCoalesce.php:50"},
+        {"source": "binaryAssignCoalesce.php:3","sink": "binaryAssignCoalesce.php:30"},
+        {"source": "binaryAssignCoalesce.php:3","sink": "binaryAssignCoalesce.php:70"},
+        {"source": "binaryAssignCoalesce.php:3","sink": "binaryAssignCoalesce.php:20"}
+      ]
+    },
+    {
+      "name": "expr/OperationAssigns/binaryAssignConcat.php",
+      "vulnerabilities": [
+        {"source": "binaryAssignConcat.php:3","sink": "binaryAssignConcat.php:40"},
+        {"source": "binaryAssignConcat.php:3","sink": "binaryAssignConcat.php:10"},
+        {"source": "binaryAssignConcat.php:3","sink": "binaryAssignConcat.php:30"},
+        {"source": "binaryAssignConcat.php:3","sink": "binaryAssignConcat.php:50"},
+        {"source": "binaryAssignConcat.php:3","sink": "binaryAssignConcat.php:20"},
+        {"source": "binaryAssignConcat.php:3","sink": "binaryAssignConcat.php:75"}
+      ]
+    },
+    {
+      "name": "expr/OperationAssigns/binaryAssignDiv.php",
+      "vulnerabilities": [
+        {"source": "binaryAssignDiv.php:3","sink": "binaryAssignDiv.php:20"},
+        {"source": "binaryAssignDiv.php:3","sink": "binaryAssignDiv.php:60"},
+        {"source": "binaryAssignDiv.php:3","sink": "binaryAssignDiv.php:50"},
+        {"source": "binaryAssignDiv.php:3","sink": "binaryAssignDiv.php:40"},
+        {"source": "binaryAssignDiv.php:3","sink": "binaryAssignDiv.php:10"},
+        {"source": "binaryAssignDiv.php:3","sink": "binaryAssignDiv.php:30"}
+      ]
+    },
+    {
+      "name": "expr/OperationAssigns/binaryAssignMinus.php",
+      "vulnerabilities": [
+        {"source": "binaryAssignMinus.php:3","sink": "binaryAssignMinus.php:50"},
+        {"source": "binaryAssignMinus.php:3","sink": "binaryAssignMinus.php:20"},
+        {"source": "binaryAssignMinus.php:3","sink": "binaryAssignMinus.php:30"},
+        {"source": "binaryAssignMinus.php:3","sink": "binaryAssignMinus.php:70"},
+        {"source": "binaryAssignMinus.php:3","sink": "binaryAssignMinus.php:40"},
+        {"source": "binaryAssignMinus.php:3","sink": "binaryAssignMinus.php:10"},
+        {"source": "binaryAssignMinus.php:3","sink": "binaryAssignMinus.php:60"}
+      ]
+    },
+    {
+      "name": "expr/OperationAssigns/binaryAssignMod.php",
+      "vulnerabilities": [
+        {"source": "binaryAssignMod.php:3","sink": "binaryAssignMod.php:30"},
+        {"source": "binaryAssignMod.php:3","sink": "binaryAssignMod.php:40"},
+        {"source": "binaryAssignMod.php:3","sink": "binaryAssignMod.php:10"},
+        {"source": "binaryAssignMod.php:3","sink": "binaryAssignMod.php:50"},
+        {"source": "binaryAssignMod.php:3","sink": "binaryAssignMod.php:20"},
+        {"source": "binaryAssignMod.php:3","sink": "binaryAssignMod.php:60"}
+      ]
+    },
+    {
+      "name": "expr/OperationAssigns/binaryAssignMul.php",
+      "vulnerabilities": [
+        {"source": "binaryAssignMul.php:3","sink": "binaryAssignMul.php:10"},
+        {"source": "binaryAssignMul.php:3","sink": "binaryAssignMul.php:30"},
+        {"source": "binaryAssignMul.php:3","sink": "binaryAssignMul.php:20"},
+        {"source": "binaryAssignMul.php:3","sink": "binaryAssignMul.php:50"},
+        {"source": "binaryAssignMul.php:3","sink": "binaryAssignMul.php:60"},
+        {"source": "binaryAssignMul.php:3","sink": "binaryAssignMul.php:40"},
+        {"source": "binaryAssignMul.php:3","sink": "binaryAssignMul.php:70"}
+      ]
+    },
+    {
+      "name": "expr/OperationAssigns/binaryAssignPlus.php",
+      "vulnerabilities": [
+        {"source": "binaryAssignPlus.php:3","sink": "binaryAssignPlus.php:30"},
+        {"source": "binaryAssignPlus.php:3","sink": "binaryAssignPlus.php:70"},
+        {"source": "binaryAssignPlus.php:3","sink": "binaryAssignPlus.php:10"},
+        {"source": "binaryAssignPlus.php:3","sink": "binaryAssignPlus.php:20"},
+        {"source": "binaryAssignPlus.php:3","sink": "binaryAssignPlus.php:60"},
+        {"source": "binaryAssignPlus.php:3","sink": "binaryAssignPlus.php:40"},
+        {"source": "binaryAssignPlus.php:3","sink": "binaryAssignPlus.php:50"}
+      ]
+    },
+    {
+      "name": "expr/OperationAssigns/binaryAssignPower.php",
+      "vulnerabilities": [
+        {"source": "binaryAssignPower.php:3","sink": "binaryAssignPower.php:10"},
+        {"source": "binaryAssignPower.php:3","sink": "binaryAssignPower.php:60"},
+        {"source": "binaryAssignPower.php:3","sink": "binaryAssignPower.php:70"},
+        {"source": "binaryAssignPower.php:3","sink": "binaryAssignPower.php:40"},
+        {"source": "binaryAssignPower.php:3","sink": "binaryAssignPower.php:30"},
+        {"source": "binaryAssignPower.php:3","sink": "binaryAssignPower.php:50"},
+        {"source": "binaryAssignPower.php:3","sink": "binaryAssignPower.php:20"}
+      ]
+    },
+    {
+      "name": "expr/OperationAssigns/binaryAssignShiftLeft.php",
+      "vulnerabilities": [
+        {"source": "binaryAssignShiftLeft.php:3","sink": "binaryAssignShiftLeft.php:60"},
+        {"source": "binaryAssignShiftLeft.php:3","sink": "binaryAssignShiftLeft.php:10"},
+        {"source": "binaryAssignShiftLeft.php:3","sink": "binaryAssignShiftLeft.php:20"},
+        {"source": "binaryAssignShiftLeft.php:3","sink": "binaryAssignShiftLeft.php:40"},
+        {"source": "binaryAssignShiftLeft.php:3","sink": "binaryAssignShiftLeft.php:30"},
+        {"source": "binaryAssignShiftLeft.php:3","sink": "binaryAssignShiftLeft.php:50"}
+      ]
+    },
+    {
+      "name": "expr/OperationAssigns/binaryAssignShiftRight.php",
+      "vulnerabilities": [
+        {"source": "binaryAssignShiftRight.php:3","sink": "binaryAssignShiftRight.php:30"},
+        {"source": "binaryAssignShiftRight.php:3","sink": "binaryAssignShiftRight.php:20"},
+        {"source": "binaryAssignShiftRight.php:3","sink": "binaryAssignShiftRight.php:10"},
+        {"source": "binaryAssignShiftRight.php:3","sink": "binaryAssignShiftRight.php:40"},
+        {"source": "binaryAssignShiftRight.php:3","sink": "binaryAssignShiftRight.php:60"},
+        {"source": "binaryAssignShiftRight.php:3","sink": "binaryAssignShiftRight.php:50"}
+      ]
+    },
+    {
+      "name": "expr/OperationAssigns/unaryNumPostDec.php",
+      "vulnerabilities": [
+        {"source": "unaryNumPostDec.php:3","sink": "unaryNumPostDec.php:10"},
+        {"source": "unaryNumPostDec.php:3","sink": "unaryNumPostDec.php:40"},
+        {"source": "unaryNumPostDec.php:3","sink": "unaryNumPostDec.php:30"},
+        {"source": "unaryNumPostDec.php:3","sink": "unaryNumPostDec.php:60"},
+        {"source": "unaryNumPostDec.php:3","sink": "unaryNumPostDec.php:20"},
+        {"source": "unaryNumPostDec.php:3","sink": "unaryNumPostDec.php:50"}
+      ]
+    },
+    {
+      "name": "expr/OperationAssigns/unaryNumPostInc.php",
+      "vulnerabilities": [
+        {"source": "unaryNumPostInc.php:3","sink": "unaryNumPostInc.php:60"},
+        {"source": "unaryNumPostInc.php:3","sink": "unaryNumPostInc.php:10"},
+        {"source": "unaryNumPostInc.php:3","sink": "unaryNumPostInc.php:40"},
+        {"source": "unaryNumPostInc.php:3","sink": "unaryNumPostInc.php:20"},
+        {"source": "unaryNumPostInc.php:3","sink": "unaryNumPostInc.php:30"},
+        {"source": "unaryNumPostInc.php:3","sink": "unaryNumPostInc.php:50"}
+      ]
+    },
+    {
+      "name": "expr/OperationAssigns/unaryNumPreDec.php",
+      "vulnerabilities": [
+        {"source": "unaryNumPreDec.php:3","sink": "unaryNumPreDec.php:50"},
+        {"source": "unaryNumPreDec.php:3","sink": "unaryNumPreDec.php:10"},
+        {"source": "unaryNumPreDec.php:3","sink": "unaryNumPreDec.php:20"},
+        {"source": "unaryNumPreDec.php:3","sink": "unaryNumPreDec.php:30"},
+        {"source": "unaryNumPreDec.php:3","sink": "unaryNumPreDec.php:40"},
+        {"source": "unaryNumPreDec.php:3","sink": "unaryNumPreDec.php:60"}
+      ]
+    },
+    {
+      "name": "expr/OperationAssigns/unaryNumPreInc.php",
+      "vulnerabilities": [
+        {"source": "unaryNumPreInc.php:3","sink": "unaryNumPreInc.php:50"},
+        {"source": "unaryNumPreInc.php:3","sink": "unaryNumPreInc.php:60"},
+        {"source": "unaryNumPreInc.php:3","sink": "unaryNumPreInc.php:10"},
+        {"source": "unaryNumPreInc.php:3","sink": "unaryNumPreInc.php:20"},
+        {"source": "unaryNumPreInc.php:3","sink": "unaryNumPreInc.php:30"},
+        {"source": "unaryNumPreInc.php:3","sink": "unaryNumPreInc.php:40"}
+      ]
+    },
+    {
+      "name": "expr/OperationCompare/cmpEqual.php",
+      "vulnerabilities": [
+        {"source": "cmpEqual.php:3","sink": "cmpEqual.php:110"},
+        {"source": "cmpEqual.php:3","sink": "cmpEqual.php:10"},
+        {"source": "cmpEqual.php:3","sink": "cmpEqual.php:60"},
+        {"source": "cmpEqual.php:3","sink": "cmpEqual.php:90"},
+        {"source": "cmpEqual.php:3","sink": "cmpEqual.php:30"},
+        {"source": "cmpEqual.php:3","sink": "cmpEqual.php:70"},
+        {"source": "cmpEqual.php:3","sink": "cmpEqual.php:20"},
+        {"source": "cmpEqual.php:3","sink": "cmpEqual.php:40"},
+        {"source": "cmpEqual.php:3","sink": "cmpEqual.php:50"},
+        {"source": "cmpEqual.php:3","sink": "cmpEqual.php:80"},
+        {"source": "cmpEqual.php:3","sink": "cmpEqual.php:100"}
+      ]
+    },
+    {
+      "name": "expr/OperationCompare/cmpGreater.php",
+      "vulnerabilities": [
+        {"source": "cmpGreater.php:3","sink": "cmpGreater.php:10"},
+        {"source": "cmpGreater.php:3","sink": "cmpGreater.php:30"},
+        {"source": "cmpGreater.php:3","sink": "cmpGreater.php:40"},
+        {"source": "cmpGreater.php:3","sink": "cmpGreater.php:20"},
+        {"source": "cmpGreater.php:3","sink": "cmpGreater.php:50"},
+        {"source": "cmpGreater.php:3","sink": "cmpGreater.php:70"},
+        {"source": "cmpGreater.php:3","sink": "cmpGreater.php:80"},
+        {"source": "cmpGreater.php:3","sink": "cmpGreater.php:60"},
+        {"source": "cmpGreater.php:3","sink": "cmpGreater.php:100"},
+        {"source": "cmpGreater.php:3","sink": "cmpGreater.php:90"}
+      ]
+    },
+    {
+      "name": "expr/OperationCompare/cmpGreaterOrEqual.php",
+      "vulnerabilities": [
+        {"source": "cmpGreaterOrEqual.php:3","sink": "cmpGreaterOrEqual.php:90"},
+        {"source": "cmpGreaterOrEqual.php:3","sink": "cmpGreaterOrEqual.php:40"},
+        {"source": "cmpGreaterOrEqual.php:3","sink": "cmpGreaterOrEqual.php:20"},
+        {"source": "cmpGreaterOrEqual.php:3","sink": "cmpGreaterOrEqual.php:50"},
+        {"source": "cmpGreaterOrEqual.php:3","sink": "cmpGreaterOrEqual.php:100"},
+        {"source": "cmpGreaterOrEqual.php:3","sink": "cmpGreaterOrEqual.php:60"},
+        {"source": "cmpGreaterOrEqual.php:3","sink": "cmpGreaterOrEqual.php:10"},
+        {"source": "cmpGreaterOrEqual.php:3","sink": "cmpGreaterOrEqual.php:70"},
+        {"source": "cmpGreaterOrEqual.php:3","sink": "cmpGreaterOrEqual.php:80"},
+        {"source": "cmpGreaterOrEqual.php:3","sink": "cmpGreaterOrEqual.php:30"}
+      ]
+    },
+    {
+      "name": "expr/OperationCompare/cmpIdentical.php",
+      "vulnerabilities": [
+        {"source": "cmpIdentical.php:3","sink": "cmpIdentical.php:100"},
+        {"source": "cmpIdentical.php:3","sink": "cmpIdentical.php:50"},
+        {"source": "cmpIdentical.php:3","sink": "cmpIdentical.php:10"},
+        {"source": "cmpIdentical.php:3","sink": "cmpIdentical.php:80"},
+        {"source": "cmpIdentical.php:3","sink": "cmpIdentical.php:90"},
+        {"source": "cmpIdentical.php:3","sink": "cmpIdentical.php:40"},
+        {"source": "cmpIdentical.php:3","sink": "cmpIdentical.php:60"},
+        {"source": "cmpIdentical.php:3","sink": "cmpIdentical.php:110"},
+        {"source": "cmpIdentical.php:3","sink": "cmpIdentical.php:20"},
+        {"source": "cmpIdentical.php:3","sink": "cmpIdentical.php:70"},
+        {"source": "cmpIdentical.php:3","sink": "cmpIdentical.php:30"}
+      ]
+    },
+    {
+      "name": "expr/OperationCompare/cmpNotEqual.php",
+      "vulnerabilities": [
+        {"source": "cmpNotEqual.php:3","sink": "cmpNotEqual.php:50"},
+        {"source": "cmpNotEqual.php:3","sink": "cmpNotEqual.php:70"},
+        {"source": "cmpNotEqual.php:3","sink": "cmpNotEqual.php:10"},
+        {"source": "cmpNotEqual.php:3","sink": "cmpNotEqual.php:100"},
+        {"source": "cmpNotEqual.php:3","sink": "cmpNotEqual.php:60"},
+        {"source": "cmpNotEqual.php:3","sink": "cmpNotEqual.php:80"},
+        {"source": "cmpNotEqual.php:3","sink": "cmpNotEqual.php:110"},
+        {"source": "cmpNotEqual.php:3","sink": "cmpNotEqual.php:90"},
+        {"source": "cmpNotEqual.php:3","sink": "cmpNotEqual.php:20"},
+        {"source": "cmpNotEqual.php:3","sink": "cmpNotEqual.php:40"},
+        {"source": "cmpNotEqual.php:3","sink": "cmpNotEqual.php:30"}
+      ]
+    },
+    {
+      "name": "expr/OperationCompare/cmpNotIdentical.php",
+      "vulnerabilities": [
+        {"source": "cmpNotIdentical.php:3","sink": "cmpNotIdentical.php:101"},
+        {"source": "cmpNotIdentical.php:3","sink": "cmpNotIdentical.php:111"},
+        {"source": "cmpNotIdentical.php:3","sink": "cmpNotIdentical.php:20"},
+        {"source": "cmpNotIdentical.php:3","sink": "cmpNotIdentical.php:70"},
+        {"source": "cmpNotIdentical.php:3","sink": "cmpNotIdentical.php:80"},
+        {"source": "cmpNotIdentical.php:3","sink": "cmpNotIdentical.php:10"},
+        {"source": "cmpNotIdentical.php:3","sink": "cmpNotIdentical.php:40"},
+        {"source": "cmpNotIdentical.php:3","sink": "cmpNotIdentical.php:30"},
+        {"source": "cmpNotIdentical.php:3","sink": "cmpNotIdentical.php:50"},
+        {"source": "cmpNotIdentical.php:3","sink": "cmpNotIdentical.php:60"}
+      ]
+    },
+    {
+      "name": "expr/OperationCompare/cmpSmaller.php",
+      "vulnerabilities": [
+        {"source": "cmpSmaller.php:3","sink": "cmpSmaller.php:30"},
+        {"source": "cmpSmaller.php:3","sink": "cmpSmaller.php:20"},
+        {"source": "cmpSmaller.php:3","sink": "cmpSmaller.php:50"},
+        {"source": "cmpSmaller.php:3","sink": "cmpSmaller.php:10"},
+        {"source": "cmpSmaller.php:3","sink": "cmpSmaller.php:40"},
+        {"source": "cmpSmaller.php:3","sink": "cmpSmaller.php:60"},
+        {"source": "cmpSmaller.php:3","sink": "cmpSmaller.php:70"},
+        {"source": "cmpSmaller.php:3","sink": "cmpSmaller.php:80"},
+        {"source": "cmpSmaller.php:3","sink": "cmpSmaller.php:100"},
+        {"source": "cmpSmaller.php:3","sink": "cmpSmaller.php:90"}
+      ]
+    },
+    {
+      "name": "expr/OperationCompare/cmpSmallerOrEqual.php",
+      "vulnerabilities": [
+        {"source": "cmpSmallerOrEqual.php:3","sink": "cmpSmallerOrEqual.php:60"},
+        {"source": "cmpSmallerOrEqual.php:3","sink": "cmpSmallerOrEqual.php:40"},
+        {"source": "cmpSmallerOrEqual.php:3","sink": "cmpSmallerOrEqual.php:80"},
+        {"source": "cmpSmallerOrEqual.php:3","sink": "cmpSmallerOrEqual.php:30"},
+        {"source": "cmpSmallerOrEqual.php:3","sink": "cmpSmallerOrEqual.php:20"},
+        {"source": "cmpSmallerOrEqual.php:3","sink": "cmpSmallerOrEqual.php:50"},
+        {"source": "cmpSmallerOrEqual.php:3","sink": "cmpSmallerOrEqual.php:70"},
+        {"source": "cmpSmallerOrEqual.php:3","sink": "cmpSmallerOrEqual.php:10"},
+        {"source": "cmpSmallerOrEqual.php:3","sink": "cmpSmallerOrEqual.php:100"},
+        {"source": "cmpSmallerOrEqual.php:3","sink": "cmpSmallerOrEqual.php:90"}
+      ]
+    },
+    {
+      "name": "expr/OperationCompare/cmpSpaceShip.php",
+      "vulnerabilities": [
+        {"source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:90"},
+        {"source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:100"},
+        {"source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:50"},
+        {"source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:60"},
+        {"source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:80"},
+        {"source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:20"},
+        {"source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:110"},
+        {"source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:70"},
+        {"source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:30"},
+        {"source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:120"},
+        {"source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:40"},
+        {"source": "cmpSpaceShip.php:3","sink": "cmpSpaceShip.php:10"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/binaryBitwiseAnd.php",
+      "vulnerabilities": [
+        {"source": "binaryBitwiseAnd.php:3","sink": "binaryBitwiseAnd.php:20"},
+        {"source": "binaryBitwiseAnd.php:3","sink": "binaryBitwiseAnd.php:60"},
+        {"source": "binaryBitwiseAnd.php:3","sink": "binaryBitwiseAnd.php:70"},
+        {"source": "binaryBitwiseAnd.php:3","sink": "binaryBitwiseAnd.php:90"},
+        {"source": "binaryBitwiseAnd.php:3","sink": "binaryBitwiseAnd.php:10"},
+        {"source": "binaryBitwiseAnd.php:3","sink": "binaryBitwiseAnd.php:80"},
+        {"source": "binaryBitwiseAnd.php:3","sink": "binaryBitwiseAnd.php:50"},
+        {"source": "binaryBitwiseAnd.php:3","sink": "binaryBitwiseAnd.php:40"},
+        {"source": "binaryBitwiseAnd.php:3","sink": "binaryBitwiseAnd.php:30"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/binaryBitwiseOr.php",
+      "vulnerabilities": [
+        {"source": "binaryBitwiseOr.php:3","sink": "binaryBitwiseOr.php:10"},
+        {"source": "binaryBitwiseOr.php:3","sink": "binaryBitwiseOr.php:50"},
+        {"source": "binaryBitwiseOr.php:3","sink": "binaryBitwiseOr.php:60"},
+        {"source": "binaryBitwiseOr.php:3","sink": "binaryBitwiseOr.php:90"},
+        {"source": "binaryBitwiseOr.php:3","sink": "binaryBitwiseOr.php:70"},
+        {"source": "binaryBitwiseOr.php:3","sink": "binaryBitwiseOr.php:80"},
+        {"source": "binaryBitwiseOr.php:3","sink": "binaryBitwiseOr.php:30"},
+        {"source": "binaryBitwiseOr.php:3","sink": "binaryBitwiseOr.php:40"},
+        {"source": "binaryBitwiseOr.php:3","sink": "binaryBitwiseOr.php:20"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/binaryBitwiseShiftLeft.php",
+      "vulnerabilities": [
+        {"source": "binaryBitwiseShiftLeft.php:3","sink": "binaryBitwiseShiftLeft.php:80"},
+        {"source": "binaryBitwiseShiftLeft.php:3","sink": "binaryBitwiseShiftLeft.php:70"},
+        {"source": "binaryBitwiseShiftLeft.php:3","sink": "binaryBitwiseShiftLeft.php:50"},
+        {"source": "binaryBitwiseShiftLeft.php:3","sink": "binaryBitwiseShiftLeft.php:20"},
+        {"source": "binaryBitwiseShiftLeft.php:3","sink": "binaryBitwiseShiftLeft.php:10"},
+        {"source": "binaryBitwiseShiftLeft.php:3","sink": "binaryBitwiseShiftLeft.php:40"},
+        {"source": "binaryBitwiseShiftLeft.php:3","sink": "binaryBitwiseShiftLeft.php:30"},
+        {"source": "binaryBitwiseShiftLeft.php:3","sink": "binaryBitwiseShiftLeft.php:60"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/binaryBitwiseShiftRight.php",
+      "vulnerabilities": [
+        {"source": "binaryBitwiseShiftRight.php:3","sink": "binaryBitwiseShiftRight.php:70"},
+        {"source": "binaryBitwiseShiftRight.php:3","sink": "binaryBitwiseShiftRight.php:60"},
+        {"source": "binaryBitwiseShiftRight.php:3","sink": "binaryBitwiseShiftRight.php:80"},
+        {"source": "binaryBitwiseShiftRight.php:3","sink": "binaryBitwiseShiftRight.php:30"},
+        {"source": "binaryBitwiseShiftRight.php:3","sink": "binaryBitwiseShiftRight.php:10"},
+        {"source": "binaryBitwiseShiftRight.php:3","sink": "binaryBitwiseShiftRight.php:20"},
+        {"source": "binaryBitwiseShiftRight.php:3","sink": "binaryBitwiseShiftRight.php:40"},
+        {"source": "binaryBitwiseShiftRight.php:3","sink": "binaryBitwiseShiftRight.php:50"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/binaryBitwiseXor.php",
+      "vulnerabilities": [
+        {"source": "binaryBitwiseXor.php:3","sink": "binaryBitwiseXor.php:80"},
+        {"source": "binaryBitwiseXor.php:3","sink": "binaryBitwiseXor.php:40"},
+        {"source": "binaryBitwiseXor.php:3","sink": "binaryBitwiseXor.php:30"},
+        {"source": "binaryBitwiseXor.php:3","sink": "binaryBitwiseXor.php:50"},
+        {"source": "binaryBitwiseXor.php:3","sink": "binaryBitwiseXor.php:20"},
+        {"source": "binaryBitwiseXor.php:3","sink": "binaryBitwiseXor.php:70"},
+        {"source": "binaryBitwiseXor.php:3","sink": "binaryBitwiseXor.php:60"},
+        {"source": "binaryBitwiseXor.php:3","sink": "binaryBitwiseXor.php:90"},
+        {"source": "binaryBitwiseXor.php:3","sink": "binaryBitwiseXor.php:10"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/binaryBooleanAnd.php",
+      "vulnerabilities": [
+        {"source": "binaryBooleanAnd.php:3","sink": "binaryBooleanAnd.php:30"},
+        {"source": "binaryBooleanAnd.php:3","sink": "binaryBooleanAnd.php:70"},
+        {"source": "binaryBooleanAnd.php:3","sink": "binaryBooleanAnd.php:40"},
+        {"source": "binaryBooleanAnd.php:3","sink": "binaryBooleanAnd.php:60"},
+        {"source": "binaryBooleanAnd.php:3","sink": "binaryBooleanAnd.php:90"},
+        {"source": "binaryBooleanAnd.php:3","sink": "binaryBooleanAnd.php:50"},
+        {"source": "binaryBooleanAnd.php:3","sink": "binaryBooleanAnd.php:10"},
+        {"source": "binaryBooleanAnd.php:3","sink": "binaryBooleanAnd.php:80"},
+        {"source": "binaryBooleanAnd.php:3","sink": "binaryBooleanAnd.php:20"},
+        {"source": "binaryBooleanAnd.php:3","sink": "binaryBooleanAnd.php:100"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/binaryBooleanOr.php",
+      "vulnerabilities": [
+        {"source": "binaryBooleanOr.php:3","sink": "binaryBooleanOr.php:80"},
+        {"source": "binaryBooleanOr.php:3","sink": "binaryBooleanOr.php:90"},
+        {"source": "binaryBooleanOr.php:3","sink": "binaryBooleanOr.php:60"},
+        {"source": "binaryBooleanOr.php:3","sink": "binaryBooleanOr.php:70"},
+        {"source": "binaryBooleanOr.php:3","sink": "binaryBooleanOr.php:50"},
+        {"source": "binaryBooleanOr.php:3","sink": "binaryBooleanOr.php:10"},
+        {"source": "binaryBooleanOr.php:3","sink": "binaryBooleanOr.php:20"},
+        {"source": "binaryBooleanOr.php:3","sink": "binaryBooleanOr.php:40"},
+        {"source": "binaryBooleanOr.php:3","sink": "binaryBooleanOr.php:100"},
+        {"source": "binaryBooleanOr.php:3","sink": "binaryBooleanOr.php:30"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/binaryLogicAnd.php",
+      "vulnerabilities": [
+        {"source": "binaryLogicAnd.php:3","sink": "binaryLogicAnd.php:70"},
+        {"source": "binaryLogicAnd.php:3","sink": "binaryLogicAnd.php:100"},
+        {"source": "binaryLogicAnd.php:3","sink": "binaryLogicAnd.php:30"},
+        {"source": "binaryLogicAnd.php:3","sink": "binaryLogicAnd.php:80"},
+        {"source": "binaryLogicAnd.php:3","sink": "binaryLogicAnd.php:40"},
+        {"source": "binaryLogicAnd.php:3","sink": "binaryLogicAnd.php:50"},
+        {"source": "binaryLogicAnd.php:3","sink": "binaryLogicAnd.php:20"},
+        {"source": "binaryLogicAnd.php:3","sink": "binaryLogicAnd.php:90"},
+        {"source": "binaryLogicAnd.php:3","sink": "binaryLogicAnd.php:10"},
+        {"source": "binaryLogicAnd.php:3","sink": "binaryLogicAnd.php:60"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/binaryLogicOr.php",
+      "vulnerabilities": [
+        {"source": "binaryLogicOr.php:3","sink": "binaryLogicOr.php:30"},
+        {"source": "binaryLogicOr.php:3","sink": "binaryLogicOr.php:50"},
+        {"source": "binaryLogicOr.php:3","sink": "binaryLogicOr.php:100"},
+        {"source": "binaryLogicOr.php:3","sink": "binaryLogicOr.php:20"},
+        {"source": "binaryLogicOr.php:3","sink": "binaryLogicOr.php:60"},
+        {"source": "binaryLogicOr.php:3","sink": "binaryLogicOr.php:70"},
+        {"source": "binaryLogicOr.php:3","sink": "binaryLogicOr.php:90"},
+        {"source": "binaryLogicOr.php:3","sink": "binaryLogicOr.php:10"},
+        {"source": "binaryLogicOr.php:3","sink": "binaryLogicOr.php:40"},
+        {"source": "binaryLogicOr.php:3","sink": "binaryLogicOr.php:80"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/binaryLogicXor.php",
+      "vulnerabilities": [
+        {"source": "binaryLogicXor.php:3","sink": "binaryLogicXor.php:30"},
+        {"source": "binaryLogicXor.php:3","sink": "binaryLogicXor.php:90"},
+        {"source": "binaryLogicXor.php:3","sink": "binaryLogicXor.php:40"},
+        {"source": "binaryLogicXor.php:3","sink": "binaryLogicXor.php:50"},
+        {"source": "binaryLogicXor.php:3","sink": "binaryLogicXor.php:10"},
+        {"source": "binaryLogicXor.php:3","sink": "binaryLogicXor.php:100"},
+        {"source": "binaryLogicXor.php:3","sink": "binaryLogicXor.php:70"},
+        {"source": "binaryLogicXor.php:3","sink": "binaryLogicXor.php:20"},
+        {"source": "binaryLogicXor.php:3","sink": "binaryLogicXor.php:80"},
+        {"source": "binaryLogicXor.php:3","sink": "binaryLogicXor.php:60"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/binaryNullCoalesce.php",
+      "vulnerabilities": [
+        {"source": "binaryNullCoalesce.php:3","sink": "binaryNullCoalesce.php:60"},
+        {"source": "binaryNullCoalesce.php:3","sink": "binaryNullCoalesce.php:70"},
+        {"source": "binaryNullCoalesce.php:3","sink": "binaryNullCoalesce.php:84"},
+        {"source": "binaryNullCoalesce.php:3","sink": "binaryNullCoalesce.php:94"},
+        {"source": "binaryNullCoalesce.php:3","sink": "binaryNullCoalesce.php:30"},
+        {"source": "binaryNullCoalesce.php:3","sink": "binaryNullCoalesce.php:104"},
+        {"source": "binaryNullCoalesce.php:3","sink": "binaryNullCoalesce.php:10"},
+        {"source": "binaryNullCoalesce.php:3","sink": "binaryNullCoalesce.php:20"},
+        {"source": "binaryNullCoalesce.php:3","sink": "binaryNullCoalesce.php:40"},
+        {"source": "binaryNullCoalesce.php:3","sink": "binaryNullCoalesce.php:50"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/binaryNumDiv.php",
+      "vulnerabilities": [
+        {"source": "binaryNumDiv.php:3","sink": "binaryNumDiv.php:20"},
+        {"source": "binaryNumDiv.php:3","sink": "binaryNumDiv.php:80"},
+        {"source": "binaryNumDiv.php:3","sink": "binaryNumDiv.php:70"},
+        {"source": "binaryNumDiv.php:3","sink": "binaryNumDiv.php:60"},
+        {"source": "binaryNumDiv.php:3","sink": "binaryNumDiv.php:50"},
+        {"source": "binaryNumDiv.php:3","sink": "binaryNumDiv.php:90"},
+        {"source": "binaryNumDiv.php:3","sink": "binaryNumDiv.php:40"},
+        {"source": "binaryNumDiv.php:3","sink": "binaryNumDiv.php:30"},
+        {"source": "binaryNumDiv.php:3","sink": "binaryNumDiv.php:10"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/binaryNumMinus.php",
+      "vulnerabilities": [
+        {"source": "binaryNumMinus.php:3","sink": "binaryNumMinus.php:50"},
+        {"source": "binaryNumMinus.php:3","sink": "binaryNumMinus.php:90"},
+        {"source": "binaryNumMinus.php:3","sink": "binaryNumMinus.php:30"},
+        {"source": "binaryNumMinus.php:3","sink": "binaryNumMinus.php:20"},
+        {"source": "binaryNumMinus.php:3","sink": "binaryNumMinus.php:40"},
+        {"source": "binaryNumMinus.php:3","sink": "binaryNumMinus.php:60"},
+        {"source": "binaryNumMinus.php:3","sink": "binaryNumMinus.php:80"},
+        {"source": "binaryNumMinus.php:3","sink": "binaryNumMinus.php:100"},
+        {"source": "binaryNumMinus.php:3","sink": "binaryNumMinus.php:70"},
+        {"source": "binaryNumMinus.php:3","sink": "binaryNumMinus.php:10"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/binaryNumMod.php",
+      "vulnerabilities": [
+        {"source": "binaryNumMod.php:3","sink": "binaryNumMod.php:80"},
+        {"source": "binaryNumMod.php:3","sink": "binaryNumMod.php:20"},
+        {"source": "binaryNumMod.php:3","sink": "binaryNumMod.php:30"},
+        {"source": "binaryNumMod.php:3","sink": "binaryNumMod.php:50"},
+        {"source": "binaryNumMod.php:3","sink": "binaryNumMod.php:40"},
+        {"source": "binaryNumMod.php:3","sink": "binaryNumMod.php:10"},
+        {"source": "binaryNumMod.php:3","sink": "binaryNumMod.php:70"},
+        {"source": "binaryNumMod.php:3","sink": "binaryNumMod.php:60"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/binaryNumMul.php",
+      "vulnerabilities": [
+        {"source": "binaryNumMul.php:3","sink": "binaryNumMul.php:40"},
+        {"source": "binaryNumMul.php:3","sink": "binaryNumMul.php:30"},
+        {"source": "binaryNumMul.php:3","sink": "binaryNumMul.php:20"},
+        {"source": "binaryNumMul.php:3","sink": "binaryNumMul.php:60"},
+        {"source": "binaryNumMul.php:3","sink": "binaryNumMul.php:80"},
+        {"source": "binaryNumMul.php:3","sink": "binaryNumMul.php:70"},
+        {"source": "binaryNumMul.php:3","sink": "binaryNumMul.php:90"},
+        {"source": "binaryNumMul.php:3","sink": "binaryNumMul.php:100"},
+        {"source": "binaryNumMul.php:3","sink": "binaryNumMul.php:50"},
+        {"source": "binaryNumMul.php:3","sink": "binaryNumMul.php:10"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/binaryNumPlus.php",
+      "vulnerabilities": [
+        {"source": "binaryNumPlus.php:3","sink": "binaryNumPlus.php:10"},
+        {"source": "binaryNumPlus.php:3","sink": "binaryNumPlus.php:40"},
+        {"source": "binaryNumPlus.php:3","sink": "binaryNumPlus.php:20"},
+        {"source": "binaryNumPlus.php:3","sink": "binaryNumPlus.php:30"},
+        {"source": "binaryNumPlus.php:3","sink": "binaryNumPlus.php:70"},
+        {"source": "binaryNumPlus.php:3","sink": "binaryNumPlus.php:50"},
+        {"source": "binaryNumPlus.php:3","sink": "binaryNumPlus.php:60"},
+        {"source": "binaryNumPlus.php:3","sink": "binaryNumPlus.php:100"},
+        {"source": "binaryNumPlus.php:3","sink": "binaryNumPlus.php:80"},
+        {"source": "binaryNumPlus.php:3","sink": "binaryNumPlus.php:90"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/binaryNumPower.php",
+      "vulnerabilities": [
+        {"source": "binaryNumPower.php:3","sink": "binaryNumPower.php:40"},
+        {"source": "binaryNumPower.php:3","sink": "binaryNumPower.php:80"},
+        {"source": "binaryNumPower.php:3","sink": "binaryNumPower.php:90"},
+        {"source": "binaryNumPower.php:3","sink": "binaryNumPower.php:20"},
+        {"source": "binaryNumPower.php:3","sink": "binaryNumPower.php:30"},
+        {"source": "binaryNumPower.php:3","sink": "binaryNumPower.php:60"},
+        {"source": "binaryNumPower.php:3","sink": "binaryNumPower.php:10"},
+        {"source": "binaryNumPower.php:3","sink": "binaryNumPower.php:50"},
+        {"source": "binaryNumPower.php:3","sink": "binaryNumPower.php:70"},
+        {"source": "binaryNumPower.php:3","sink": "binaryNumPower.php:100"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/binaryStrConcat.php",
+      "vulnerabilities": [
+        {"source": "binaryStrConcat.php:3","sink": "binaryStrConcat.php:6"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/typeCastArray.php",
+      "vulnerabilities": [
+        {"source": "typeCastArray.php:3","sink": "typeCastArray.php:54"},
+        {"source": "typeCastArray.php:3","sink": "typeCastArray.php:91"},
+        {"source": "typeCastArray.php:3","sink": "typeCastArray.php:18"},
+        {"source": "typeCastArray.php:3","sink": "typeCastArray.php:9"},
+        {"source": "typeCastArray.php:3","sink": "typeCastArray.php:45"},
+        {"source": "typeCastArray.php:3","sink": "typeCastArray.php:63"},
+        {"source": "typeCastArray.php:3","sink": "typeCastArray.php:36"},
+        {"source": "typeCastArray.php:3","sink": "typeCastArray.php:72"},
+        {"source": "typeCastArray.php:3","sink": "typeCastArray.php:82"},
+        {"source": "typeCastArray.php:3","sink": "typeCastArray.php:27"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/typeCastBoolean.php",
+      "vulnerabilities": [
+        {"source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:54"},
+        {"source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:99"},
+        {"source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:72"},
+        {"source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:27"},
+        {"source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:63"},
+        {"source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:9"},
+        {"source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:18"},
+        {"source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:45"},
+        {"source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:90"},
+        {"source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:117"},
+        {"source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:108"},
+        {"source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:36"},
+        {"source": "typeCastBoolean.php:3","sink": "typeCastBoolean.php:81"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/typeCastDouble.php",
+      "vulnerabilities": [
+        {"source": "typeCastDouble.php:3","sink": "typeCastDouble.php:27"},
+        {"source": "typeCastDouble.php:3","sink": "typeCastDouble.php:81"},
+        {"source": "typeCastDouble.php:3","sink": "typeCastDouble.php:54"},
+        {"source": "typeCastDouble.php:3","sink": "typeCastDouble.php:45"},
+        {"source": "typeCastDouble.php:3","sink": "typeCastDouble.php:63"},
+        {"source": "typeCastDouble.php:3","sink": "typeCastDouble.php:126"},
+        {"source": "typeCastDouble.php:3","sink": "typeCastDouble.php:18"},
+        {"source": "typeCastDouble.php:3","sink": "typeCastDouble.php:72"},
+        {"source": "typeCastDouble.php:3","sink": "typeCastDouble.php:99"},
+        {"source": "typeCastDouble.php:3","sink": "typeCastDouble.php:36"},
+        {"source": "typeCastDouble.php:3","sink": "typeCastDouble.php:9"},
+        {"source": "typeCastDouble.php:3","sink": "typeCastDouble.php:117"},
+        {"source": "typeCastDouble.php:3","sink": "typeCastDouble.php:90"},
+        {"source": "typeCastDouble.php:3","sink": "typeCastDouble.php:108"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/typeCastInt.php",
+      "vulnerabilities": [
+        {"source": "typeCastInt.php:3","sink": "typeCastInt.php:27"},
+        {"source": "typeCastInt.php:3","sink": "typeCastInt.php:126"},
+        {"source": "typeCastInt.php:3","sink": "typeCastInt.php:18"},
+        {"source": "typeCastInt.php:3","sink": "typeCastInt.php:36"},
+        {"source": "typeCastInt.php:3","sink": "typeCastInt.php:72"},
+        {"source": "typeCastInt.php:3","sink": "typeCastInt.php:45"},
+        {"source": "typeCastInt.php:3","sink": "typeCastInt.php:99"},
+        {"source": "typeCastInt.php:3","sink": "typeCastInt.php:63"},
+        {"source": "typeCastInt.php:3","sink": "typeCastInt.php:54"},
+        {"source": "typeCastInt.php:3","sink": "typeCastInt.php:9"},
+        {"source": "typeCastInt.php:3","sink": "typeCastInt.php:81"},
+        {"source": "typeCastInt.php:3","sink": "typeCastInt.php:90"},
+        {"source": "typeCastInt.php:3","sink": "typeCastInt.php:108"},
+        {"source": "typeCastInt.php:3","sink": "typeCastInt.php:117"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/typeCastObject.php",
+      "vulnerabilities": [
+        {"source": "typeCastObject.php:3","sink": "typeCastObject.php:18"},
+        {"source": "typeCastObject.php:3","sink": "typeCastObject.php:36"},
+        {"source": "typeCastObject.php:3","sink": "typeCastObject.php:9"},
+        {"source": "typeCastObject.php:3","sink": "typeCastObject.php:81"},
+        {"source": "typeCastObject.php:3","sink": "typeCastObject.php:54"},
+        {"source": "typeCastObject.php:3","sink": "typeCastObject.php:27"},
+        {"source": "typeCastObject.php:3","sink": "typeCastObject.php:72"},
+        {"source": "typeCastObject.php:3","sink": "typeCastObject.php:90"},
+        {"source": "typeCastObject.php:3","sink": "typeCastObject.php:63"},
+        {"source": "typeCastObject.php:3","sink": "typeCastObject.php:45"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/typeCastString.php",
+      "vulnerabilities": [
+        {"source": "typeCastString.php:3","sink": "typeCastString.php:63"},
+        {"source": "typeCastString.php:3","sink": "typeCastString.php:18"},
+        {"source": "typeCastString.php:3","sink": "typeCastString.php:72"},
+        {"source": "typeCastString.php:3","sink": "typeCastString.php:47"},
+        {"source": "typeCastString.php:3","sink": "typeCastString.php:81"},
+        {"source": "typeCastString.php:3","sink": "typeCastString.php:99"},
+        {"source": "typeCastString.php:3","sink": "typeCastString.php:90"},
+        {"source": "typeCastString.php:3","sink": "typeCastString.php:56"},
+        {"source": "typeCastString.php:3","sink": "typeCastString.php:29"},
+        {"source": "typeCastString.php:3","sink": "typeCastString.php:9"},
+        {"source": "typeCastString.php:3","sink": "typeCastString.php:38"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/typeCastUnset.php",
+      "vulnerabilities": [
+        {"source": "typeCastUnset.php:3","sink": "typeCastUnset.php:36"},
+        {"source": "typeCastUnset.php:3","sink": "typeCastUnset.php:54"},
+        {"source": "typeCastUnset.php:3","sink": "typeCastUnset.php:63"},
+        {"source": "typeCastUnset.php:3","sink": "typeCastUnset.php:72"},
+        {"source": "typeCastUnset.php:3","sink": "typeCastUnset.php:45"},
+        {"source": "typeCastUnset.php:3","sink": "typeCastUnset.php:9"},
+        {"source": "typeCastUnset.php:3","sink": "typeCastUnset.php:18"},
+        {"source": "typeCastUnset.php:3","sink": "typeCastUnset.php:27"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/unaryBitwiseNot.php",
+      "vulnerabilities": [
+        {"source": "unaryBitwiseNot.php:3","sink": "unaryBitwiseNot.php:10"},
+        {"source": "unaryBitwiseNot.php:3","sink": "unaryBitwiseNot.php:30"},
+        {"source": "unaryBitwiseNot.php:3","sink": "unaryBitwiseNot.php:40"},
+        {"source": "unaryBitwiseNot.php:3","sink": "unaryBitwiseNot.php:20"},
+        {"source": "unaryBitwiseNot.php:3","sink": "unaryBitwiseNot.php:50"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/unaryBooleanNot.php",
+      "vulnerabilities": [
+        {"source": "unaryBooleanNot.php:3","sink": "unaryBooleanNot.php:45"},
+        {"source": "unaryBooleanNot.php:3","sink": "unaryBooleanNot.php:18"},
+        {"source": "unaryBooleanNot.php:3","sink": "unaryBooleanNot.php:36"},
+        {"source": "unaryBooleanNot.php:3","sink": "unaryBooleanNot.php:27"},
+        {"source": "unaryBooleanNot.php:3","sink": "unaryBooleanNot.php:9"},
+        {"source": "unaryBooleanNot.php:3","sink": "unaryBooleanNot.php:90"},
+        {"source": "unaryBooleanNot.php:3","sink": "unaryBooleanNot.php:54"},
+        {"source": "unaryBooleanNot.php:3","sink": "unaryBooleanNot.php:81"},
+        {"source": "unaryBooleanNot.php:3","sink": "unaryBooleanNot.php:72"},
+        {"source": "unaryBooleanNot.php:3","sink": "unaryBooleanNot.php:99"},
+        {"source": "unaryBooleanNot.php:3","sink": "unaryBooleanNot.php:63"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/unaryNumMinus.php",
+      "vulnerabilities": [
+        {"source": "unaryNumMinus.php:3","sink": "unaryNumMinus.php:36"},
+        {"source": "unaryNumMinus.php:3","sink": "unaryNumMinus.php:54"},
+        {"source": "unaryNumMinus.php:3","sink": "unaryNumMinus.php:27"},
+        {"source": "unaryNumMinus.php:3","sink": "unaryNumMinus.php:18"},
+        {"source": "unaryNumMinus.php:3","sink": "unaryNumMinus.php:63"},
+        {"source": "unaryNumMinus.php:3","sink": "unaryNumMinus.php:72"},
+        {"source": "unaryNumMinus.php:3","sink": "unaryNumMinus.php:9"},
+        {"source": "unaryNumMinus.php:3","sink": "unaryNumMinus.php:81"},
+        {"source": "unaryNumMinus.php:3","sink": "unaryNumMinus.php:45"}
+      ]
+    },
+    {
+      "name": "expr/OperationPrimits/unaryNumPlus.php",
+      "vulnerabilities": [
+        {"source": "unaryNumPlus.php:3","sink": "unaryNumPlus.php:45"},
+        {"source": "unaryNumPlus.php:3","sink": "unaryNumPlus.php:18"},
+        {"source": "unaryNumPlus.php:3","sink": "unaryNumPlus.php:63"},
+        {"source": "unaryNumPlus.php:3","sink": "unaryNumPlus.php:72"},
+        {"source": "unaryNumPlus.php:3","sink": "unaryNumPlus.php:81"},
+        {"source": "unaryNumPlus.php:3","sink": "unaryNumPlus.php:9"},
+        {"source": "unaryNumPlus.php:3","sink": "unaryNumPlus.php:36"},
+        {"source": "unaryNumPlus.php:3","sink": "unaryNumPlus.php:54"},
+        {"source": "unaryNumPlus.php:3","sink": "unaryNumPlus.php:27"}
+      ]
+    },
+    {
+      "name": "expr/PhaseSpecialTask/valueMatch.php",
+      "vulnerabilities": [
+        {"source": "valueMatch.php:3","sink": "valueMatch.php:11"}
+      ]
+    },
+    {
+      "name": "expr/PhaseSpecialTask/valueTernary.php",
+      "vulnerabilities": [
+        {"source": "valueTernary.php:3","sink": "valueTernary.php:6"}
+      ]
+    },
+    {
+      "name": "expr/SyntaxPeripheral/errorSuppress.php",
+      "vulnerabilities": [
+        {"source": "errorSuppress.php:3","sink": "errorSuppress.php:18"}
+      ]
+    },
+    {
+      "name": "expr/SyntaxPeripheral/errorThrow.php",
+      "vulnerabilities": [
+        {"source": "errorThrow.php:3","sink": "errorThrow.php:18"}
+      ]
+    },
+    {
+      "name": "expr/SyntaxPeripheral/instanceOf.php",
+      "vulnerabilities": [
+        {"source": "instanceOf.php:3","sink": "instanceOf.php:19"},
+        {"source": "instanceOf.php:3","sink": "instanceOf.php:15"}
+      ]
+    },
+    {
+      "name": "expr/SyntaxPeripheral/valueYield.php",
+      "vulnerabilities": []
+    },
+    {
+      "name": "expr/SyntaxPeripheral/valueYieldFrom.php",
+      "vulnerabilities": []
+    },
+    {
+      "name": "stmt/CtrlFlowChanging/ctrlFlowBreak.php",
+      "vulnerabilities": [
+        {"source": "ctrlFlowBreak.php:3","sink": "ctrlFlowBreak.php:17"}
+      ]
+    },
+    {
+      "name": "stmt/CtrlFlowChanging/ctrlFlowContinue.php",
+      "vulnerabilities": [
+        {"source": "ctrlFlowContinue.php:3","sink": "ctrlFlowContinue.php:17"}
+      ]
+    },
+    {
+      "name": "stmt/CtrlFlowChanging/ctrlFlowGoto.php",
+      "vulnerabilities": [
+        {"source": "ctrlFlowGoto.php:3","sink": "ctrlFlowGoto.php:9"}
+      ]
+    },
+    {
+      "name": "stmt/CtrlFlowChanging/ctrlFlowReturn.php",
+      "vulnerabilities": [
+        {"source": "ctrlFlowReturn.php:3","sink": "ctrlFlowReturn.php:13"}
+      ]
+    },
+    {
+      "name": "stmt/CtrlFlowChanging/ctrlFlowThrow.php",
+      "vulnerabilities": [
+        {"source": "ctrlFlowThrow.php:3","sink": "ctrlFlowThrow.php:5"}
+      ]
+    },
+    {
+      "name": "stmt/CtrlFlowCondLike/ctrlFlowElse.php",
+      "vulnerabilities": [
+        {"source": "ctrlFlowElse.php:3","sink": "ctrlFlowElse.php:8"}
+      ]
+    },
+    {
+      "name": "stmt/CtrlFlowCondLike/ctrlFlowElseIf.php",
+      "vulnerabilities": [
+        {"source": "ctrlFlowElseIf.php:3","sink": "ctrlFlowElseIf.php:8"}
+      ]
+    },
+    {
+      "name": "stmt/CtrlFlowCondLike/ctrlFlowIf.php",
+      "vulnerabilities": [
+        {"source": "ctrlFlowIf.php:3","sink": "ctrlFlowIf.php:9"}
+      ]
+    },
+    {
+      "name": "stmt/CtrlFlowCondLike/ctrlFlowSwitch.php",
+      "vulnerabilities": [
+        {"source": "ctrlFlowSwitch.php:3","sink": "ctrlFlowSwitch.php:9"}
+      ]
+    },
+    {
+      "name": "stmt/CtrlFlowCondLike/ctrlFlowSwitchCase.php",
+      "vulnerabilities": [
+        {"source": "ctrlFlowSwitchCase.php:3","sink": "ctrlFlowSwitchCase.php:12"}
+      ]
+    },
+    {
+      "name": "stmt/CtrlFlowLoopLike/ctrlFlowDoWhile.php",
+      "vulnerabilities": [
+        {"source": "ctrlFlowDoWhile.php:3","sink": "ctrlFlowDoWhile.php:11"}
+      ]
+    },
+    {
+      "name": "stmt/CtrlFlowLoopLike/ctrlFlowFor.php",
+      "vulnerabilities": [
+        {"source": "ctrlFlowFor.php:3","sink": "ctrlFlowFor.php:11"}
+      ]
+    },
+    {
+      "name": "stmt/CtrlFlowLoopLike/ctrlFlowForEach.php",
+      "vulnerabilities": [
+        {"source": "ctrlFlowForEach.php:3","sink": "ctrlFlowForEach.php:11"}
+      ]
+    },
+    {
+      "name": "stmt/CtrlFlowLoopLike/ctrlFlowWhile.php",
+      "vulnerabilities": [
+        {"source": "ctrlFlowWhile.php:3","sink": "ctrlFlowWhile.php:11"}
+      ]
+    },
+    {
+      "name": "stmt/CtrlFlowTryCatch/ctrlFlowCatch.php",
+      "vulnerabilities": [
+        {"source": "ctrlFlowCatch.php:3","sink": "ctrlFlowCatch.php:12"},
+        {"source": "ctrlFlowCatch.php:3","sink": "ctrlFlowCatch.php:15"}
+      ]
+    },
+    {
+      "name": "stmt/CtrlFlowTryCatch/ctrlFlowFinally.php",
+      "vulnerabilities": [
+        {"source": "ctrlFlowFinally.php:3","sink": "ctrlFlowFinally.php:7"}
+      ]
+    },
+    {
+      "name": "stmt/CtrlFlowTryCatch/ctrlFlowTry.php",
+      "vulnerabilities": [
+        {"source": "ctrlFlowTry.php:3","sink": "ctrlFlowTry.php:5"}
+      ]
+    },
+    {
+      "name": "stmt/DeclareClassLike/declareClass.php",
+      "vulnerabilities": [
+        {"source": "declareClass.php:3","sink": "declareClass.php:7"}
+      ]
+    },
+    {
+      "name": "stmt/DeclareClassLike/declareEnum.php",
+      "vulnerabilities": [
+        {"source": "declareEnum.php:3","sink": "declareEnum.php:7"}
+      ]
+    },
+    {
+      "name": "stmt/DeclareClassLike/declareInterface.php",
+      "vulnerabilities": [
+        {"source": "declareInterface.php:3","sink": "declareInterface.php:13"}
+      ]
+    },
+    {
+      "name": "stmt/DeclareClassLike/declareTrait.php",
+      "vulnerabilities": [
+        {"source": "declareTrait.php:3","sink": "declareTrait.php:7"}
+      ]
+    },
+    {
+      "name": "stmt/DeclareFuncsLike/declareFuncMeth.php",
+      "vulnerabilities": [
+        {"source": "declareFuncMeth.php:3","sink": "declareFuncMeth.php:9"}
+      ]
+    },
+    {
+      "name": "stmt/DeclareFuncsLike/declareFuncNorm.php",
+      "vulnerabilities": [
+        {"source": "declareFuncNorm.php:3","sink": "declareFuncNorm.php:7"}
+      ]
+    },
+    {
+      "name": "stmt/DeclareFuncsLike/declareSrcFile",
+      "vulnerabilities": []
+    },
+    {
+      "name": "stmt/DeclareVariables/declareConstClass.php",
+      "vulnerabilities": [
+        {"source": "declareConstClass.php:3","sink": "declareConstClass.php:10"}
+      ]
+    },
+    {
+      "name": "stmt/DeclareVariables/declareConstGlobal.php",
+      "vulnerabilities": [
+        {"source": "declareConstGlobal.php:3","sink": "declareConstGlobal.php:7"}
+      ]
+    },
+    {
+      "name": "stmt/DeclareVariables/declareProperty.php",
+      "vulnerabilities": [
+        {"source": "declareProperty.php:3","sink": "declareProperty.php:5"}
+      ]
+    },
+    {
+      "name": "stmt/DeclareVariables/declareVarStatic.php",
+      "vulnerabilities": [
+        {"source": "declareVarStatic.php:3","sink": "declareVarStatic.php:5"}
+      ]
+    },
+    {
+      "name": "stmt/PhaseSpecialTask/block.php",
+      "vulnerabilities": [
+        {"source": "block.php:4","sink": "block.php:8"}
+      ]
+    },
+    {
+      "name": "stmt/PhaseSpecialTask/declare.php",
+      "vulnerabilities": [
+        {"source": "declare.php:3","sink": "declare.php:8"}
+      ]
+    },
+    {
+      "name": "stmt/PhaseSpecialTask/echo.php",
+      "vulnerabilities": [
+        {"source": "echo.php:3","sink": "echo.php:5"}
+      ]
+    },
+    {
+      "name": "stmt/PhaseSpecialTask/expression.php",
+      "vulnerabilities": [
+        {"source": "expression.php:3","sink": "expression.php:5"}
+      ]
+    },
+    {
+      "name": "stmt/PhaseSpecialTask/namespace.php",
+      "vulnerabilities": [
+        {"source": "namespace.php:3","sink": "namespace.php:6"}
+      ]
+    },
+    {
+      "name": "stmt/PhaseSpecialTask/namespaceUse.php",
+      "vulnerabilities": [
+        {"source": "namespaceUse.php:3","sink": "namespaceUse.php:13"}
+      ]
+    },
+    {
+      "name": "stmt/PhaseSpecialTask/nop.php",
+      "vulnerabilities": [
+        {"source": "nop.php:3","sink": "nop.php:5"}
+      ]
+    },
+    {
+      "name": "stmt/PhaseSpecialTask/unset.php",
+      "vulnerabilities": [
+        {"source": "unset.php:3","sink": "unset.php:4"}
+      ]
     }
-]
+  ]
