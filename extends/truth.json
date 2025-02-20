@@ -14,7 +14,10 @@
   },
   {
     "name": "extends/expr/CallFunctionLike/func_nest_mixed",
-    "vulnerabilities": []
+    "vulnerabilities": [
+      {"type": 79, "source": "main.php:21","sink": "main.php:8"},
+      {"type": 79, "source": "main.php:21","sink": "main.php:17"}
+    ]
   },
   {
     "name": "extends/expr/CallFunctionLike/func_norm",
