@@ -5,3 +5,7 @@ The basic test challenges patterns for an implementation of the static analysis 
 For original Testability tarpit case there are 84 Patterns have been identified, with a total of 122 patterns instances.
 
 For our extended version there are 178 patterns and 1204 instances with 602 true positive cases and 602 false positive case. 
+
+GROUND TRUTH DATA: 
+
+MAKE ALL TOOLS REPORT DATA AND GOT RESULTS AS PART OF TP,
