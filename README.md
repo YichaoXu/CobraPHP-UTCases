@@ -1,13 +1,15 @@
 # PHPTarpits Dataset
 
 ## Overview
-The **PHPTarpits** dataset provides a collection of test challenges for evaluating a static analysis approach for PHP [not_released](?). This dataset is a fork of **TestabilityTarpits**, retaining only **96 patterns** PHP-specific patterns. Additionally, we introduce **153 new patterns** to cover more complex syntaxes and edge cases.
+The **PHPTarpits** dataset provides a collection of test challenges for evaluating a static analysis approach for PHP [not_released](?).
+In total, there are **237** patterns, including **750 true positive instances** and **1041 false positive instances**. This dataset is a fork of **TestabilityTarpits**, retaining 96 patterns PHP-specific patterns. Additionally, we introduce **153 new patterns** to cover more complex syntaxes and edge cases.
+
 
 ## Dataset Structure
 The dataset is organized into two main directories:
 
 ### **1. `./patterns/` (Modified Testability Cases)**
-This directory contains modified versions of the original **TestabilityTarpits** cases, ensuring syntax correctness. It includes:
+This directory contains modified versions of the original **TestabilityTarpits** patterns, ensuring syntax correctness. It includes:
 - **96 patterns**
 - **537 instances**, categorized as:
   - **143 true positive cases**
@@ -15,8 +17,7 @@ This directory contains modified versions of the original **TestabilityTarpits**
 
 ### **2. `./extends/` (Extended Patterns for PHP 8+ and Built-in Functions)**
 This directory introduces additional patterns, covering PHP 8+ features and previously ignored built-in functions. It includes:
-- **153 newly added patterns**
-- **141 total patterns**
+- **141 patterns**
 - **1,254 instances**, categorized as:
   - **607 true positive cases**
   - **647 false positive cases**
