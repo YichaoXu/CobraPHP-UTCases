@@ -6,7 +6,7 @@ class MyCollection implements IteratorAggregate
     private $st = 'safe';
 
     // Required definition of interface IteratorAggregate
-    public function getIterator()
+    public function getIterator(): Traversable
     {
         return new ArrayIterator($this->items);
     }

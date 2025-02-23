@@ -10,7 +10,7 @@ if ($a === $b) {
 
 $c = "7";
 if ($a == $c) {
-    // No vulnerability
+    // vulnerability
     echo $a."\n";
 }
 

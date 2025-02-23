@@ -1,0 +1,1272 @@
+[
+    {
+        "name": "01_static_variables",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:10","sink": "main.php:6"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "02_global_variables",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:10","sink": "main.php:13"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:10","sink": "main.php:12"}
+        ]
+      },
+      {
+        "name": "03_global_array",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:8","sink": "main.php:5"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "04_conditional_assignment",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:4","sink": "main.php:6"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "05_combined_operator",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:4"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "06_coalesce",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:7"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "07_string_arithmetic_operations",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:6"},
+          {"type": 79,"source": "main.php:8","sink": "main.php:11"},
+          {"type": 79,"source": "main.php:13","sink": "main.php:16"},
+          {"type": 79,"source": "main.php:27","sink": "main.php:30"},
+          {"type": 79,"source": "main.php:32","sink": "main.php:35"},
+          {"type": 79,"source": "main.php:37","sink": "main.php:40"},
+          {"type": 79,"source": "main.php:42","sink": "main.php:45"},
+          {"type": 79,"source": "main.php:53","sink": "main.php:58"},
+          {"type": 79,"source": "main.php:60","sink": "main.php:65"},
+          {"type": 79,"source": "main.php:67","sink": "main.php:72"},
+          {"type": 79,"source": "main.php:74","sink": "main.php:79"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:58"},
+          {"type": 79,"source": "main.php:43","sink": "main.php:31"},
+          {"type": 79,"source": "main.php:43","sink": "main.php:41"},
+          {"type": 79,"source": "main.php:53","sink": "main.php:79"},
+          {"type": 79,"source": "main.php:74","sink": "main.php:65"},
+          {"type": 79,"source": "main.php:18","sink": "main.php:6"},
+          {"type": 79,"source": "main.php:53","sink": "main.php:31"},
+          {"type": 79,"source": "main.php:38","sink": "main.php:16"},
+          {"type": 79,"source": "main.php:53","sink": "main.php:41"},
+          {"type": 79,"source": "main.php:13","sink": "main.php:46"},
+          {"type": 79,"source": "main.php:3","sink": "main.php:16"},
+          {"type": 79,"source": "main.php:43","sink": "main.php:11"},
+          {"type": 79,"source": "main.php:18","sink": "main.php:21"},
+          {"type": 79,"source": "main.php:8","sink": "main.php:21"},
+          {"type": 79,"source": "main.php:53","sink": "main.php:46"},
+          {"type": 79,"source": "main.php:74","sink": "main.php:6"},
+          {"type": 79,"source": "main.php:28","sink": "main.php:21"},
+          {"type": 79,"source": "main.php:60","sink": "main.php:41"},
+          {"type": 79,"source": "main.php:60","sink": "main.php:58"},
+          {"type": 79,"source": "main.php:33","sink": "main.php:79"},
+          {"type": 79,"source": "main.php:18","sink": "main.php:31"},
+          {"type": 79,"source": "main.php:33","sink": "main.php:31"},
+          {"type": 79,"source": "main.php:74","sink": "main.php:21"},
+          {"type": 79,"source": "main.php:67","sink": "main.php:36"},
+          {"type": 79,"source": "main.php:38","sink": "main.php:79"},
+          {"type": 79,"source": "main.php:13","sink": "main.php:6"},
+          {"type": 79,"source": "main.php:53","sink": "main.php:16"},
+          {"type": 79,"source": "main.php:18","sink": "main.php:65"},
+          {"type": 79,"source": "main.php:33","sink": "main.php:58"},
+          {"type": 79,"source": "main.php:28","sink": "main.php:72"},
+          {"type": 79,"source": "main.php:28","sink": "main.php:65"},
+          {"type": 79,"source": "main.php:38","sink": "main.php:58"},
+          {"type": 79,"source": "main.php:53","sink": "main.php:6"},
+          {"type": 79,"source": "main.php:33","sink": "main.php:36"},
+          {"type": 79,"source": "main.php:33","sink": "main.php:16"},
+          {"type": 79,"source": "main.php:38","sink": "main.php:46"},
+          {"type": 79,"source": "main.php:74","sink": "main.php:41"},
+          {"type": 79,"source": "main.php:53","sink": "main.php:21"},
+          {"type": 79,"source": "main.php:3","sink": "main.php:72"},
+          {"type": 79,"source": "main.php:3","sink": "main.php:65"},
+          {"type": 79,"source": "main.php:33","sink": "main.php:6"},
+          {"type": 79,"source": "main.php:33","sink": "main.php:21"},
+          {"type": 79,"source": "main.php:43","sink": "main.php:72"},
+          {"type": 79,"source": "main.php:43","sink": "main.php:65"},
+          {"type": 79,"source": "main.php:13","sink": "main.php:58"},
+          {"type": 79,"source": "main.php:3","sink": "main.php:11"},
+          {"type": 79,"source": "main.php:38","sink": "main.php:6"},
+          {"type": 79,"source": "main.php:60","sink": "main.php:79"},
+          {"type": 79,"source": "main.php:53","sink": "main.php:65"},
+          {"type": 79,"source": "main.php:60","sink": "main.php:31"},
+          {"type": 79,"source": "main.php:13","sink": "main.php:36"},
+          {"type": 79,"source": "main.php:67","sink": "main.php:58"},
+          {"type": 79,"source": "main.php:38","sink": "main.php:21"},
+          {"type": 79,"source": "main.php:28","sink": "main.php:46"},
+          {"type": 79,"source": "main.php:60","sink": "main.php:72"},
+          {"type": 79,"source": "main.php:67","sink": "main.php:31"},
+          {"type": 79,"source": "main.php:3","sink": "main.php:21"},
+          {"type": 79,"source": "main.php:33","sink": "main.php:41"},
+          {"type": 79,"source": "main.php:60","sink": "main.php:16"},
+          {"type": 79,"source": "main.php:33","sink": "main.php:65"},
+          {"type": 79,"source": "main.php:67","sink": "main.php:46"},
+          {"type": 79,"source": "main.php:18","sink": "main.php:72"},
+          {"type": 79,"source": "main.php:8","sink": "main.php:72"},
+          {"type": 79,"source": "main.php:38","sink": "main.php:41"},
+          {"type": 79,"source": "main.php:38","sink": "main.php:65"},
+          {"type": 79,"source": "main.php:67","sink": "main.php:16"},
+          {"type": 79,"source": "main.php:18","sink": "main.php:11"},
+          {"type": 79,"source": "main.php:3","sink": "main.php:46"},
+          {"type": 79,"source": "main.php:13","sink": "main.php:21"},
+          {"type": 79,"source": "main.php:43","sink": "main.php:46"},
+          {"type": 79,"source": "main.php:60","sink": "main.php:6"},
+          {"type": 79,"source": "main.php:60","sink": "main.php:21"},
+          {"type": 79,"source": "main.php:74","sink": "main.php:72"},
+          {"type": 79,"source": "main.php:13","sink": "main.php:79"},
+          {"type": 79,"source": "main.php:74","sink": "main.php:11"},
+          {"type": 79,"source": "main.php:67","sink": "main.php:6"},
+          {"type": 79,"source": "main.php:67","sink": "main.php:21"},
+          {"type": 79,"source": "main.php:13","sink": "main.php:31"},
+          {"type": 79,"source": "main.php:13","sink": "main.php:41"},
+          {"type": 79,"source": "main.php:67","sink": "main.php:79"},
+          {"type": 79,"source": "main.php:13","sink": "main.php:72"},
+          {"type": 79,"source": "main.php:43","sink": "main.php:6"},
+          {"type": 79,"source": "main.php:53","sink": "main.php:72"},
+          {"type": 79,"source": "main.php:8","sink": "main.php:58"},
+          {"type": 79,"source": "main.php:13","sink": "main.php:11"},
+          {"type": 79,"source": "main.php:28","sink": "main.php:58"},
+          {"type": 79,"source": "main.php:8","sink": "main.php:31"},
+          {"type": 79,"source": "main.php:53","sink": "main.php:11"},
+          {"type": 79,"source": "main.php:8","sink": "main.php:46"},
+          {"type": 79,"source": "main.php:18","sink": "main.php:36"},
+          {"type": 79,"source": "main.php:8","sink": "main.php:36"},
+          {"type": 79,"source": "main.php:33","sink": "main.php:72"},
+          {"type": 79,"source": "main.php:28","sink": "main.php:36"},
+          {"type": 79,"source": "main.php:74","sink": "main.php:58"},
+          {"type": 79,"source": "main.php:67","sink": "main.php:65"},
+          {"type": 79,"source": "main.php:33","sink": "main.php:11"},
+          {"type": 79,"source": "main.php:60","sink": "main.php:11"},
+          {"type": 79,"source": "main.php:74","sink": "main.php:31"},
+          {"type": 79,"source": "main.php:74","sink": "main.php:46"},
+          {"type": 79,"source": "main.php:74","sink": "main.php:36"},
+          {"type": 79,"source": "main.php:8","sink": "main.php:16"},
+          {"type": 79,"source": "main.php:28","sink": "main.php:16"},
+          {"type": 79,"source": "main.php:28","sink": "main.php:6"},
+          {"type": 79,"source": "main.php:43","sink": "main.php:58"},
+          {"type": 79,"source": "main.php:38","sink": "main.php:72"},
+          {"type": 79,"source": "main.php:3","sink": "main.php:36"},
+          {"type": 79,"source": "main.php:38","sink": "main.php:11"},
+          {"type": 79,"source": "main.php:43","sink": "main.php:36"},
+          {"type": 79,"source": "main.php:74","sink": "main.php:16"},
+          {"type": 79,"source": "main.php:8","sink": "main.php:6"},
+          {"type": 79,"source": "main.php:53","sink": "main.php:36"},
+          {"type": 79,"source": "main.php:18","sink": "main.php:79"},
+          {"type": 79,"source": "main.php:8","sink": "main.php:79"},
+          {"type": 79,"source": "main.php:60","sink": "main.php:46"},
+          {"type": 79,"source": "main.php:28","sink": "main.php:79"},
+          {"type": 79,"source": "main.php:13","sink": "main.php:65"},
+          {"type": 79,"source": "main.php:43","sink": "main.php:16"},
+          {"type": 79,"source": "main.php:18","sink": "main.php:41"},
+          {"type": 79,"source": "main.php:8","sink": "main.php:41"},
+          {"type": 79,"source": "main.php:18","sink": "main.php:58"},
+          {"type": 79,"source": "main.php:28","sink": "main.php:31"},
+          {"type": 79,"source": "main.php:60","sink": "main.php:36"},
+          {"type": 79,"source": "main.php:28","sink": "main.php:41"},
+          {"type": 79,"source": "main.php:67","sink": "main.php:41"},
+          {"type": 79,"source": "main.php:18","sink": "main.php:46"},
+          {"type": 79,"source": "main.php:33","sink": "main.php:46"},
+          {"type": 79,"source": "main.php:43","sink": "main.php:21"},
+          {"type": 79,"source": "main.php:28","sink": "main.php:11"},
+          {"type": 79,"source": "main.php:8","sink": "main.php:65"},
+          {"type": 79,"source": "main.php:38","sink": "main.php:31"},
+          {"type": 79,"source": "main.php:3","sink": "main.php:79"},
+          {"type": 79,"source": "main.php:67","sink": "main.php:11"},
+          {"type": 79,"source": "main.php:38","sink": "main.php:36"},
+          {"type": 79,"source": "main.php:43","sink": "main.php:79"},
+          {"type": 79,"source": "main.php:3","sink": "main.php:31"},
+          {"type": 79,"source": "main.php:3","sink": "main.php:41"},
+          {"type": 79,"source": "main.php:18","sink": "main.php:16"}
+        ]
+      },
+      {
+        "name": "08_simple_reference",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:8"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "09_reference_argument",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:8","sink": "main.php:12"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:8","sink": "main.php:11"}
+        ]
+      },
+      {
+        "name": "10_return_by_reference",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:13","sink": "main.php:20"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:13","sink": "main.php:18"}
+        ]
+      },
+      {
+        "name": "11_foreach_with_reference",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:7","sink": "main.php:14"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:7","sink": "main.php:13"}
+        ]
+      },
+      {
+        "name": "12_make_ref",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "first_ex.php:5","sink": "first_ex.php:6"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "first_ex.php:5","sink": "second_ex.php:6"},
+          {"type": 79,"source": "second_ex.php:5","sink": "first_ex.php:6"},
+          {"type": 79,"source": "second_ex.php:5","sink": "second_ex.php:6"}
+        ]
+      },
+      {
+        "name": "13_assign_static_prop_ref",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:10","sink": "main.php:11"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "14_object_assigned_by_reference",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:10","sink": "main.php:11"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "15_nested_function",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:10","sink": "main.php:7"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "16_variadic_functions",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:12","sink": "main.php:8"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:12","sink": "main.php:7"}
+        ]
+      },
+      {
+        "name": "17_get_arguments",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:12","sink": "main.php:8"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:12","sink": "main.php:5"}
+        ]
+      },
+      {
+        "name": "18_send_unpack",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:11","sink": "main.php:8"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:11","sink": "main.php:6"}
+        ]
+      },
+      {
+        "name": "19_closures",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "first_ex.php:6","sink": "first_ex.php:4"},
+          {"type": 79,"source": "second_ex.php:3","sink": "second_ex.php:8"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "second_ex.php:3","sink": "first_ex.php:4"},
+          {"type": 79,"source": "first_ex.php:6","sink": "second_ex.php:8"}
+        ]
+      },
+      {
+        "name": "20_use_with_closures",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "second_ex.php:3","sink": "second_ex.php:9"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "second_ex.php:3","sink": "second_ex.php:7"},
+          {"type": 79,"source": "first_ex.php:3","sink": "second_ex.php:7"},
+          {"type": 79,"source": "first_ex.php:3","sink": "second_ex.php:9"},
+          {"type": 79,"source": "second_ex.php:3","sink": "first_ex.php:10"},
+          {"type": 79,"source": "first_ex.php:3","sink": "first_ex.php:7"},
+          {"type": 79,"source": "first_ex.php:3","sink": "first_ex.php:10"},
+          {"type": 79,"source": "second_ex.php:3","sink": "first_ex.php:7"}
+        ]
+      },
+      {
+        "name": "21_simple_object",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:18","sink": "main.php:21"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "22_assign_object",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:10","sink": "main.php:12"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "23_object_argument",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:12","sink": "main.php:15"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:12","sink": "main.php:14"}
+        ]
+      },
+      {
+        "name": "24_new_self",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:7","sink": "main.php:19"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "25_clone",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:16","sink": "main.php:13"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "26_late_static_binding",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "first_ex.php:23","sink": "first_ex.php:19"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "second_ex.php:23","sink": "second_ex.php:19"},
+          {"type": 79,"source": "second_ex.php:23","sink": "first_ex.php:19"},
+          {"type": 79,"source": "first_ex.php:23","sink": "second_ex.php:19"},
+          {"type": 79,"source": "first_ex.php:23","sink": "first_ex.php:7"},
+          {"type": 79,"source": "second_ex.php:23","sink": "first_ex.php:7"},
+          {"type": 79,"source": "second_ex.php:23","sink": "second_ex.php:7"},
+          {"type": 79,"source": "first_ex.php:23","sink": "second_ex.php:7"}
+        ]
+      },
+      {
+        "name": "27_get_called_class",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "first_ex.php:23","sink": "first_ex.php:19"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:23","sink": "main.php:19"},
+          {"type": 79,"source": "main.php:23","sink": "main.php:7"}
+        ]
+      },
+      {
+        "name": "28_static_methods",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:16","sink": "main.php:17"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:16","sink": "main.php:13"}
+        ]
+      },
+      {
+        "name": "29_static_properties",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:16","sink": "main.php:13"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "30_anonymous_classes",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:7"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:10"}
+        ]
+      },
+      {
+        "name": "31_static_method_variable",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:11","sink": "main.php:7"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "32_set_overloading",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:13","sink": "main.php:9"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "33_get_overloading",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:19","sink": "main.php:14"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "34_isset_overloading",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:25","sink": "main.php:9"},
+          {"type": 79,"source": "main.php:25","sink": "main.php:15"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:25","sink": "main.php:31"},
+          {"type": 79,"source": "main.php:25","sink": "main.php:37"}
+        ]
+      },
+      {
+        "name": "35_unset_overloading",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:24","sink": "main.php:20"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:24","sink": "main.php:9"}
+        ]
+      },
+      {
+        "name": "36_call_overloading",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:13","sink": "main.php:8"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:13","sink": "main.php:17"}
+        ]
+      },
+      {
+        "name": "37_callstatic_overloading",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:13","sink": "main.php:8"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:13","sink": "main.php:17"}
+        ]
+      },
+      {
+        "name": "38_invoke",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:12","sink": "main.php:7"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "39_serialize_unserialize",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:18","sink": "main.php:14"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:18","sink": "main.php:22"}
+        ]
+      },
+      {
+        "name": "40_trait",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:9"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:19"}
+        ]
+      },
+      {
+        "name": "41_self_methods",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:19","sink": "main.php:12"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "42_destructor",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:19","sink": "main.php:15"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:19","sink": "main.php:14"},
+          {"type": 79,"source": "main.php:19","sink": "main.php:9"}
+        ]
+      },
+      {
+        "name": "43_tostring_echo_object",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:17","sink": "main.php:20"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:17","sink": "main.php:19"}
+        ]
+      },
+      {
+        "name": "44_verify_return_type",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "first_ex.php:25","sink": "first_ex.php:14"},
+          {"type": 79,"source": "second_ex.php:24","sink": "second_ex.php:13"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "second_ex.php:24","sink": "second_ex.php:25"},
+          {"type": 79,"source": "first_ex.php:25","sink": "first_ex.php:22"},
+          {"type": 79,"source": "second_ex.php:24","sink": "first_ex.php:14"},
+          {"type": 79,"source": "first_ex.php:25","sink": "second_ex.php:13"},
+          {"type": 79,"source": "second_ex.php:24","sink": "first_ex.php:22"},
+          {"type": 79,"source": "first_ex.php:25","sink": "second_ex.php:25"}
+        ]
+      },
+      {
+        "name": "45_static_method_from_variable",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:18","sink": "main.php:14"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "46_object_to_array",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:19"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:17"}
+        ]
+      },
+      {
+        "name": "47_overriding",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:21","sink": "main.php:7"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:21","sink": "main.php:15"}
+        ]
+      },
+      {
+        "name": "48_construct_with_inheritance",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:20","sink": "main.php:7"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "49_static_instance",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:17","sink": "main.php:18"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "50_throw_exception",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:11","sink": "main.php:17"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "51_catch_exceptions",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:11","sink": "main.php:18"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:11","sink": "main.php:17"}
+        ]
+      },
+      {
+        "name": "52_try_catch_finally",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "first_ex.php:18","sink": "first_ex.php:19"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "second_ex.php:20","sink": "second_ex.php:13"},
+          {"type": 79,"source": "second_ex.php:20","sink": "second_ex.php:21"},
+          {"type": 79,"source": "second_ex.php:20","sink": "first_ex.php:9"},
+          {"type": 79,"source": "first_ex.php:18","sink": "first_ex.php:13"},
+          {"type": 79,"source": "second_ex.php:20","sink": "first_ex.php:19"},
+          {"type": 79,"source": "first_ex.php:18","sink": "first_ex.php:9"},
+          {"type": 79,"source": "first_ex.php:18","sink": "second_ex.php:13"},
+          {"type": 79,"source": "first_ex.php:18","sink": "second_ex.php:21"},
+          {"type": 79,"source": "second_ex.php:20","sink": "first_ex.php:13"},
+          {"type": 79,"source": "second_ex.php:20","sink": "second_ex.php:9"},
+          {"type": 79,"source": "first_ex.php:18","sink": "second_ex.php:9"}
+        ]
+      },
+      {
+        "name": "53_track_error",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:6"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "54_generators",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:9","sink": "main.php:13"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:9","sink": "main.php:12"}
+        ]
+      },
+      {
+        "name": "55_goto",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:7","sink": "main.php:6"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:7","sink": "main.php:8"}
+        ]
+      },
+      {
+        "name": "56_exit",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:4"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "57_JS_redirect",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:5","sink": "a.php:5"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:5","sink": "main.php:7"}
+        ]
+      },
+      {
+        "name": "58_simple_array",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:6"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "first_ex.php:3","sink": "first_ex.php:6"},
+          {"type": 79,"source": "first_ex.php:3","sink": "second_ex.php:6"},
+          {"type": 79,"source": "second_ex.php:3","sink": "first_ex.php:6"},
+          {"type": 79,"source": "second_ex.php:3","sink": "second_ex.php:6"}
+        ]
+      },
+      {
+        "name": "59_foreach_with_array",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "first_ex.php:3","sink": "first_ex.php:12"},
+          {"type": 79,"source": "second_ex.php:3","sink": "second_ex.php:14"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "first_ex.php:3","sink": "second_ex.php:14"},
+          {"type": 79,"source": "second_ex.php:3","sink": "second_ex.php:13"},
+          {"type": 79,"source": "first_ex.php:3","sink": "second_ex.php:13"},
+          {"type": 79,"source": "second_ex.php:3","sink": "first_ex.php:12"}
+        ]
+      },
+      {
+        "name": "60_array_walk",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "first_ex.php:3","sink": "first_ex.php:7"},
+          {"type": 79,"source": "first_ex.php:3","sink": "first_ex.php:11"},
+          {"type": 79,"source": "second_ex.php:3","sink": "second_ex.php:8"},
+          {"type": 79,"source": "second_ex.php:3","sink": "second_ex.php:12"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "second_ex.php:4","sink": "second_ex.php:8"},
+          {"type": 79,"source": "first_ex.php:3","sink": "second_ex.php:18"},
+          {"type": 79,"source": "first_ex.php:3","sink": "second_ex.php:8"},
+          {"type": 79,"source": "second_ex.php:3","sink": "first_ex.php:17"},
+          {"type": 79,"source": "second_ex.php:4","sink": "second_ex.php:18"},
+          {"type": 79,"source": "second_ex.php:3","sink": "first_ex.php:11"},
+          {"type": 79,"source": "first_ex.php:3","sink": "first_ex.php:14"},
+          {"type": 79,"source": "second_ex.php:4","sink": "first_ex.php:14"},
+          {"type": 79,"source": "second_ex.php:3","sink": "second_ex.php:15"},
+          {"type": 79,"source": "second_ex.php:4","sink": "second_ex.php:12"},
+          {"type": 79,"source": "first_ex.php:3","sink": "second_ex.php:12"},
+          {"type": 79,"source": "second_ex.php:3","sink": "first_ex.php:7"},
+          {"type": 79,"source": "second_ex.php:4","sink": "first_ex.php:17"},
+          {"type": 79,"source": "first_ex.php:3","sink": "first_ex.php:17"},
+          {"type": 79,"source": "second_ex.php:4","sink": "first_ex.php:11"},
+          {"type": 79,"source": "second_ex.php:3","sink": "first_ex.php:14"},
+          {"type": 79,"source": "second_ex.php:4","sink": "first_ex.php:7"},
+          {"type": 79,"source": "second_ex.php:4","sink": "second_ex.php:15"},
+          {"type": 79,"source": "second_ex.php:3","sink": "second_ex.php:18"},
+          {"type": 79,"source": "first_ex.php:3","sink": "second_ex.php:15"}
+        ]
+      },
+      {
+        "name": "61_array_map",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "first_ex.php:8","sink": "first_ex.php:5"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "first_ex.php:8","sink": "second_ex.php:5"},
+          {"type": 79,"source": "second_ex.php:8","sink": "second_ex.php:5"},
+          {"type": 79,"source": "second_ex.php:9","sink": "second_ex.php:5"},
+          {"type": 79,"source": "second_ex.php:8","sink": "first_ex.php:5"},
+          {"type": 79,"source": "second_ex.php:9","sink": "first_ex.php:5"}
+        ]
+      },
+      {
+        "name": "62_parse_str_function",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 94,"source": "main.php:3","sink": "main.php:6"},
+          {"type": 79,"source": "main.php:3","sink": "main.php:7"},
+          {"type": 79,"source": "main.php:3","sink": "main.php:8"},
+          {"type": 79,"source": "main.php:3","sink": "main.php:9"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "63_substring_replace_function",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:7","sink": "main.php:11"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:7","sink": "main.php:4"}
+        ]
+      },
+      {
+        "name": "64_preg_match",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:6"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "65_system",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 77,"source": "first_ex.php:3","sink": "first_ex.php:4"},
+          {"type": 77,"source": "second_ex_a.php:4","sink": "second_ex_b.php:3"},
+          {"type": 434,"source": "third_ex.php:3","sink": "third_ex.php:4"}
+        ],
+        "false_positives": [
+          {"type": 77,"source": "third_ex.php:3","sink": "first_ex.php:4"},
+          {"type": 434,"source": "first_ex.php:3","sink": "third_ex.php:4"},
+          {"type": 77,"source": "second_ex.php:3","sink": "first_ex.php:4"},
+          {"type": 434,"source": "second_ex.php:3","sink": "third_ex.php:4"}
+        ]
+      },
+      {
+        "name": "66_superglobals",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "first_ex.php:3","sink": "first_ex.php:3"},
+          {"type": 79,"source": "second_ex.php:3","sink": "second_ex.php:4"},
+          {"type": 79,"source": "fourth_ex.php:3","sink": "fourth_ex.php:3"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "second_ex_a.php:4","sink": "second_ex_b.php:3"},
+          {"type": 79,"source": "second_ex_a.php:4","sink": "third_ex.php:3"},
+          {"type": 79,"source": "second_ex_a.php:4","sink": "fourth_ex.php:3"},
+          {"type": 79,"source": "second_ex_a.php:4","sink": "first_ex.php:3"}
+        ]
+      },
+      {
+        "name": "67_odbc",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 89,"source": "main.php:3","sink": "main.php:5"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "68_compact",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "first_ex.php:3","sink": "first_ex.php:11"},
+          {"type": 79,"source": "second_ex.php:7","sink": "second_ex.php:10"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "second_ex.php:7","sink": "first_ex.php:11"},
+          {"type": 79,"source": "second_ex.php:3","sink": "first_ex.php:11"},
+          {"type": 79,"source": "first_ex.php:3","sink": "second_ex.php:10"},
+          {"type": 79,"source": "second_ex.php:3","sink": "second_ex.php:10"}
+        ]
+      },
+      {
+        "name": "69_create_function",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:3","sink": "*"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:4"}
+        ]
+      },
+      {
+        "name": "70_extract",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:6"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "71_array_functions",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "first_ex.php:3","sink": "first_ex.php:8"},
+          {"type": 79,"source": "second_ex.php:3","sink": "second_ex.php:7"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "first_ex.php:3","sink": "second_ex.php:7"},
+          {"type": 79,"source": "second_ex.php:3","sink": "first_ex.php:8"},
+          {"type": 79,"source": "first_ex.php:3","sink": "first_ex.php:7"},
+          {"type": 79,"source": "second_ex.php:3","sink": "first_ex.php:7"}
+        ]
+      },
+      {
+        "name": "72_procedural_queries",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 89,"source": "first_ex.php:3","sink": "first_ex.php:6"},
+          {"type": 89,"source": "second_ex.php:3","sink": "second_ex.php:6"},
+          {"type": 89,"source": "third_ex.php:3","sink": "third_ex.php:7"}
+        ],
+        "false_positives": [
+          {"type": 89,"source": "first_ex.php:3","sink": "second_ex.php:6"},
+          {"type": 89,"source": "second_ex.php:3","sink": "third_ex.php:7"},
+          {"type": 89,"source": "second_ex.php:3","sink": "first_ex.php:6"},
+          {"type": 89,"source": "first_ex.php:3","sink": "third_ex.php:7"},
+          {"type": 89,"source": "third_ex.php:3","sink": "second_ex.php:6"},
+          {"type": 89,"source": "third_ex.php:3","sink": "first_ex.php:6"}
+        ]
+      },
+      {
+        "name": "73_wrong_sanitizer",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "first_ex.php:2","sink": "first_ex.php:8"},
+          {"type": 79,"source": "second_ex.php:4","sink": "second_ex.php:4"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "first_ex.php:2","sink": "second_ex.php:4"},
+          {"type": 79,"source": "second_ex.php:4","sink": "first_ex.php:8"}
+        ]
+      },
+      {
+        "name": "74_dirname",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "folder/a.php:3","sink": "ttt/b.php:3"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "a.php:3","sink": "b.php:3"}
+        ]
+      },
+      {
+        "name": "75_buffer",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:5"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:6"}
+        ]
+      },
+      {
+        "name": "76_function_variable",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "first_ex.php:7","sink": "first_ex.php:5"},
+          {"type": 79,"source": "second_ex.php:7","sink": "second_ex.php:5"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "second_ex.php:7","sink": "first_ex.php:10"},
+          {"type": 79,"source": "second_ex.php:8","sink": "second_ex.php:5"},
+          {"type": 79,"source": "second_ex.php:7","sink": "second_ex.php:10"},
+          {"type": 79,"source": "first_ex.php:7","sink": "second_ex.php:5"},
+          {"type": 79,"source": "second_ex.php:8","sink": "first_ex.php:5"},
+          {"type": 79,"source": "second_ex.php:8","sink": "first_ex.php:10"},
+          {"type": 79,"source": "second_ex.php:8","sink": "second_ex.php:10"},
+          {"type": 79,"source": "second_ex.php:7","sink": "first_ex.php:5"},
+          {"type": 79,"source": "first_ex.php:7","sink": "first_ex.php:10"},
+          {"type": 79,"source": "first_ex.php:7","sink": "second_ex.php:10"}
+        ]
+      },
+      {
+        "name": "77_object_callable",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "first_ex.php:16","sink": "first_ex.php:13"},
+          {"type": 79,"source": "second_ex.php:16","sink": "second_ex.php:13"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "second_ex.php:17","sink": "second_ex.php:13"},
+          {"type": 79,"source": "second_ex.php:16","sink": "first_ex.php:13"},
+          {"type": 79,"source": "second_ex.php:17","sink": "first_ex.php:13"},
+          {"type": 79,"source": "first_ex.php:16","sink": "second_ex.php:13"}
+        ]
+      },
+      {
+        "name": "78_autoloading_classes",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:6","sink": "MyClass1.php:3"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:6","sink": "MyClass1.php:7"}
+        ]
+      },
+      {
+        "name": "79_dynamic_include",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "first_ex/main.php:3","sink": "first_ex/a.php:3"},
+          {"type": 79,"source": "second_ex/main.php:3","sink": "second_ex/a.php:3"},
+          {"type": 79,"source": "third_ex/main.php:3","sink": "third_ex/b.php:3"},
+          {"type": 79,"source": "fourth_ex/main.php:3","sink": "fourth_ex/file1.php:3"},
+          {"type": 79,"source": "fifth_ex/main.php:3","sink": "fifth_ex/a.php:3"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:4","sink": "a.php:3"},
+          {"type": 79,"source": "main.php:3","sink": "file1.php:3"},
+          {"type": 79,"source": "main.php:4","sink": "file1.php:3"},
+          {"type": 79,"source": "main.php:4","sink": "b.php:3"},
+          {"type": 79,"source": "main.php:3","sink": "a.php:3"},
+          {"type": 79,"source": "main.php:3","sink": "b.php:3"}
+        ]
+      },
+      {
+        "name": "80_callback_functions",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "first_ex.php:8","sink": "first_ex.php:5"},
+          {"type": 79,"source": "second_ex.php:8","sink": "second_ex.php:5"},
+          {"type": 79,"source": "third_ex.php:8","sink": "third_ex.php:5"},
+          {"type": 79,"source": "fourth_ex.php:8","sink": "fourth_ex.php:5"},
+          {"type": 79,"source": "fifth_ex.php:8","sink": "fifth_ex.php:5"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "fourth_ex.php:8","sink": "fifth_ex.php:5"},
+          {"type": 79,"source": "third_ex.php:8","sink": "fifth_ex.php:5"},
+          {"type": 79,"source": "fifth_ex.php:8","sink": "first_ex.php:5"},
+          {"type": 79,"source": "second_ex.php:8","sink": "fourth_ex.php:5"},
+          {"type": 79,"source": "fifth_ex.php:8","sink": "third_ex.php:5"},
+          {"type": 79,"source": "first_ex.php:8","sink": "third_ex.php:5"},
+          {"type": 79,"source": "second_ex.php:8","sink": "fifth_ex.php:5"},
+          {"type": 79,"source": "fourth_ex.php:8","sink": "third_ex.php:5"},
+          {"type": 79,"source": "fourth_ex.php:8","sink": "first_ex.php:5"},
+          {"type": 79,"source": "third_ex.php:8","sink": "first_ex.php:5"},
+          {"type": 79,"source": "fifth_ex.php:8","sink": "fourth_ex.php:5"},
+          {"type": 79,"source": "fifth_ex.php:8","sink": "second_ex.php:5"},
+          {"type": 79,"source": "second_ex.php:8","sink": "third_ex.php:5"},
+          {"type": 79,"source": "first_ex.php:8","sink": "fourth_ex.php:5"},
+          {"type": 79,"source": "second_ex.php:8","sink": "first_ex.php:5"},
+          {"type": 79,"source": "first_ex.php:8","sink": "second_ex.php:5"},
+          {"type": 79,"source": "fourth_ex.php:8","sink": "second_ex.php:5"},
+          {"type": 79,"source": "first_ex.php:8","sink": "fifth_ex.php:5"},
+          {"type": 79,"source": "third_ex.php:8","sink": "fourth_ex.php:5"},
+          {"type": 79,"source": "third_ex.php:8","sink": "second_ex.php:5"}
+        ]
+      },
+      {
+        "name": "81_new_from_variable",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "first_ex.php:15","sink": "first_ex.php:12"},
+          {"type": 79,"source": "second_ex.php:15","sink": "second_ex.php:12"},
+          {"type": 79,"source": "third_ex.php:15","sink": "third_ex.php:12"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "second_ex.php:16","sink": "third_ex.php:10"},
+          {"type": 79,"source": "second_ex.php:16","sink": "first_ex.php:10"},
+          {"type": 79,"source": "second_ex.php:15","sink": "first_ex.php:12"},
+          {"type": 79,"source": "third_ex.php:15","sink": "first_ex.php:12"},
+          {"type": 79,"source": "second_ex.php:16","sink": "third_ex.php:19"},
+          {"type": 79,"source": "second_ex.php:16","sink": "third_ex.php:12"},
+          {"type": 79,"source": "third_ex.php:16","sink": "second_ex.php:18"},
+          {"type": 79,"source": "third_ex.php:15","sink": "second_ex.php:18"},
+          {"type": 79,"source": "third_ex.php:16","sink": "second_ex.php:12"},
+          {"type": 79,"source": "third_ex.php:16","sink": "third_ex.php:10"},
+          {"type": 79,"source": "third_ex.php:16","sink": "first_ex.php:10"},
+          {"type": 79,"source": "third_ex.php:15","sink": "second_ex.php:12"},
+          {"type": 79,"source": "third_ex.php:16","sink": "first_ex.php:18"},
+          {"type": 79,"source": "second_ex.php:15","sink": "second_ex.php:18"},
+          {"type": 79,"source": "second_ex.php:16","sink": "second_ex.php:10"},
+          {"type": 79,"source": "second_ex.php:15","sink": "third_ex.php:10"},
+          {"type": 79,"source": "second_ex.php:15","sink": "first_ex.php:10"},
+          {"type": 79,"source": "second_ex.php:15","sink": "first_ex.php:18"},
+          {"type": 79,"source": "first_ex.php:15","sink": "first_ex.php:10"},
+          {"type": 79,"source": "third_ex.php:15","sink": "first_ex.php:18"},
+          {"type": 79,"source": "third_ex.php:15","sink": "first_ex.php:10"},
+          {"type": 79,"source": "third_ex.php:16","sink": "third_ex.php:19"},
+          {"type": 79,"source": "third_ex.php:16","sink": "third_ex.php:12"},
+          {"type": 79,"source": "first_ex.php:15","sink": "second_ex.php:18"},
+          {"type": 79,"source": "second_ex.php:16","sink": "first_ex.php:12"},
+          {"type": 79,"source": "first_ex.php:15","sink": "second_ex.php:12"},
+          {"type": 79,"source": "first_ex.php:15","sink": "third_ex.php:10"},
+          {"type": 79,"source": "first_ex.php:15","sink": "first_ex.php:18"},
+          {"type": 79,"source": "second_ex.php:15","sink": "third_ex.php:12"},
+          {"type": 79,"source": "third_ex.php:15","sink": "third_ex.php:10"},
+          {"type": 79,"source": "third_ex.php:15","sink": "third_ex.php:19"},
+          {"type": 79,"source": "third_ex.php:16","sink": "second_ex.php:10"},
+          {"type": 79,"source": "first_ex.php:15","sink": "third_ex.php:12"},
+          {"type": 79,"source": "second_ex.php:15","sink": "third_ex.php:19"},
+          {"type": 79,"source": "second_ex.php:15","sink": "second_ex.php:10"},
+          {"type": 79,"source": "first_ex.php:15","sink": "third_ex.php:19"},
+          {"type": 79,"source": "second_ex.php:16","sink": "second_ex.php:18"},
+          {"type": 79,"source": "third_ex.php:15","sink": "second_ex.php:10"},
+          {"type": 79,"source": "second_ex.php:16","sink": "second_ex.php:12"},
+          {"type": 79,"source": "second_ex.php:16","sink": "first_ex.php:18"},
+          {"type": 79,"source": "third_ex.php:16","sink": "first_ex.php:12"},
+          {"type": 79,"source": "first_ex.php:15","sink": "second_ex.php:10"}
+        ]
+      },
+      {
+        "name": "82_methods_variable",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "first_ex.php:11","sink": "first_ex.php:7"},
+          {"type": 79,"source": "second_ex.php:11","sink": "second_ex.php:7"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "second_ex.php:14","sink": "second_ex.php:7"},
+          {"type": 79,"source": "second_ex.php:14","sink": "first_ex.php:7"},
+          {"type": 79,"source": "first_ex.php:11","sink": "second_ex.php:7"},
+          {"type": 79,"source": "second_ex.php:11","sink": "first_ex.php:7"}
+        ]
+      },
+      {
+        "name": "83_array_variable_key",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "first_ex.php:6","sink": "first_ex.php:8"},
+          {"type": 79,"source": "second_ex.php:4","sink": "second_ex.php:7"},
+          {"type": 79,"source": "second_ex.php:4","sink": "second_ex.php:7"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "first_ex.php:6","sink": "third_ex.php:7"},
+          {"type": 79,"source": "third_ex.php:4","sink": "second_ex.php:7"},
+          {"type": 79,"source": "first_ex.php:4","sink": "third_ex.php:7"},
+          {"type": 79,"source": "second_ex.php:5","sink": "third_ex.php:7"},
+          {"type": 79,"source": "third_ex.php:5","sink": "first_ex.php:8"},
+          {"type": 79,"source": "third_ex.php:4","sink": "third_ex.php:7"},
+          {"type": 79,"source": "second_ex.php:4","sink": "first_ex.php:8"},
+          {"type": 79,"source": "third_ex.php:5","sink": "third_ex.php:7"},
+          {"type": 79,"source": "third_ex.php:4","sink": "first_ex.php:8"},
+          {"type": 79,"source": "third_ex.php:5","sink": "second_ex.php:7"},
+          {"type": 79,"source": "first_ex.php:4","sink": "first_ex.php:8"},
+          {"type": 79,"source": "second_ex.php:5","sink": "first_ex.php:8"},
+          {"type": 79,"source": "second_ex.php:4","sink": "third_ex.php:7"},
+          {"type": 79,"source": "first_ex.php:6","sink": "second_ex.php:7"},
+          {"type": 79,"source": "first_ex.php:4","sink": "second_ex.php:7"},
+          {"type": 79,"source": "second_ex.php:5","sink": "second_ex.php:7"}
+        ]
+      },
+      {
+        "name": "84_variable_variables",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "first_ex.php:4","sink": "first_ex.php:6"},
+          {"type": 79,"source": "second_ex.php:3","sink": "second_ex.php:6"},
+          {"type": 79,"source": "second_ex.php:4","sink": "second_ex.php:6"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "first_ex.php:4","sink": "second_ex.php:6"},
+          {"type": 79,"source": "second_ex.php:3","sink": "first_ex.php:6"},
+          {"type": 79,"source": "second_ex.php:4","sink": "first_ex.php:6"}
+        ]
+      },
+      {
+        "name": "85_type_juggling",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:4","sink": "main.php:15"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:14"},
+          {"type": 79,"source": "main.php:4","sink": "main.php:14"},
+          {"type": 79,"source": "main.php:3","sink": "main.php:15"}
+        ]
+      },
+      {
+        "name": "86_implement_interfaces",
+        "call_edges": [],
+        "true_positives": [],
+        "false_positives": [
+          {"type": 79,"source": "main.php:22","sink": "main.php:31"}
+        ]
+      },
+      {
+        "name": "87_static_prop_multiple_child",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:14","sink": "main.php:18"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "87_unset_element_from_array",
+        "call_edges": [],
+        "true_positives": [],
+        "false_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:10"}
+        ]
+      },
+      {
+        "name": "88_arithmetic_operation_on_index",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "first_ex.php:3","sink": "first_ex.php:8"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "second_ex.php:3","sink": "second_ex.php:7"},
+          {"type": 79,"source": "first_ex.php:3","sink": "second_ex.php:8"},
+          {"type": 79,"source": "first_ex.php:3","sink": "second_ex.php:7"},
+          {"type": 79,"source": "second_ex.php:3","sink": "first_ex.php:8"},
+          {"type": 79,"source": "second_ex.php:3","sink": "second_ex.php:8"},
+          {"type": 79,"source": "first_ex.php:3","sink": "first_ex.php:7"},
+          {"type": 79,"source": "second_ex.php:3","sink": "first_ex.php:7"}
+        ]
+      },
+      {
+        "name": "89_check_type",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:6"},
+          {"type": 79,"source": "main.php:3","sink": "main.php:11"},
+          {"type": 79,"source": "main.php:3","sink": "main.php:16"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "90_compare_variables",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:14"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:3","sink": "main.php:8"},
+          {"type": 79,"source": "main.php:3","sink": "main.php:20"}
+        ]
+      },
+      {
+        "name": "91_object_in_object",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:6","sink": "main.php:10"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "92_case_sensitive",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:13","sink": "main.php:8"}
+        ],
+        "false_positives": []
+      },
+      {
+        "name": "93_call_function_with_concat",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "main.php:10","sink": "main.php:13"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "main.php:10","sink": "main.php:11"}
+        ]
+      },
+      {
+        "name": "94_sanitizers",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 79,"source": "first_ex.php:3","sink": "first_ex.php:7"}
+        ],
+        "false_positives": [
+          {"type": 79,"source": "third_ex.php:2","sink": "third_ex.php:3"},
+          {"type": 79,"source": "second_ex.php:2","sink": "third_ex.php:3"},
+          {"type": 79,"source": "third_ex.php:2","sink": "second_ex.php:4"},
+          {"type": 79,"source": "second_ex.php:2","sink": "first_ex.php:7"},
+          {"type": 79,"source": "first_ex.php:3","sink": "third_ex.php:3"},
+          {"type": 79,"source": "first_ex.php:3","sink": "second_ex.php:4"},
+          {"type": 79,"source": "second_ex.php:2","sink": "second_ex.php:4"},
+          {"type": 79,"source": "third_ex.php:2","sink": "first_ex.php:7"}
+        ]
+      },
+      {
+        "name": "95_DB_query",
+        "call_edges": [],
+        "true_positives": [
+          {"type": 89,"source": "first_ex.php:4","sink": "first_ex.php:5"},
+          {"type": 89,"source": "first_ex.php:3","sink": "first_ex.php:7"}
+        ],
+        "false_positives": [
+          {"type": 89,"source": "first_ex.php:4","sink": "second_ex.php:7"},
+          {"type": 89,"source": "second_ex.php:3","sink": "first_ex.php:5"},
+          {"type": 89,"source": "second_ex.php:3","sink": "second_ex.php:7"}
+        ]
+    }
+]
